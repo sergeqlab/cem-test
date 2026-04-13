@@ -1,0 +1,761 @@
+id,difficulty,answer,clue,source_word,answer_length,explanation
+1,easy,ALARM,a warning,FAMILIAR,5,ALARM from FAMILIAR. An alarm warns of danger.
+2,easy,OCEAN,large body of water,EDUCATION,5,OCEAN from EDUCATION. An ocean is vast water.
+3,easy,HERO,courageous person,TOGETHER,4,HERO from TOGETHER. A hero is brave.
+4,easy,DUNE,a ridge of sand,SUDDENLY,4,DUNE from SUDDENLY. A dune is a sand mound.
+5,easy,DATE,romantic meeting,ADEQUATE,4,DATE from ADEQUATE. A date is a meeting.
+6,easy,FAIL,be unsuccessful,FANATICAL,4,FAIL from FANATICAL. To fail is to not succeed.
+7,easy,STAR,a celestial body,RESTAURANT,4,STAR from RESTAURANT. A star shines at night.
+8,easy,PEN,a writing device,TRAMPOLINE,3,PEN from TRAMPOLINE. A pen writes.
+9,easy,CAT,a domestic animal,CALCULATOR,3,CAT from CALCULATOR. A cat is a pet.
+10,easy,TINY,very small,DICTIONARY,4,TINY from DICTIONARY. Tiny means very small.
+11,easy,POEM,a piece of verse,MICROSCOPE,4,POEM from MICROSCOPE. A poem is verse writing.
+12,easy,PLAIN,a flat area of land,PLANTATION,5,PLAIN from PLANTATION. A plain is flat land.
+13,easy,TRY,to attempt,TYPEWRITER,3,TRY from TYPEWRITER. To try is to attempt.
+14,easy,IRE,anger,REFRIGERATOR,3,IRE from REFRIGERATOR. Ire means anger.
+15,easy,CREEP,move slowly,APPEARANCE,5,CREEP from APPEARANCE. To creep is to move slowly.
+16,easy,TRAP,a catching device,TRANSPARENT,4,TRAP from TRANSPARENT. A trap catches animals.
+17,easy,AGE,maturity,EXAGGERATE,3,AGE from EXAGGERATE. Age is maturity.
+18,easy,ELF,a mythical creature,WONDERFULLY,3,ELF from WONDERFULLY. An elf is mythical.
+19,easy,PEN,a writing tool,INDEPENDENT,3,PEN from INDEPENDENT. A pen writes.
+20,easy,LAKE,a body of water,MARKETPLACE,4,LAKE from MARKETPLACE. A lake holds water.
+21,easy,THUD,a heavy sound,THUNDERSTORM,4,THUD from THUNDERSTORM. A thud is a heavy noise.
+22,easy,NATION,a country,INFORMATION,6,NATION from INFORMATION. A nation is a country.
+23,easy,COT,a baby bed,COUNTRYSIDE,3,COT from COUNTRYSIDE. A cot is for babies.
+24,easy,MAT,a small rug,MATHEMATICS,3,MAT from MATHEMATICS. A mat covers the floor.
+25,easy,DRUM,a percussion instrument,DESTRUCTION,4,DRUM from DESTRUCTION. A drum is an instrument.
+26,easy,ROSE,a flower,RESPONSIBLE,4,ROSE from RESPONSIBLE. A rose is a flower.
+27,easy,SOAK,to absorb liquid,SKATEBOARD,4,SOAK from SKATEBOARD. To soak is to absorb.
+28,easy,LAMB,a young sheep,COMFORTABLE,4,LAMB from COMFORTABLE. A lamb is a baby sheep.
+29,easy,CLIP,a fastener,COMPLICATED,4,CLIP from COMPLICATED. A clip holds things.
+30,easy,TABLE,a piece of furniture,COMFORTABLE,5,TABLE from COMFORTABLE. A table is furniture.
+31,easy,SIGN,a mark or symbol,SIGNIFICANT,4,SIGN from SIGNIFICANT. A sign is a symbol.
+32,easy,IRON,a strong metal,COUNTRYSIDE,4,IRON from COUNTRYSIDE. Iron is strong metal.
+33,easy,TREE,a large plant,TEMPERATURE,4,TREE from TEMPERATURE. A tree is a plant.
+34,easy,DENT,a hollow in a surface,DEMONSTRATE,4,DENT from DEMONSTRATE. A dent is a hollow.
+35,easy,LACE,decorative fabric,CELEBRATION,4,LACE from CELEBRATION. Lace is decorative.
+36,easy,NOTE,to observe,COMMUNICATE,4,NOTE from COMMUNICATE. To note is to see.
+37,easy,KIND,friendly and caring,KINDERGARTEN,4,KIND from KINDERGARTEN. Kind means friendly.
+38,easy,DOE,a female deer,SKATEBOARD,3,DOE from SKATEBOARD. A doe is a female deer.
+39,easy,TRAIL,a path through woods,TRADITIONAL,5,TRAIL from TRADITIONAL. A trail is a path.
+40,easy,CREAM,a dairy product,MARKETPLACE,5,CREAM from MARKETPLACE. Cream is dairy.
+41,easy,MINT,a herb,COMBINATION,4,MINT from COMBINATION. Mint is a herb.
+42,easy,FORT,a fortified building,INFORMATION,4,FORT from INFORMATION. A fort is strong.
+43,easy,COAT,an outer garment,COMFORTABLE,4,COAT from COMFORTABLE. A coat is outerwear.
+44,easy,ROUND,circular shape,UNDERGROUND,5,ROUND from UNDERGROUND. Round is circular.
+45,easy,ACRE,a unit of land,CONCENTRATE,4,ACRE from CONCENTRATE. An acre is land area.
+46,easy,DEN,a small room,DEMONSTRATE,3,DEN from DEMONSTRATE. A den is a cosy room.
+47,easy,TALE,a short story,CELEBRATION,4,TALE from CELEBRATION. A tale is a story.
+48,easy,LOFT,an upper room,COMFORTABLE,4,LOFT from COMFORTABLE. A loft is upstairs.
+49,easy,OATS,a cereal grain,PERSONALITY,4,OATS from PERSONALITY. Oats are grain.
+50,easy,CONE,a pointed shape,CONCENTRATE,4,CONE from CONCENTRATE. A cone is pointed.
+51,easy,LION,a large wild cat,PERSONALITY,4,LION from PERSONALITY. A lion is a big cat.
+52,easy,CALF,a young cow,COMFORTABLE,4,CALF from COMFORTABLE. A calf is a baby cow.
+53,easy,NOSE,a facial feature,PERSONALITY,4,NOSE from PERSONALITY. The nose is on the face.
+54,easy,TEAM,a group of players,DEMONSTRATE,4,TEAM from DEMONSTRATE. A team works together.
+55,easy,STORE,a shop,DEMONSTRATE,5,STORE from DEMONSTRATE. A store sells goods.
+56,easy,TOUR,a journey around places,DESTRUCTION,4,TOUR from DESTRUCTION. A tour visits places.
+57,easy,LIST,a written record of items,PERSONALITY,4,LIST from PERSONALITY. A list is a record.
+58,easy,SHOE,footwear,ATMOSPHERE,4,SHOE from ATMOSPHERE. A shoe is footwear.
+59,easy,HEAT,warmth,ATMOSPHERE,4,HEAT from ATMOSPHERE. Heat is warmth.
+60,easy,MIST,light fog,MASTERPIECE,4,MIST from MASTERPIECE. Mist is thin fog.
+61,easy,PARTY,a festive gathering,PHOTOGRAPHY,5,PARTY from PHOTOGRAPHY. A party celebrates.
+62,easy,DIAL,a round clock face,TRADITIONAL,4,DIAL from TRADITIONAL. A dial shows time.
+63,easy,FORM,to shape or mould,INFORMATION,4,FORM from INFORMATION. To form is to shape.
+64,easy,SORT,to arrange in order,DESTRUCTION,4,SORT from DESTRUCTION. To sort is to arrange.
+65,easy,NINE,a number,ENVIRONMENT,4,NINE from ENVIRONMENT. Nine is a number.
+66,easy,ANT,a small insect,PERSONALITY,3,ANT from PERSONALITY. An ant is tiny.
+67,easy,REST,to be inactive,PERSONALITY,4,REST from PERSONALITY. To rest is to relax.
+68,easy,TROT,a slow run,CONCENTRATE,4,TROT from CONCENTRATE. A trot is a slow jog.
+69,easy,CAP,a type of hat,CATASTROPHE,3,CAP from CATASTROPHE. A cap covers the head.
+70,easy,NOTE,a musical tone,THUNDERSTORM,4,NOTE from THUNDERSTORM. A note is a sound.
+71,easy,RAT,a rodent,SKATEBOARD,3,RAT from SKATEBOARD. A rat is a rodent.
+72,easy,COLD,low temperature,COMPLICATED,4,COLD from COMPLICATED. Cold is low heat.
+73,easy,VINE,a climbing plant,INVESTIGATE,4,VINE from INVESTIGATE. A vine climbs walls.
+74,easy,GATE,a barrier that opens,INVESTIGATE,4,GATE from INVESTIGATE. A gate opens and closes.
+75,easy,PORT,a harbour for ships,PERSONALITY,4,PORT from PERSONALITY. A port is a harbour.
+76,easy,GRAND,impressive and large,GRANDFATHER,5,GRAND from GRANDFATHER. Grand is impressive.
+77,easy,MOTHER,a female parent,THERMOMETER,6,MOTHER from THERMOMETER. A mother is a parent.
+78,easy,GUN,a firearm,UNDERGROUND,3,GUN from UNDERGROUND. A gun fires projectiles.
+79,easy,STRAY,to wander from the path,STRAWBERRY,5,STRAY from STRAWBERRY. To stray is to wander.
+80,easy,TEAR,to rip apart,STRAWBERRY,4,TEAR from STRAWBERRY. To tear is to rip.
+81,easy,OIL,a liquid fuel,TRADITIONAL,3,OIL from TRADITIONAL. Oil is a liquid.
+82,easy,SEAT,a place to sit,DEMONSTRATE,4,SEAT from DEMONSTRATE. A seat is for sitting.
+83,easy,COIN,a piece of money,COUNTRYSIDE,4,COIN from COUNTRYSIDE. A coin is money.
+84,easy,MAD,angry,DEMONSTRATE,3,MAD from DEMONSTRATE. Mad means angry.
+85,easy,RAIL,a thin horizontal bar,PERSONALITY,4,RAIL from PERSONALITY. A rail is a bar.
+86,easy,READ,to study text,KINDERGARTEN,4,READ from KINDERGARTEN. To read is to study.
+87,easy,BET,to make a wager,COMFORTABLE,3,BET from COMFORTABLE. To bet is to wager.
+88,easy,ROAM,to wander freely,DEMONSTRATE,4,ROAM from DEMONSTRATE. To roam is to wander.
+89,easy,TOAD,an amphibian,DEMONSTRATE,4,TOAD from DEMONSTRATE. A toad hops.
+90,easy,BOLT,a metal fastening rod,COMFORTABLE,4,BOLT from COMFORTABLE. A bolt is a fastener.
+91,easy,CAST,to throw a line,CATASTROPHE,4,CAST from CATASTROPHE. To cast is to throw.
+92,easy,HEAT,warmth from the sun,CATASTROPHE,4,HEAT from CATASTROPHE. Heat is warmth.
+93,easy,TIN,a type of metal,PERSONALITY,3,TIN from PERSONALITY. Tin is a metal.
+94,easy,DEMO,a public display,DEMONSTRATE,4,DEMO from DEMONSTRATE. A demo is a display.
+95,easy,SET,to place in position,DEMONSTRATE,3,SET from DEMONSTRATE. To set means to place.
+96,easy,NOTE,a short written message,DEMONSTRATE,4,NOTE from DEMONSTRATE. A note is a message.
+97,easy,DART,a pointed missile,DEMONSTRATE,4,DART from DEMONSTRATE. A dart is thrown.
+98,easy,CLOT,a lump in blood,COMFORTABLE,4,CLOT from COMFORTABLE. A clot is a lump.
+99,easy,MALT,a cereal grain product,COMFORTABLE,4,MALT from COMFORTABLE. Malt is from grain.
+100,easy,REED,a tall water grass,DEMONSTRATE,4,REED from DEMONSTRATE. A reed grows by water.
+101,easy,PINE,an evergreen tree,PERSONALITY,4,PINE from PERSONALITY. A pine is an evergreen.
+102,easy,DOTE,to love excessively,DEMONSTRATE,4,DOTE from DEMONSTRATE. To dote is to adore.
+103,easy,COB,a central part of corn,COMFORTABLE,3,COB from COMFORTABLE. A cob holds corn.
+104,easy,MARE,a female horse,DEMONSTRATE,4,MARE from DEMONSTRATE. A mare is a female horse.
+105,easy,TRAM,a streetcar,COMFORTABLE,4,TRAM from COMFORTABLE. A tram runs on rails.
+106,easy,NODS,head movements for yes,DEMONSTRATE,4,NODS from DEMONSTRATE. Nods mean agreement.
+107,easy,RODE,travelled on horseback,DEMONSTRATE,4,RODE from DEMONSTRATE. Rode means travelled.
+108,easy,CART,a vehicle for goods,CATASTROPHE,4,CART from CATASTROPHE. A cart carries goods.
+109,easy,TAB,a small label,COMFORTABLE,3,TAB from COMFORTABLE. A tab is a small label.
+110,easy,PEAL,a loud ring of bells,PERSONALITY,4,PEAL from PERSONALITY. A peal is bell sound.
+111,easy,CUT,to slice,DESTRUCTION,3,CUT from DESTRUCTION. To cut is to slice.
+112,easy,NUT,a hard-shelled fruit,DESTRUCTION,3,NUT from DESTRUCTION. A nut is hard-shelled.
+113,easy,POT,a container for cooking,EXPLORATION,3,POT from EXPLORATION. A pot is for cooking.
+114,easy,OAR,a rowing device,EXPLORATION,3,OAR from EXPLORATION. An oar rows boats.
+115,easy,TALE,a story,EXPLORATION,4,TALE from EXPLORATION. A tale is a story.
+116,easy,TOE,a part of the foot,CATASTROPHE,3,TOE from CATASTROPHE. A toe is on the foot.
+117,easy,ANT,a small insect,DEMONSTRATE,3,ANT from DEMONSTRATE. An ant is tiny.
+118,easy,FORM,a shape or outline,COMFORTABLE,4,FORM from COMFORTABLE. A form is a shape.
+119,easy,MAD,angry or upset,DEMONSTRATE,3,MAD from DEMONSTRATE. Mad means angry.
+120,easy,LOFT,an upper storage area,COMFORTABLE,4,LOFT from COMFORTABLE. A loft stores things.
+121,medium,STERN,serious and strict,TREMENDOUS,5,STERN from TREMENDOUS. Stern means strict.
+122,medium,POLITE,socially correct,HELICOPTER,6,POLITE from HELICOPTER. Polite means well-mannered.
+123,medium,AMBLE,walk slowly,COMMENDABLE,5,AMBLE from COMMENDABLE. To amble is to stroll.
+124,medium,TAINT,spoil or contaminate,ANTICIPATE,5,TAINT from ANTICIPATE. To taint is to spoil.
+125,medium,RETAIN,keep hold of,GENERATION,6,RETAIN from GENERATION. To retain is to keep.
+126,medium,WRATH,deep anger,WITHDRAWN,5,WRATH from WITHDRAWN. Wrath is deep anger.
+127,medium,TIARA,ornamental crown,DRAMATIC,5,TIARA from DRAMATIC. A tiara is a crown.
+128,medium,LOFTY,tall and imposing,FORMALITY,5,LOFTY from FORMALITY. Lofty means tall.
+129,medium,FABLE,a story with a moral,BEAUTIFUL,5,FABLE from BEAUTIFUL. A fable is a moral story.
+130,medium,PEACE,tranquility,PERFORMANCE,5,PEACE from PERFORMANCE. Peace is calm.
+131,medium,LINEN,a type of fabric,INTELLIGENCE,5,LINEN from INTELLIGENCE. Linen is cloth.
+132,medium,STONE,a rock,DEMONSTRATE,5,STONE from DEMONSTRATE. A stone is a rock.
+133,medium,GRAPH,a visual diagram,PHOTOGRAPHY,5,GRAPH from PHOTOGRAPHY. A graph shows data.
+134,medium,TRIAL,a court hearing,PERSONALITY,5,TRIAL from PERSONALITY. A trial is a hearing.
+135,medium,ROAST,to cook in an oven,PERSONALITY,5,ROAST from PERSONALITY. To roast is to cook.
+136,medium,TRICK,to deceive,ELECTRICITY,5,TRICK from ELECTRICITY. A trick is deception.
+137,medium,CREATE,to make or produce,CELEBRATION,6,CREATE from CELEBRATION. To create is to make.
+138,medium,COMBAT,to fight,COMFORTABLE,6,COMBAT from COMFORTABLE. Combat is fighting.
+139,medium,TEMPT,to lure or attract,TEMPERATURE,5,TEMPT from TEMPERATURE. To tempt is to lure.
+140,medium,GRAIN,a small particle,GRANDFATHER,5,GRAIN from GRANDFATHER. A grain is tiny.
+141,medium,TINGE,a slight colour,KINDERGARTEN,5,TINGE from KINDERGARTEN. A tinge is slight.
+142,medium,EXPORT,to send goods abroad,EXPLORATION,6,EXPORT from EXPLORATION. To export is to send.
+143,medium,TERN,a seabird,DESTRUCTION,4,TERN from DESTRUCTION. A tern is a bird.
+144,medium,RELATE,to connect stories,CELEBRATION,6,RELATE from CELEBRATION. To relate is to connect.
+145,medium,MEND,to repair,DEMONSTRATE,4,MEND from DEMONSTRATE. To mend is to fix.
+146,medium,MENTOR,a guide or teacher,ENVIRONMENT,6,MENTOR from ENVIRONMENT. A mentor guides.
+147,medium,GREAT,impressive,GENERATION,5,GREAT from GENERATION. Great is impressive.
+148,medium,RIND,the outer layer of fruit,UNDERGROUND,4,RIND from UNDERGROUND. A rind is the skin.
+149,medium,STAND,a row of seats,DEMONSTRATE,5,STAND from DEMONSTRATE. A stand has seats.
+150,medium,GARDEN,a cultivated area,KINDERGARTEN,6,GARDEN from KINDERGARTEN. A garden is cultivated.
+151,medium,PEACH,a sweet fruit,CATASTROPHE,5,PEACH from CATASTROPHE. A peach is sweet.
+152,medium,MOTE,a tiny particle,DEMONSTRATE,4,MOTE from DEMONSTRATE. A mote is a speck.
+153,medium,OPTIC,related to eyesight,COMPLICATED,5,OPTIC from COMPLICATED. Optic means eye-related.
+154,medium,STING,a sharp sudden pain,DISTINGUISH,5,STING from DISTINGUISH. A sting hurts.
+155,medium,CHOP,to cut with force,CATASTROPHE,4,CHOP from CATASTROPHE. To chop is to cut.
+156,medium,SCOUT,a person who watches,COUNTRYSIDE,5,SCOUT from COUNTRYSIDE. A scout watches.
+157,medium,VOTE,to choose by ballot,ENVIRONMENT,4,VOTE from ENVIRONMENT. To vote is to choose.
+158,medium,INVENT,to create something new,ENVIRONMENT,6,INVENT from ENVIRONMENT. To invent is to create.
+159,medium,TRADE,to exchange goods,KINDERGARTEN,5,TRADE from KINDERGARTEN. To trade is to swap.
+160,medium,BLOAT,to swell up,COMFORTABLE,5,BLOAT from COMFORTABLE. To bloat is to swell.
+161,medium,TRASH,rubbish or waste,CATASTROPHE,5,TRASH from CATASTROPHE. Trash is rubbish.
+162,medium,STEAD,a place or position,DEMONSTRATE,5,STEAD from DEMONSTRATE. A stead is a place.
+163,medium,FLORA,plant life in a region,COMFORTABLE,5,FLORA from COMFORTABLE. Flora is plant life.
+164,medium,PATCH,a piece of ground,CATASTROPHE,5,PATCH from CATASTROPHE. A patch is ground.
+165,medium,FLOAT,to rest on water,COMFORTABLE,5,FLOAT from COMFORTABLE. To float drifts on water.
+166,medium,OPAL,a precious gemstone,COMPLICATED,4,OPAL from COMPLICATED. An opal is a gem.
+167,medium,MORAL,a lesson from a story,COMFORTABLE,5,MORAL from COMFORTABLE. A moral is a lesson.
+168,medium,IRATE,furious,GENERATION,5,IRATE from GENERATION. Irate means furious.
+169,medium,AMEND,to correct or improve,DEMONSTRATE,5,AMEND from DEMONSTRATE. To amend is to fix.
+170,medium,METRE,a unit of length,DEMONSTRATE,5,METRE from DEMONSTRATE. A metre measures length.
+171,medium,STORM,severe weather,DEMONSTRATE,5,STORM from DEMONSTRATE. A storm is severe.
+172,medium,GROAN,a sound of pain,UNDERGROUND,5,GROAN from UNDERGROUND. A groan shows pain.
+173,medium,SCRAPE,to scratch a surface,CATASTROPHE,6,SCRAPE from CATASTROPHE. To scrape is to scratch.
+174,medium,MOAT,a water barrier,DEMONSTRATE,4,MOAT from DEMONSTRATE. A moat protects castles.
+175,medium,URGE,to encourage strongly,UNDERGROUND,4,URGE from UNDERGROUND. To urge is to push.
+176,medium,ONSET,the beginning,DEMONSTRATE,5,ONSET from DEMONSTRATE. Onset is the start.
+177,medium,RISEN,gone upward,PERSONALITY,5,RISEN from PERSONALITY. Risen means went up.
+178,medium,CROFT,a small Scottish farm,COMFORTABLE,5,CROFT from COMFORTABLE. A croft is a farm.
+179,medium,TENOR,a male singing voice,CONCENTRATE,5,TENOR from CONCENTRATE. A tenor sings high.
+180,medium,ALTER,to change or modify,COMFORTABLE,5,ALTER from COMFORTABLE. To alter is to change.
+181,medium,SLANT,an angle or slope,PERSONALITY,5,SLANT from PERSONALITY. A slant is an angle.
+182,medium,TART,sour to taste,DEMONSTRATE,4,TART from DEMONSTRATE. Tart means sour.
+183,medium,STERN,the rear of a ship,DEMONSTRATE,5,STERN from DEMONSTRATE. The stern is the back.
+184,medium,SHORE,land beside the sea,CATASTROPHE,5,SHORE from CATASTROPHE. A shore is coastline.
+185,medium,IRATE,very angry,KINDERGARTEN,5,IRATE from KINDERGARTEN. Irate is very angry.
+186,medium,TRADE,to exchange goods,DEMONSTRATE,5,TRADE from DEMONSTRATE. Trade is exchange.
+187,medium,ROYAL,relating to royalty,PERSONALITY,5,ROYAL from PERSONALITY. Royal means kingly.
+188,medium,HEART,a vital organ,CATASTROPHE,5,HEART from CATASTROPHE. The heart pumps blood.
+189,medium,TREND,a general direction,DEMONSTRATE,5,TREND from DEMONSTRATE. A trend is a direction.
+190,medium,IRONS,metal restraints,PERSONALITY,5,IRONS from PERSONALITY. Irons bind prisoners.
+191,medium,TEASE,to make fun of someone,DEMONSTRATE,5,TEASE from DEMONSTRATE. To tease is to mock.
+192,medium,HARP,a stringed instrument,CATASTROPHE,4,HARP from CATASTROPHE. A harp has strings.
+193,medium,TERN,a type of bird,DEMONSTRATE,4,TERN from DEMONSTRATE. A tern is a seabird.
+194,medium,COAST,the edge of the sea,CATASTROPHE,5,COAST from CATASTROPHE. A coast is the edge.
+195,medium,TORSO,the upper body,COUNTRYSIDE,5,TORSO from COUNTRYSIDE. The torso is the body.
+196,medium,CRATE,a wooden storage box,CATASTROPHE,5,CRATE from CATASTROPHE. A crate stores things.
+197,medium,STRIP,a thin piece of material,PERSONALITY,5,STRIP from PERSONALITY. A strip is thin.
+198,medium,FLOOR,a surface to walk on,COMFORTABLE,5,FLOOR from COMFORTABLE. A floor is a surface.
+199,medium,CHEST,a body part,CATASTROPHE,5,CHEST from CATASTROPHE. The chest is the torso.
+200,medium,SHUNT,to push aside,THUNDERSTORM,5,SHUNT from THUNDERSTORM. To shunt is to push.
+201,medium,EDICT,an official decree,COMPLICATED,5,EDICT from COMPLICATED. An edict is a decree.
+202,medium,STEAD,a place or position,DEMONSTRATE,5,STEAD from DEMONSTRATE. Stead is a position.
+203,medium,STORE,a place to buy things,CATASTROPHE,5,STORE from CATASTROPHE. A store sells items.
+204,medium,STONY,hard and unyielding,PERSONALITY,5,STONY from PERSONALITY. Stony means hard.
+205,medium,MEND,to repair something,DEMONSTRATE,4,MEND from DEMONSTRATE. To mend is to fix.
+206,medium,METER,a unit of measurement,DEMONSTRATE,5,METER from DEMONSTRATE. A meter measures.
+207,medium,MOREL,edible fungus,COMFORTABLE,5,MOREL from COMFORTABLE. A morel is a mushroom.
+208,medium,ANT,an insect,DEMONSTRATE,3,ANT from DEMONSTRATE. An ant is small.
+209,medium,HARP,a musical instrument,CATASTROPHE,4,HARP from CATASTROPHE. A harp is played.
+210,medium,MALT,a grain product,COMFORTABLE,4,MALT from COMFORTABLE. Malt is from grain.
+211,hard,AGILE,nimble and quick,EGOTISTICAL,5,AGILE from EGOTISTICAL. Agile means nimble.
+212,hard,LOBBY,to seek to influence,PROBABLY,5,LOBBY from PROBABLY. To lobby is to influence.
+213,hard,MITTEN,a type of glove,MENTALITY,6,MITTEN from MENTALITY. A mitten is a glove.
+214,hard,MIGRATE,move to another country,NIGHTMARE,7,MIGRATE from NIGHTMARE. To migrate is to move.
+215,hard,LISTEN,to hear carefully,PERSONALITY,6,LISTEN from PERSONALITY. To listen is to hear.
+216,hard,PLANET,orbits a star,EXPLORATION,6,PLANET from EXPLORATION. A planet orbits a star.
+217,hard,LOCATE,to find a place,CELEBRATION,6,LOCATE from CELEBRATION. To locate is to find.
+218,hard,DIRECT,to guide or lead,DESTRUCTION,6,DIRECT from DESTRUCTION. To direct is to lead.
+219,hard,DEPICT,to illustrate,COMPLICATED,6,DEPICT from COMPLICATED. To depict is to show.
+220,hard,CONCERN,to feel worry,CONCENTRATE,7,CONCERN from CONCENTRATE. Concern means worry.
+221,hard,PASTRY,a baked good,PERSONALITY,6,PASTRY from PERSONALITY. A pastry is baked.
+222,hard,CIDER,an apple drink,DESTRUCTION,5,CIDER from DESTRUCTION. Cider is apple drink.
+223,hard,TALON,a sharp bird claw,EXPLORATION,5,TALON from EXPLORATION. A talon is a claw.
+224,hard,TREAD,to step heavily,DEMONSTRATE,5,TREAD from DEMONSTRATE. To tread is to step.
+225,hard,APEX,the highest point,APPROXIMATE,4,APEX from APPROXIMATE. An apex is the peak.
+226,hard,MONSTER,a frightening creature,DEMONSTRATE,7,MONSTER from DEMONSTRATE. A monster is scary.
+227,hard,SEARCH,to hunt for something,CATASTROPHE,6,SEARCH from CATASTROPHE. To search is to hunt.
+228,hard,RODENT,a gnawing mammal,DEMONSTRATE,6,RODENT from DEMONSTRATE. A rodent gnaws.
+229,hard,PATRON,a financial supporter,EXPLORATION,6,PATRON from EXPLORATION. A patron supports.
+230,hard,REALM,a kingdom or domain,COMFORTABLE,5,REALM from COMFORTABLE. A realm is a kingdom.
+231,hard,SAINTLY,pure and holy,PERSONALITY,7,SAINTLY from PERSONALITY. Saintly means holy.
+232,hard,POSTAL,relating to mail,PERSONALITY,6,POSTAL from PERSONALITY. Postal means mail.
+233,hard,REMOTE,far away,DEMONSTRATE,6,REMOTE from DEMONSTRATE. Remote means distant.
+234,hard,RENAME,to give a new name,DEMONSTRATE,6,RENAME from DEMONSTRATE. Rename means re-name.
+235,hard,DESERT,to leave behind,DEMONSTRATE,6,DESERT from DEMONSTRATE. To desert is to leave.
+236,hard,STREET,a paved road,DEMONSTRATE,6,STREET from DEMONSTRATE. A street is a road.
+237,hard,ERODE,to gradually wear away,DEMONSTRATE,5,ERODE from DEMONSTRATE. To erode wears away.
+238,hard,SNARE,a type of catching device,DEMONSTRATE,5,SNARE from DEMONSTRATE. A snare catches.
+239,hard,MODERN,up to date,DEMONSTRATE,6,MODERN from DEMONSTRATE. Modern is current.
+240,hard,OTTER,a furry water mammal,DEMONSTRATE,5,OTTER from DEMONSTRATE. An otter swims.
+241,hard,LOAFER,an idle person,COMFORTABLE,6,LOAFER from COMFORTABLE. A loafer is idle.
+242,hard,INLAY,a decorative pattern,PERSONALITY,5,INLAY from PERSONALITY. An inlay decorates.
+243,hard,TAILOR,someone who makes clothes,PERSONALITY,6,TAILOR from PERSONALITY. A tailor sews.
+244,hard,PARTLY,not completely,PERSONALITY,6,PARTLY from PERSONALITY. Partly is not fully.
+245,hard,PERIL,danger or risk,PERSONALITY,5,PERIL from PERSONALITY. Peril means danger.
+246,hard,INLET,a narrow waterway,PERSONALITY,5,INLET from PERSONALITY. An inlet is narrow.
+247,hard,LYRE,a stringed instrument,PERSONALITY,4,LYRE from PERSONALITY. A lyre has strings.
+248,hard,TOASTER,a kitchen appliance,PERSONALITY,7,TOASTER from PERSONALITY. A toaster browns bread.
+249,hard,LITANY,a repetitive recital,PERSONALITY,6,LITANY from PERSONALITY. A litany repeats.
+250,hard,SPEAR,a weapon for throwing,PERSONALITY,5,SPEAR from PERSONALITY. A spear is thrown.
+251,hard,ALIEN,from another world,PERSONALITY,5,ALIEN from PERSONALITY. An alien is foreign.
+252,hard,OPINE,to state an opinion,PERSONALITY,5,OPINE from PERSONALITY. To opine is to state.
+253,hard,RENTAL,payment for use,PERSONALITY,6,RENTAL from PERSONALITY. A rental is payment.
+254,hard,MORTAL,doomed to die,COMFORTABLE,6,MORTAL from COMFORTABLE. Mortal means will die.
+255,hard,STEAMED,cooked with vapour,DEMONSTRATE,7,STEAMED from DEMONSTRATE. Steamed uses steam.
+256,hard,MASTER,a skilled expert,DEMONSTRATE,6,MASTER from DEMONSTRATE. A master is expert.
+257,hard,NESTED,settled snugly inside,DEMONSTRATE,6,NESTED from DEMONSTRATE. Nested fits inside.
+258,hard,RECAST,to make again,CATASTROPHE,6,RECAST from CATASTROPHE. Recast means redo.
+259,hard,HORNET,a stinging insect,THUNDERSTORM,6,HORNET from THUNDERSTORM. A hornet stings.
+260,hard,PILOT,one who flies planes,EXPLORATION,5,PILOT from EXPLORATION. A pilot flies.
+261,hard,MONSTER,a frightening beast,DEMONSTRATE,7,MONSTER from DEMONSTRATE. A monster is a beast.
+262,hard,MODERN,currently fashionable,DEMONSTRATE,6,MODERN from DEMONSTRATE. Modern is trendy.
+263,hard,SEARCH,to look hard for,CATASTROPHE,6,SEARCH from CATASTROPHE. To search is to look.
+264,hard,DESERT,to abandon or leave,DEMONSTRATE,6,DESERT from DEMONSTRATE. To desert is to leave.
+265,hard,RENAME,to name again,DEMONSTRATE,6,RENAME from DEMONSTRATE. Rename means re-name.
+266,hard,STREET,a road in a town,DEMONSTRATE,6,STREET from DEMONSTRATE. A street is a road.
+267,hard,ERODE,to wear away slowly,DEMONSTRATE,5,ERODE from DEMONSTRATE. Erode means wear away.
+268,hard,RODENT,a mouse-like animal,DEMONSTRATE,6,RODENT from DEMONSTRATE. A rodent is like a mouse.
+269,hard,OTTER,a swimming mammal,DEMONSTRATE,5,OTTER from DEMONSTRATE. An otter is a swimmer.
+270,hard,NESTED,placed inside another,DEMONSTRATE,6,NESTED from DEMONSTRATE. Nested means inside.
+271,hard,TREAD,to walk on,DEMONSTRATE,5,TREAD from DEMONSTRATE. To tread is to walk.
+272,hard,SNARE,a trap for catching,DEMONSTRATE,5,SNARE from DEMONSTRATE. A snare catches prey.
+273,hard,REMOTE,not close,DEMONSTRATE,6,REMOTE from DEMONSTRATE. Remote means not close.
+274,hard,REALM,a kingdom,COMFORTABLE,5,REALM from COMFORTABLE. A realm is a domain.
+275,hard,SAINTLY,very holy,PERSONALITY,7,SAINTLY from PERSONALITY. Saintly is very pure.
+276,hard,PASTRY,baked flour goods,PERSONALITY,6,PASTRY from PERSONALITY. Pastry is baked.
+277,hard,PARTLY,partially,PERSONALITY,6,PARTLY from PERSONALITY. Partly means some.
+278,hard,POSTAL,about the mail service,PERSONALITY,6,POSTAL from PERSONALITY. Postal is about mail.
+279,hard,TAILOR,a garment maker,PERSONALITY,6,TAILOR from PERSONALITY. A tailor sews.
+280,hard,INLAY,embedded decoration,PERSONALITY,5,INLAY from PERSONALITY. An inlay is embedded.
+281,hard,INLET,a small water channel,PERSONALITY,5,INLET from PERSONALITY. An inlet is a channel.
+282,hard,PERIL,risk,PERSONALITY,5,PERIL from PERSONALITY. Peril means risk.
+283,hard,RENTAL,renting payment,PERSONALITY,6,RENTAL from PERSONALITY. Rental is a payment.
+284,hard,LITANY,a long repetitive list,PERSONALITY,6,LITANY from PERSONALITY. A litany is a list.
+285,hard,SPEAR,a throwing weapon,PERSONALITY,5,SPEAR from PERSONALITY. A spear is a weapon.
+286,hard,ALIEN,foreign or strange,PERSONALITY,5,ALIEN from PERSONALITY. Alien means foreign.
+287,hard,OPINE,to give an opinion,PERSONALITY,5,OPINE from PERSONALITY. To opine is opinion.
+288,hard,LYRE,an ancient instrument,PERSONALITY,4,LYRE from PERSONALITY. A lyre is ancient.
+289,hard,TOASTER,a bread appliance,PERSONALITY,7,TOASTER from PERSONALITY. A toaster toasts.
+290,hard,MORTAL,subject to death,COMFORTABLE,6,MORTAL from COMFORTABLE. Mortal means can die.
+291,hard,LOAFER,a lazy person,COMFORTABLE,6,LOAFER from COMFORTABLE. A loafer is lazy.
+292,hard,STEAMED,steamed food,DEMONSTRATE,7,STEAMED from DEMONSTRATE. Steamed is cooked.
+293,hard,MASTER,an expert person,DEMONSTRATE,6,MASTER from DEMONSTRATE. A master is skilled.
+294,hard,NESTED,snugly placed,DEMONSTRATE,6,NESTED from DEMONSTRATE. Nested fits snugly.
+295,hard,RECAST,to redo or remake,CATASTROPHE,6,RECAST from CATASTROPHE. Recast is to remake.
+296,hard,HORNET,a wasp-like insect,THUNDERSTORM,6,HORNET from THUNDERSTORM. A hornet is like a wasp.
+297,hard,PILOT,someone who flies,EXPLORATION,5,PILOT from EXPLORATION. A pilot flies planes.
+298,hard,REMOTE,not nearby,DEMONSTRATE,6,REMOTE from DEMONSTRATE. Remote is far away.
+299,hard,MONSTER,a scary creature,DEMONSTRATE,7,MONSTER from DEMONSTRATE. A monster scares.
+300,hard,MODERN,fashionable now,DEMONSTRATE,6,MODERN from DEMONSTRATE. Modern is current.
+301,easy,ALARM,a warning sound,FAMILIAR,5,ALARM from FAMILIAR. An alarm warns.
+302,easy,OCEAN,a vast body of water,EDUCATION,5,OCEAN from EDUCATION. An ocean is vast.
+303,easy,HERO,a brave person,TOGETHER,4,HERO from TOGETHER. A hero is brave.
+304,easy,DUNE,a sand mound,SUDDENLY,4,DUNE from SUDDENLY. A dune is sand.
+305,easy,DATE,a social meeting,ADEQUATE,4,DATE from ADEQUATE. A date is social.
+306,easy,FAIL,to not succeed,FANATICAL,4,FAIL from FANATICAL. Fail means not succeed.
+307,easy,STAR,a night sky object,RESTAURANT,4,STAR from RESTAURANT. A star shines.
+308,easy,PEN,a writing instrument,TRAMPOLINE,3,PEN from TRAMPOLINE. A pen writes.
+309,easy,CAT,a furry pet,CALCULATOR,3,CAT from CALCULATOR. A cat is a pet.
+310,easy,TINY,not large,DICTIONARY,4,TINY from DICTIONARY. Tiny is not large.
+311,medium,STERN,firm and serious,TREMENDOUS,5,STERN from TREMENDOUS. Stern is firm.
+312,medium,POLITE,well-mannered,HELICOPTER,6,POLITE from HELICOPTER. Polite is mannered.
+313,medium,AMBLE,to stroll,COMMENDABLE,5,AMBLE from COMMENDABLE. Amble is to stroll.
+314,medium,TAINT,to contaminate,ANTICIPATE,5,TAINT from ANTICIPATE. Taint is contaminate.
+315,medium,RETAIN,to hold onto,GENERATION,6,RETAIN from GENERATION. Retain is to hold.
+316,medium,WRATH,intense anger,WITHDRAWN,5,WRATH from WITHDRAWN. Wrath is intense anger.
+317,medium,TIARA,a decorative headpiece,DRAMATIC,5,TIARA from DRAMATIC. A tiara is decorative.
+318,medium,LOFTY,imposingly tall,FORMALITY,5,LOFTY from FORMALITY. Lofty is very tall.
+319,medium,FABLE,a moral story,BEAUTIFUL,5,FABLE from BEAUTIFUL. A fable teaches morals.
+320,medium,PEACE,calm and quiet,PERFORMANCE,5,PEACE from PERFORMANCE. Peace is calm.
+321,medium,LINEN,a cloth material,INTELLIGENCE,5,LINEN from INTELLIGENCE. Linen is cloth.
+322,medium,STONE,a hard rock,DEMONSTRATE,5,STONE from DEMONSTRATE. A stone is hard.
+323,medium,GRAPH,a data chart,PHOTOGRAPHY,5,GRAPH from PHOTOGRAPHY. A graph shows data.
+324,medium,TRIAL,a legal hearing,PERSONALITY,5,TRIAL from PERSONALITY. A trial is legal.
+325,medium,ROAST,to bake food,PERSONALITY,5,ROAST from PERSONALITY. Roast means bake.
+326,medium,TRICK,a deception,ELECTRICITY,5,TRICK from ELECTRICITY. A trick deceives.
+327,medium,CREATE,to produce,CELEBRATION,6,CREATE from CELEBRATION. Create means produce.
+328,medium,COMBAT,armed fighting,COMFORTABLE,6,COMBAT from COMFORTABLE. Combat is fighting.
+329,medium,TEMPT,to attract,TEMPERATURE,5,TEMPT from TEMPERATURE. Tempt means attract.
+330,medium,GRAIN,a tiny seed,GRANDFATHER,5,GRAIN from GRANDFATHER. A grain is tiny.
+331,hard,AGILE,quick and nimble,EGOTISTICAL,5,AGILE from EGOTISTICAL. Agile is quick.
+332,hard,LOBBY,to seek influence,PROBABLY,5,LOBBY from PROBABLY. Lobby seeks influence.
+333,hard,MITTEN,a warm glove,MENTALITY,6,MITTEN from MENTALITY. A mitten is warm.
+334,hard,MIGRATE,to move countries,NIGHTMARE,7,MIGRATE from NIGHTMARE. Migrate means move.
+335,hard,LISTEN,to pay attention to sound,PERSONALITY,6,LISTEN from PERSONALITY. Listen means attend.
+336,hard,PLANET,a world orbiting a star,EXPLORATION,6,PLANET from EXPLORATION. A planet orbits.
+337,hard,LOCATE,to find where something is,CELEBRATION,6,LOCATE from CELEBRATION. Locate means find.
+338,hard,DIRECT,to lead or guide,DESTRUCTION,6,DIRECT from DESTRUCTION. Direct means lead.
+339,hard,DEPICT,to show or illustrate,COMPLICATED,6,DEPICT from COMPLICATED. Depict means show.
+340,hard,CONCERN,worry or anxiety,CONCENTRATE,7,CONCERN from CONCENTRATE. Concern is worry.
+341,hard,PASTRY,baked flour product,PERSONALITY,6,PASTRY from PERSONALITY. Pastry is baked.
+342,hard,CIDER,a drink from apples,DESTRUCTION,5,CIDER from DESTRUCTION. Cider is from apples.
+343,hard,TALON,a sharp claw of a bird,EXPLORATION,5,TALON from EXPLORATION. A talon is a claw.
+344,hard,TREAD,to step on,DEMONSTRATE,5,TREAD from DEMONSTRATE. Tread means step on.
+345,hard,APEX,the peak or summit,APPROXIMATE,4,APEX from APPROXIMATE. Apex is the peak.
+346,hard,MONSTER,a terrifying beast,DEMONSTRATE,7,MONSTER from DEMONSTRATE. Monster is terrifying.
+347,hard,SEARCH,to look everywhere for,CATASTROPHE,6,SEARCH from CATASTROPHE. Search means look for.
+348,hard,RODENT,a small gnawing animal,DEMONSTRATE,6,RODENT from DEMONSTRATE. A rodent gnaws.
+349,hard,PATRON,a supporter who gives money,EXPLORATION,6,PATRON from EXPLORATION. A patron gives money.
+350,hard,REALM,a territory or kingdom,COMFORTABLE,5,REALM from COMFORTABLE. A realm is territory.
+351,hard,SAINTLY,very holy and virtuous,PERSONALITY,7,SAINTLY from PERSONALITY. Saintly is virtuous.
+352,hard,POSTAL,related to postal service,PERSONALITY,6,POSTAL from PERSONALITY. Postal is mail service.
+353,hard,REMOTE,distant and far,DEMONSTRATE,6,REMOTE from DEMONSTRATE. Remote is distant.
+354,hard,RENAME,to rename something,DEMONSTRATE,6,RENAME from DEMONSTRATE. Rename is to re-name.
+355,hard,DESERT,to walk away from,DEMONSTRATE,6,DESERT from DEMONSTRATE. Desert means walk away.
+356,hard,STREET,a town road,DEMONSTRATE,6,STREET from DEMONSTRATE. Street is a road.
+357,hard,ERODE,to slowly deteriorate,DEMONSTRATE,5,ERODE from DEMONSTRATE. Erode means deteriorate.
+358,hard,SNARE,a device for catching animals,DEMONSTRATE,5,SNARE from DEMONSTRATE. A snare catches.
+359,hard,MODERN,current and trendy,DEMONSTRATE,6,MODERN from DEMONSTRATE. Modern is trendy.
+360,hard,OTTER,a river mammal,DEMONSTRATE,5,OTTER from DEMONSTRATE. An otter swims.
+361,easy,ALARM,a warning signal,ARRAMGALII,5,ALARM is made from letters in ARRAMGALII (A-L-A-R-M). It is a valid word meaning a warning signal.
+362,easy,ALARM,a warning signal,ERRLRAEMAE,5,ALARM is made from letters in ERRLRAEMAE (A-L-A-R-M). It is a valid word meaning a warning signal.
+363,easy,ALARM,a warning signal,MRMDQAKLA,5,ALARM is made from letters in MRMDQAKLA (A-L-A-R-M). It is a valid word meaning a warning signal.
+364,easy,ALARM,a warning signal,SOLMARIANR,5,ALARM is made from letters in SOLMARIANR (A-L-A-R-M). It is a valid word meaning a warning signal.
+365,easy,OCEAN,a large body of water,EACEVRONA,5,OCEAN is made from letters in EACEVRONA (O-C-E-A-N). It is a valid word meaning a large body of water.
+366,easy,OCEAN,a large body of water,KENOADEC,5,OCEAN is made from letters in KENOADEC (O-C-E-A-N). It is a valid word meaning a large body of water.
+367,easy,OCEAN,a large body of water,NAORQECSNI,5,OCEAN is made from letters in NAORQECSNI (O-C-E-A-N). It is a valid word meaning a large body of water.
+368,easy,OCEAN,a large body of water,WECOIAEMN,5,OCEAN is made from letters in WECOIAEMN (O-C-E-A-N). It is a valid word meaning a large body of water.
+369,easy,HERO,a brave or admired person,DEEROEH,4,HERO is made from letters in DEEROEH (H-E-R-O). It is a valid word meaning a brave or admired person.
+370,easy,HERO,a brave or admired person,EROHXEE,4,HERO is made from letters in EROHXEE (H-E-R-O). It is a valid word meaning a brave or admired person.
+371,easy,HERO,a brave or admired person,HRFOEEE,4,HERO is made from letters in HRFOEEE (H-E-R-O). It is a valid word meaning a brave or admired person.
+372,easy,HERO,a brave or admired person,REEEOHSI,4,HERO is made from letters in REEEOHSI (H-E-R-O). It is a valid word meaning a brave or admired person.
+373,easy,DATE,a social or romantic meeting,ADOEQET,4,DATE is made from letters in ADOEQET (D-A-T-E). It is a valid word meaning a social or romantic meeting.
+374,easy,DATE,a social or romantic meeting,DEARTDT,4,DATE is made from letters in DEARTDT (D-A-T-E). It is a valid word meaning a social or romantic meeting.
+375,easy,DATE,a social or romantic meeting,HHEATDE,4,DATE is made from letters in HHEATDE (D-A-T-E). It is a valid word meaning a social or romantic meeting.
+376,easy,DATE,a social or romantic meeting,OETEREAD,4,DATE is made from letters in OETEREAD (D-A-T-E). It is a valid word meaning a social or romantic meeting.
+377,easy,FAIL,to be unsuccessful,ALFNIZFNC,4,FAIL is made from letters in ALFNIZFNC (F-A-I-L). It is a valid word meaning to be unsuccessful.
+378,easy,FAIL,to be unsuccessful,EELASIF,4,FAIL is made from letters in EELASIF (F-A-I-L). It is a valid word meaning to be unsuccessful.
+379,easy,FAIL,to be unsuccessful,FNAINGL,4,FAIL is made from letters in FNAINGL (F-A-I-L). It is a valid word meaning to be unsuccessful.
+380,easy,FAIL,to be unsuccessful,ILORIFCRA,4,FAIL is made from letters in ILORIFCRA (F-A-I-L). It is a valid word meaning to be unsuccessful.
+381,easy,LOBBY,to try to influence,BDYOBATLO,5,LOBBY is made from letters in BDYOBATLO (L-O-B-B-Y). It is a valid word meaning to try to influence.
+382,easy,LOBBY,to try to influence,BLAJWOYNBS,5,LOBBY is made from letters in BLAJWOYNBS (L-O-B-B-Y). It is a valid word meaning to try to influence.
+383,easy,LOBBY,to try to influence,OFYABLJBOH,5,LOBBY is made from letters in OFYABLJBOH (L-O-B-B-Y). It is a valid word meaning to try to influence.
+384,easy,LOBBY,to try to influence,YYSBOAEBL,5,LOBBY is made from letters in YYSBOAEBL (L-O-B-B-Y). It is a valid word meaning to try to influence.
+385,easy,RETAIN,to keep,EAREANITEE,6,RETAIN is made from letters in EAREANITEE (R-E-T-A-I-N). It is a valid word meaning to keep.
+386,easy,RETAIN,to keep,EIARYCTNA,6,RETAIN is made from letters in EIARYCTNA (R-E-T-A-I-N). It is a valid word meaning to keep.
+387,easy,RETAIN,to keep,SRTGIWANHEE,6,RETAIN is made from letters in SRTGIWANHEE (R-E-T-A-I-N). It is a valid word meaning to keep.
+388,easy,RETAIN,to keep,TERREAIANUH,6,RETAIN is made from letters in TERREAIANUH (R-E-T-A-I-N). It is a valid word meaning to keep.
+389,easy,MITTEN,a glove with two sections,IEEEESTTMDNT,6,MITTEN is made from letters in IEEEESTTMDNT (M-I-T-T-E-N). It is a valid word meaning a glove with two sections.
+390,easy,MITTEN,a glove with two sections,NEEEETETIMTD,6,MITTEN is made from letters in NEEEETETIMTD (M-I-T-T-E-N). It is a valid word meaning a glove with two sections.
+391,easy,MITTEN,a glove with two sections,NETATNMIE,6,MITTEN is made from letters in NETATNMIE (M-I-T-T-E-N). It is a valid word meaning a glove with two sections.
+392,easy,MITTEN,a glove with two sections,RITAMDNENTO,6,MITTEN is made from letters in RITAMDNENTO (M-I-T-T-E-N). It is a valid word meaning a glove with two sections.
+393,easy,POLITE,socially well-mannered,ERIGTELIOP,6,POLITE is made from letters in ERIGTELIOP (P-O-L-I-T-E). It is a valid word meaning socially well-mannered.
+394,easy,POLITE,socially well-mannered,ESIEEPTOLA,6,POLITE is made from letters in ESIEEPTOLA (P-O-L-I-T-E). It is a valid word meaning socially well-mannered.
+395,easy,POLITE,socially well-mannered,LITMPAEMO,6,POLITE is made from letters in LITMPAEMO (P-O-L-I-T-E). It is a valid word meaning socially well-mannered.
+396,easy,POLITE,socially well-mannered,TXOELLPIEAEO,6,POLITE is made from letters in TXOELLPIEAEO (P-O-L-I-T-E). It is a valid word meaning socially well-mannered.
+397,easy,STERN,serious and strict,ENESTREER,5,STERN is made from letters in ENESTREER (S-T-E-R-N). It is a valid word meaning serious and strict.
+398,easy,STERN,serious and strict,SARTJNEJ,5,STERN is made from letters in SARTJNEJ (S-T-E-R-N). It is a valid word meaning serious and strict.
+399,easy,STERN,serious and strict,TSNGWOSRE,5,STERN is made from letters in TSNGWOSRE (S-T-E-R-N). It is a valid word meaning serious and strict.
+400,easy,STERN,serious and strict,WRETRSSNEN,5,STERN is made from letters in WRETRSSNEN (S-T-E-R-N). It is a valid word meaning serious and strict.
+401,easy,AGILE,nimble and quick,AGTNEEIELU,5,AGILE is made from letters in AGTNEEIELU (A-G-I-L-E). It is a valid word meaning nimble and quick.
+402,easy,AGILE,nimble and quick,CAIYEGLS,5,AGILE is made from letters in CAIYEGLS (A-G-I-L-E). It is a valid word meaning nimble and quick.
+403,easy,AGILE,nimble and quick,DGNEILAA,5,AGILE is made from letters in DGNEILAA (A-G-I-L-E). It is a valid word meaning nimble and quick.
+404,easy,AGILE,nimble and quick,RWLAGIEEO,5,AGILE is made from letters in RWLAGIEEO (A-G-I-L-E). It is a valid word meaning nimble and quick.
+405,easy,AMBLE,to walk slowly,MBATELERET,5,AMBLE is made from letters in MBATELERET (A-M-B-L-E). It is a valid word meaning to walk slowly.
+406,easy,AMBLE,to walk slowly,NMAMETBL,5,AMBLE is made from letters in NMAMETBL (A-M-B-L-E). It is a valid word meaning to walk slowly.
+407,easy,AMBLE,to walk slowly,SMLBAEEEA,5,AMBLE is made from letters in SMLBAEEEA (A-M-B-L-E). It is a valid word meaning to walk slowly.
+408,easy,AMBLE,to walk slowly,UEBEMAKL,5,AMBLE is made from letters in UEBEMAKL (A-M-B-L-E). It is a valid word meaning to walk slowly.
+409,easy,TAINT,to spoil,DATANITTR,5,TAINT is made from letters in DATANITTR (T-A-I-N-T). It is a valid word meaning to spoil.
+410,easy,TAINT,to spoil,ITNRUTRMAT,5,TAINT is made from letters in ITNRUTRMAT (T-A-I-N-T). It is a valid word meaning to spoil.
+411,easy,TAINT,to spoil,RIAATYNT,5,TAINT is made from letters in RIAATYNT (T-A-I-N-T). It is a valid word meaning to spoil.
+412,easy,TAINT,to spoil,TOITEEDANI,5,TAINT is made from letters in TOITEEDANI (T-A-I-N-T). It is a valid word meaning to spoil.
+413,easy,DUNE,a ridge of sand,EFNDEUEKA,4,DUNE is made from letters in EFNDEUEKA (D-U-N-E). It is a valid word meaning a ridge of sand.
+414,easy,DUNE,a ridge of sand,ERDAANEU,4,DUNE is made from letters in ERDAANEU (D-U-N-E). It is a valid word meaning a ridge of sand.
+415,easy,DUNE,a ridge of sand,EUIDNOA,4,DUNE is made from letters in EUIDNOA (D-U-N-E). It is a valid word meaning a ridge of sand.
+416,easy,DUNE,a ridge of sand,NNDEFFUT,4,DUNE is made from letters in NNDEFFUT (D-U-N-E). It is a valid word meaning a ridge of sand.
+417,easy,LOFTY,very tall or elevated,EOTLAFYT,5,LOFTY is made from letters in EOTLAFYT (L-O-F-T-Y). It is a valid word meaning very tall or elevated.
+418,easy,LOFTY,very tall or elevated,FILTSOYNOC,5,LOFTY is made from letters in FILTSOYNOC (L-O-F-T-Y). It is a valid word meaning very tall or elevated.
+419,easy,LOFTY,very tall or elevated,NRILFTYTIO,5,LOFTY is made from letters in NRILFTYTIO (L-O-F-T-Y). It is a valid word meaning very tall or elevated.
+420,easy,LOFTY,very tall or elevated,TALFEOYE,5,LOFTY is made from letters in TALFEOYE (L-O-F-T-Y). It is a valid word meaning very tall or elevated.
+421,easy,CREEP,to move slowly and carefully,CREEPINPE,5,CREEP is made from letters in CREEPINPE (C-R-E-E-P). It is a valid word meaning to move slowly and carefully.
+422,easy,CREEP,to move slowly and carefully,ERPCDGEE,5,CREEP is made from letters in ERPCDGEE (C-R-E-E-P). It is a valid word meaning to move slowly and carefully.
+423,easy,CREEP,to move slowly and carefully,OPREECDT,5,CREEP is made from letters in OPREECDT (C-R-E-E-P). It is a valid word meaning to move slowly and carefully.
+424,easy,CREEP,to move slowly and carefully,PTCRAAEEE,5,CREEP is made from letters in PTCRAAEEE (C-R-E-E-P). It is a valid word meaning to move slowly and carefully.
+425,easy,QUIET,making little noise,IQTETFHIAU,5,QUIET is made from letters in IQTETFHIAU (Q-U-I-E-T). It is a valid word meaning making little noise.
+426,easy,QUIET,making little noise,NSIQEEUTO,5,QUIET is made from letters in NSIQEEUTO (Q-U-I-E-T). It is a valid word meaning making little noise.
+427,easy,QUIET,making little noise,UEQOAITE,5,QUIET is made from letters in UEQOAITE (Q-U-I-E-T). It is a valid word meaning making little noise.
+428,easy,QUIET,making little noise,UYNEOTRYQI,5,QUIET is made from letters in UYNEOTRYQI (Q-U-I-E-T). It is a valid word meaning making little noise.
+429,easy,PLAIN,simple and not decorated,ANIMAIPLE,5,PLAIN is made from letters in ANIMAIPLE (P-L-A-I-N). It is a valid word meaning simple and not decorated.
+430,easy,PLAIN,simple and not decorated,NPLITANE,5,PLAIN is made from letters in NPLITANE (P-L-A-I-N). It is a valid word meaning simple and not decorated.
+431,easy,PLAIN,simple and not decorated,RELSNNEPIA,5,PLAIN is made from letters in RELSNNEPIA (P-L-A-I-N). It is a valid word meaning simple and not decorated.
+432,easy,PLAIN,simple and not decorated,RPFIANRL,5,PLAIN is made from letters in RPFIANRL (P-L-A-I-N). It is a valid word meaning simple and not decorated.
+433,easy,BRAVE,showing courage,DVRBEBAE,5,BRAVE is made from letters in DVRBEBAE (B-R-A-V-E). It is a valid word meaning showing courage.
+434,easy,BRAVE,showing courage,REVGEALEBI,5,BRAVE is made from letters in REVGEALEBI (B-R-A-V-E). It is a valid word meaning showing courage.
+435,easy,BRAVE,showing courage,TVTERAJTB,5,BRAVE is made from letters in TVTERAJTB (B-R-A-V-E). It is a valid word meaning showing courage.
+436,easy,BRAVE,showing courage,VAHFXAERKB,5,BRAVE is made from letters in VAHFXAERKB (B-R-A-V-E). It is a valid word meaning showing courage.
+437,easy,SHINY,reflecting light,HTSIYKANEE,5,SHINY is made from letters in HTSIYKANEE (S-H-I-N-Y). It is a valid word meaning reflecting light.
+438,easy,SHINY,reflecting light,NSEDSBGHYI,5,SHINY is made from letters in NSEDSBGHYI (S-H-I-N-Y). It is a valid word meaning reflecting light.
+439,easy,SHINY,reflecting light,NTIFYESCHH,5,SHINY is made from letters in NTIFYESCHH (S-H-I-N-Y). It is a valid word meaning reflecting light.
+440,easy,SHINY,reflecting light,XNJOHIGYS,5,SHINY is made from letters in XNJOHIGYS (S-H-I-N-Y). It is a valid word meaning reflecting light.
+441,easy,SMILE,a happy facial expression,LJMIDNES,5,SMILE is made from letters in LJMIDNES (S-M-I-L-E). It is a valid word meaning a happy facial expression.
+442,easy,SMILE,a happy facial expression,LOEIEMAERS,5,SMILE is made from letters in LOEIEMAERS (S-M-I-L-E). It is a valid word meaning a happy facial expression.
+443,easy,SMILE,a happy facial expression,MEOSLSHGRI,5,SMILE is made from letters in MEOSLSHGRI (S-M-I-L-E). It is a valid word meaning a happy facial expression.
+444,easy,SMILE,a happy facial expression,VMHISESLSI,5,SMILE is made from letters in VMHISESLSI (S-M-I-L-E). It is a valid word meaning a happy facial expression.
+445,easy,BREAD,a common baked food,ARODREBDOD,5,BREAD is made from letters in ARODREBDOD (B-R-E-A-D). It is a valid word meaning a common baked food.
+446,easy,BREAD,a common baked food,DERANRBFB,5,BREAD is made from letters in DERANRBFB (B-R-E-A-D). It is a valid word meaning a common baked food.
+447,easy,BREAD,a common baked food,NESADXBRS,5,BREAD is made from letters in NESADXBRS (B-R-E-A-D). It is a valid word meaning a common baked food.
+448,easy,BREAD,a common baked food,RADRBAER,5,BREAD is made from letters in RADRBAER (B-R-E-A-D). It is a valid word meaning a common baked food.
+449,easy,CHAIR,a seat for one person,AQIABRTHC,5,CHAIR is made from letters in AQIABRTHC (C-H-A-I-R). It is a valid word meaning a seat for one person.
+450,easy,CHAIR,a seat for one person,CSREAIIHS,5,CHAIR is made from letters in CSREAIIHS (C-H-A-I-R). It is a valid word meaning a seat for one person.
+451,easy,CHAIR,a seat for one person,SHCRCIAW,5,CHAIR is made from letters in SHCRCIAW (C-H-A-I-R). It is a valid word meaning a seat for one person.
+452,easy,CHAIR,a seat for one person,TRHAEXCI,5,CHAIR is made from letters in TRHAEXCI (C-H-A-I-R). It is a valid word meaning a seat for one person.
+453,easy,STORM,violent weather,ESOTORYMN,5,STORM is made from letters in ESOTORYMN (S-T-O-R-M). It is a valid word meaning violent weather.
+454,easy,STORM,violent weather,ISRIOEARMT,5,STORM is made from letters in ISRIOEARMT (S-T-O-R-M). It is a valid word meaning violent weather.
+455,easy,STORM,violent weather,MNOGETEORS,5,STORM is made from letters in MNOGETEORS (S-T-O-R-M). It is a valid word meaning violent weather.
+456,easy,STORM,violent weather,OADESTARKM,5,STORM is made from letters in OADESTARKM (S-T-O-R-M). It is a valid word meaning violent weather.
+457,easy,DREAM,thoughts or images during sleep,AMGRDNDEAO,5,DREAM is made from letters in AMGRDNDEAO (D-R-E-A-M). It is a valid word meaning thoughts or images during sleep.
+458,easy,DREAM,thoughts or images during sleep,MTAAEDRJ,5,DREAM is made from letters in MTAAEDRJ (D-R-E-A-M). It is a valid word meaning thoughts or images during sleep.
+459,easy,DREAM,thoughts or images during sleep,QRADEMOONR,5,DREAM is made from letters in QRADEMOONR (D-R-E-A-M). It is a valid word meaning thoughts or images during sleep.
+460,easy,DREAM,thoughts or images during sleep,RDAMOEED,5,DREAM is made from letters in RDAMOEED (D-R-E-A-M). It is a valid word meaning thoughts or images during sleep.
+461,easy,PLANT,a living thing that grows in soil,DGARTPNL,5,PLANT is made from letters in DGARTPNL (P-L-A-N-T). It is a valid word meaning a living thing that grows in soil.
+462,easy,PLANT,a living thing that grows in soil,FTPLLASANT,5,PLANT is made from letters in FTPLLASANT (P-L-A-N-T). It is a valid word meaning a living thing that grows in soil.
+463,easy,PLANT,a living thing that grows in soil,LNAPINTP,5,PLANT is made from letters in LNAPINTP (P-L-A-N-T). It is a valid word meaning a living thing that grows in soil.
+464,easy,PLANT,a living thing that grows in soil,TLARAEANP,5,PLANT is made from letters in TLARAEANP (P-L-A-N-T). It is a valid word meaning a living thing that grows in soil.
+465,easy,SPARK,a tiny flash of fire,APDKTRTATS,5,SPARK is made from letters in APDKTRTATS (S-P-A-R-K). It is a valid word meaning a tiny flash of fire.
+466,easy,SPARK,a tiny flash of fire,RAKCSAPGJ,5,SPARK is made from letters in RAKCSAPGJ (S-P-A-R-K). It is a valid word meaning a tiny flash of fire.
+467,easy,SPARK,a tiny flash of fire,RYIANKPSCR,5,SPARK is made from letters in RYIANKPSCR (S-P-A-R-K). It is a valid word meaning a tiny flash of fire.
+468,easy,SPARK,a tiny flash of fire,RYKEJOSAP,5,SPARK is made from letters in RYKEJOSAP (S-P-A-R-K). It is a valid word meaning a tiny flash of fire.
+469,easy,CROWN,a royal headpiece,ARNOINCEWW,5,CROWN is made from letters in ARNOINCEWW (C-R-O-W-N). It is a valid word meaning a royal headpiece.
+470,easy,CROWN,a royal headpiece,ENZCEROW,5,CROWN is made from letters in ENZCEROW (C-R-O-W-N). It is a valid word meaning a royal headpiece.
+471,easy,CROWN,a royal headpiece,ROMOCHARWN,5,CROWN is made from letters in ROMOCHARWN (C-R-O-W-N). It is a valid word meaning a royal headpiece.
+472,easy,CROWN,a royal headpiece,WNLCORVHJ,5,CROWN is made from letters in WNLCORVHJ (C-R-O-W-N). It is a valid word meaning a royal headpiece.
+473,easy,RIVER,a large natural stream,MVRZNERI,5,RIVER is made from letters in MVRZNERI (R-I-V-E-R). It is a valid word meaning a large natural stream.
+474,easy,RIVER,a large natural stream,NEUIERMRVA,5,RIVER is made from letters in NEUIERMRVA (R-I-V-E-R). It is a valid word meaning a large natural stream.
+475,easy,RIVER,a large natural stream,NIVRRHLEE,5,RIVER is made from letters in NIVRRHLEE (R-I-V-E-R). It is a valid word meaning a large natural stream.
+476,easy,RIVER,a large natural stream,REOIRIKV,5,RIVER is made from letters in REOIRIKV (R-I-V-E-R). It is a valid word meaning a large natural stream.
+477,easy,HOUSE,a place where people live,NOSUHDRE,5,HOUSE is made from letters in NOSUHDRE (H-O-U-S-E). It is a valid word meaning a place where people live.
+478,easy,HOUSE,a place where people live,UAOESHXI,5,HOUSE is made from letters in UAOESHXI (H-O-U-S-E). It is a valid word meaning a place where people live.
+479,easy,HOUSE,a place where people live,UUEHROGASS,5,HOUSE is made from letters in UUEHROGASS (H-O-U-S-E). It is a valid word meaning a place where people live.
+480,easy,HOUSE,a place where people live,VZRSIOHUE,5,HOUSE is made from letters in VZRSIOHUE (H-O-U-S-E). It is a valid word meaning a place where people live.
+481,easy,TRAIN,a line of railway carriages,AAANROAIT,5,TRAIN is made from letters in AAANROAIT (T-R-A-I-N). It is a valid word meaning a line of railway carriages.
+482,easy,TRAIN,a line of railway carriages,ARTEEINRLO,5,TRAIN is made from letters in ARTEEINRLO (T-R-A-I-N). It is a valid word meaning a line of railway carriages.
+483,easy,TRAIN,a line of railway carriages,UNIATRAYJ,5,TRAIN is made from letters in UNIATRAYJ (T-R-A-I-N). It is a valid word meaning a line of railway carriages.
+484,easy,TRAIN,a line of railway carriages,WGNTAURI,5,TRAIN is made from letters in WGNTAURI (T-R-A-I-N). It is a valid word meaning a line of railway carriages.
+485,easy,APPLE,a round fruit,EPAVPLMZVE,5,APPLE is made from letters in EPAVPLMZVE (A-P-P-L-E). It is a valid word meaning a round fruit.
+486,easy,APPLE,a round fruit,EPSEAPNL,5,APPLE is made from letters in EPSEAPNL (A-P-P-L-E). It is a valid word meaning a round fruit.
+487,easy,APPLE,a round fruit,EPSPESLA,5,APPLE is made from letters in EPSPESLA (A-P-P-L-E). It is a valid word meaning a round fruit.
+488,easy,APPLE,a round fruit,PRALAPENX,5,APPLE is made from letters in PRALAPENX (A-P-P-L-E). It is a valid word meaning a round fruit.
+489,easy,MONEY,coins and notes used to buy things,EOMAUYCN,5,MONEY is made from letters in EOMAUYCN (M-O-N-E-Y). It is a valid word meaning coins and notes used to buy things.
+490,easy,MONEY,coins and notes used to buy things,MOENTYOEAE,5,MONEY is made from letters in MOENTYOEAE (M-O-N-E-Y). It is a valid word meaning coins and notes used to buy things.
+491,easy,MONEY,coins and notes used to buy things,OUQYNMEO,5,MONEY is made from letters in OUQYNMEO (M-O-N-E-Y). It is a valid word meaning coins and notes used to buy things.
+492,easy,MONEY,coins and notes used to buy things,UORINEMIYO,5,MONEY is made from letters in UORINEMIYO (M-O-N-E-Y). It is a valid word meaning coins and notes used to buy things.
+493,easy,CLOUD,a mass of water vapour in the sky,CMBODURRJL,5,CLOUD is made from letters in CMBODURRJL (C-L-O-U-D). It is a valid word meaning a mass of water vapour in the sky.
+494,easy,CLOUD,a mass of water vapour in the sky,NDOAUTCL,5,CLOUD is made from letters in NDOAUTCL (C-L-O-U-D). It is a valid word meaning a mass of water vapour in the sky.
+495,easy,CLOUD,a mass of water vapour in the sky,OCOZRLUDM,5,CLOUD is made from letters in OCOZRLUDM (C-L-O-U-D). It is a valid word meaning a mass of water vapour in the sky.
+496,easy,CLOUD,a mass of water vapour in the sky,OCULNODCO,5,CLOUD is made from letters in OCULNODCO (C-L-O-U-D). It is a valid word meaning a mass of water vapour in the sky.
+497,easy,FIELD,an open area of land,ELDFEIRESB,5,FIELD is made from letters in ELDFEIRESB (F-I-E-L-D). It is a valid word meaning an open area of land.
+498,easy,FIELD,an open area of land,ERLOFFDEEI,5,FIELD is made from letters in ERLOFFDEEI (F-I-E-L-D). It is a valid word meaning an open area of land.
+499,easy,FIELD,an open area of land,FLEFKNIDE,5,FIELD is made from letters in FLEFKNIDE (F-I-E-L-D). It is a valid word meaning an open area of land.
+500,easy,FIELD,an open area of land,IDEIEDFDL,5,FIELD is made from letters in IDEIEDFDL (F-I-E-L-D). It is a valid word meaning an open area of land.
+501,easy,WATCH,to look at carefully,AEHNTWRIC,5,WATCH is made from letters in AEHNTWRIC (W-A-T-C-H). It is a valid word meaning to look at carefully.
+502,easy,WATCH,to look at carefully,HCETNCKAWE,5,WATCH is made from letters in HCETNCKAWE (W-A-T-C-H). It is a valid word meaning to look at carefully.
+503,easy,WATCH,to look at carefully,IJHCAWTEQY,5,WATCH is made from letters in IJHCAWTEQY (W-A-T-C-H). It is a valid word meaning to look at carefully.
+504,easy,WATCH,to look at carefully,NIWCAHTA,5,WATCH is made from letters in NIWCAHTA (W-A-T-C-H). It is a valid word meaning to look at carefully.
+505,easy,EARTH,the planet we live on,AHRESEJOTR,5,EARTH is made from letters in AHRESEJOTR (E-A-R-T-H). It is a valid word meaning the planet we live on.
+506,easy,EARTH,the planet we live on,EATRHCMX,5,EARTH is made from letters in EATRHCMX (E-A-R-T-H). It is a valid word meaning the planet we live on.
+507,easy,EARTH,the planet we live on,RDESAEFHT,5,EARTH is made from letters in RDESAEFHT (E-A-R-T-H). It is a valid word meaning the planet we live on.
+508,easy,EARTH,the planet we live on,TERAHTAE,5,EARTH is made from letters in TERAHTAE (E-A-R-T-H). It is a valid word meaning the planet we live on.
+509,easy,STONE,a small piece of rock,NQSKTERO,5,STONE is made from letters in NQSKTERO (S-T-O-N-E). It is a valid word meaning a small piece of rock.
+510,easy,STONE,a small piece of rock,NTTNEESEOW,5,STONE is made from letters in NTTNEESEOW (S-T-O-N-E). It is a valid word meaning a small piece of rock.
+511,easy,STONE,a small piece of rock,OLVETTNSBN,5,STONE is made from letters in OLVETTNSBN (S-T-O-N-E). It is a valid word meaning a small piece of rock.
+512,easy,STONE,a small piece of rock,OQSTNEESN,5,STONE is made from letters in OQSTNEESN (S-T-O-N-E). It is a valid word meaning a small piece of rock.
+513,easy,MUSIC,organised sound,EAIIMCUSEE,5,MUSIC is made from letters in EAIIMCUSEE (M-U-S-I-C). It is a valid word meaning organised sound.
+514,easy,MUSIC,organised sound,EISIURMCUI,5,MUSIC is made from letters in EISIURMCUI (M-U-S-I-C). It is a valid word meaning organised sound.
+515,easy,MUSIC,organised sound,MSSUIIICN,5,MUSIC is made from letters in MSSUIIICN (M-U-S-I-C). It is a valid word meaning organised sound.
+516,easy,MUSIC,organised sound,RECSUIMN,5,MUSIC is made from letters in RECSUIMN (M-U-S-I-C). It is a valid word meaning organised sound.
+517,easy,LAUGH,to make a happy sound,DARLGBNHU,5,LAUGH is made from letters in DARLGBNHU (L-A-U-G-H). It is a valid word meaning to make a happy sound.
+518,easy,LAUGH,to make a happy sound,EAGLHDUS,5,LAUGH is made from letters in EAGLHDUS (L-A-U-G-H). It is a valid word meaning to make a happy sound.
+519,easy,LAUGH,to make a happy sound,RIOUALSGHE,5,LAUGH is made from letters in RIOUALSGHE (L-A-U-G-H). It is a valid word meaning to make a happy sound.
+520,easy,LAUGH,to make a happy sound,UFKLGAOH,5,LAUGH is made from letters in UFKLGAOH (L-A-U-G-H). It is a valid word meaning to make a happy sound.
+521,medium,SCARCE,hard to find or get,AEESOCRCH,6,SCARCE is made from letters in AEESOCRCH (S-C-A-R-C-E). It is a valid word meaning hard to find or get.
+522,medium,SCARCE,hard to find or get,CSIEAQBRHAEC,6,SCARCE is made from letters in CSIEAQBRHAEC (S-C-A-R-C-E). It is a valid word meaning hard to find or get.
+523,medium,SCARCE,hard to find or get,ICSEEORCA,6,SCARCE is made from letters in ICSEEORCA (S-C-A-R-C-E). It is a valid word meaning hard to find or get.
+524,medium,SCARCE,hard to find or get,IECECRNOSA,6,SCARCE is made from letters in IECECRNOSA (S-C-A-R-C-E). It is a valid word meaning hard to find or get.
+525,medium,BRITTLE,hard but easy to break,LITSBEREUJEIT,7,BRITTLE is made from letters in LITSBEREUJEIT (B-R-I-T-T-L-E). It is a valid word meaning hard but easy to break.
+526,medium,BRITTLE,hard but easy to break,LSEEBDRYTITAK,7,BRITTLE is made from letters in LSEEBDRYTITAK (B-R-I-T-T-L-E). It is a valid word meaning hard but easy to break.
+527,medium,BRITTLE,hard but easy to break,TAGBRTLIERD,7,BRITTLE is made from letters in TAGBRTLIERD (B-R-I-T-T-L-E). It is a valid word meaning hard but easy to break.
+528,medium,BRITTLE,hard but easy to break,TIEELIBTRIE,7,BRITTLE is made from letters in TIEELIBTRIE (B-R-I-T-T-L-E). It is a valid word meaning hard but easy to break.
+529,medium,VANISH,to disappear,AIIGNVOSPH,6,VANISH is made from letters in AIIGNVOSPH (V-A-N-I-S-H). It is a valid word meaning to disappear.
+530,medium,VANISH,to disappear,DSDREHNVIQAN,6,VANISH is made from letters in DSDREHNVIQAN (V-A-N-I-S-H). It is a valid word meaning to disappear.
+531,medium,VANISH,to disappear,RVEHANISEEYI,6,VANISH is made from letters in RVEHANISEEYI (V-A-N-I-S-H). It is a valid word meaning to disappear.
+532,medium,VANISH,to disappear,SHVNNIQERHA,6,VANISH is made from letters in SHVNNIQERHA (V-A-N-I-S-H). It is a valid word meaning to disappear.
+533,medium,MURMUR,a soft low sound,JMRUGUDMRG,6,MURMUR is made from letters in JMRUGUDMRG (M-U-R-M-U-R). It is a valid word meaning a soft low sound.
+534,medium,MURMUR,a soft low sound,URAEAMEMURX,6,MURMUR is made from letters in URAEAMEMURX (M-U-R-M-U-R). It is a valid word meaning a soft low sound.
+535,medium,MURMUR,a soft low sound,URMMRPRRRU,6,MURMUR is made from letters in URMMRPRRRU (M-U-R-M-U-R). It is a valid word meaning a soft low sound.
+536,medium,MURMUR,a soft low sound,VEEMUORTTUMR,6,MURMUR is made from letters in VEEMUORTTUMR (M-U-R-M-U-R). It is a valid word meaning a soft low sound.
+537,medium,THRIVE,to grow well,CEVEVHIERT,6,THRIVE is made from letters in CEVEVHIERT (T-H-R-I-V-E). It is a valid word meaning to grow well.
+538,medium,THRIVE,to grow well,ERVRTEAIH,6,THRIVE is made from letters in ERVRTEAIH (T-H-R-I-V-E). It is a valid word meaning to grow well.
+539,medium,THRIVE,to grow well,QORIVEEETEH,6,THRIVE is made from letters in QORIVEEETEH (T-H-R-I-V-E). It is a valid word meaning to grow well.
+540,medium,THRIVE,to grow well,RVTITRREH,6,THRIVE is made from letters in RVTITRREH (T-H-R-I-V-E). It is a valid word meaning to grow well.
+541,medium,PONDER,to think carefully,ERNTCZDOPA,6,PONDER is made from letters in ERNTCZDOPA (P-O-N-D-E-R). It is a valid word meaning to think carefully.
+542,medium,PONDER,to think carefully,NEPNPDTFRO,6,PONDER is made from letters in NEPNPDTFRO (P-O-N-D-E-R). It is a valid word meaning to think carefully.
+543,medium,PONDER,to think carefully,ORDANLNEPEP,6,PONDER is made from letters in ORDANLNEPEP (P-O-N-D-E-R). It is a valid word meaning to think carefully.
+544,medium,PONDER,to think carefully,RPENEODDNOO,6,PONDER is made from letters in RPENEODDNOO (P-O-N-D-E-R). It is a valid word meaning to think carefully.
+545,medium,RESCUE,to save from danger,JATREACXUEES,6,RESCUE is made from letters in JATREACXUEES (R-E-S-C-U-E). It is a valid word meaning to save from danger.
+546,medium,RESCUE,to save from danger,RACUSUGEEW,6,RESCUE is made from letters in RACUSUGEEW (R-E-S-C-U-E). It is a valid word meaning to save from danger.
+547,medium,RESCUE,to save from danger,TERUCZDEEISE,6,RESCUE is made from letters in TERUCZDEEISE (R-E-S-C-U-E). It is a valid word meaning to save from danger.
+548,medium,RESCUE,to save from danger,UMLSSCNREENE,6,RESCUE is made from letters in UMLSSCNREENE (R-E-S-C-U-E). It is a valid word meaning to save from danger.
+549,medium,HARVEST,the gathering of crops,ARVEERTAHSSYI,7,HARVEST is made from letters in ARVEERTAHSSYI (H-A-R-V-E-S-T). It is a valid word meaning the gathering of crops.
+550,medium,HARVEST,the gathering of crops,EVRESRTTHNAN,7,HARVEST is made from letters in EVRESRTTHNAN (H-A-R-V-E-S-T). It is a valid word meaning the gathering of crops.
+551,medium,HARVEST,the gathering of crops,HRESILAUXTDVA,7,HARVEST is made from letters in HRESILAUXTDVA (H-A-R-V-E-S-T). It is a valid word meaning the gathering of crops.
+552,medium,HARVEST,the gathering of crops,QEVRTAHEGSN,7,HARVEST is made from letters in QEVRTAHEGSN (H-A-R-V-E-S-T). It is a valid word meaning the gathering of crops.
+553,medium,SOCKET,a place where a plug fits,CIRBESKOATWM,6,SOCKET is made from letters in CIRBESKOATWM (S-O-C-K-E-T). It is a valid word meaning a place where a plug fits.
+554,medium,SOCKET,a place where a plug fits,JTKODSCPEE,6,SOCKET is made from letters in JTKODSCPEE (S-O-C-K-E-T). It is a valid word meaning a place where a plug fits.
+555,medium,SOCKET,a place where a plug fits,KNNCTLERDSOT,6,SOCKET is made from letters in KNNCTLERDSOT (S-O-C-K-E-T). It is a valid word meaning a place where a plug fits.
+556,medium,SOCKET,a place where a plug fits,OGTVSCREJKOE,6,SOCKET is made from letters in OGTVSCREJKOE (S-O-C-K-E-T). It is a valid word meaning a place where a plug fits.
+557,medium,LANTERN,a portable light,AJNECIALNATR,7,LANTERN is made from letters in AJNECIALNATR (L-A-N-T-E-R-N). It is a valid word meaning a portable light.
+558,medium,LANTERN,a portable light,ILRNNEAGPTREN,7,LANTERN is made from letters in ILRNNEAGPTREN (L-A-N-T-E-R-N). It is a valid word meaning a portable light.
+559,medium,LANTERN,a portable light,TEIRLVASNNET,7,LANTERN is made from letters in TEIRLVASNNET (L-A-N-T-E-R-N). It is a valid word meaning a portable light.
+560,medium,LANTERN,a portable light,TRRENNLCVAAE,7,LANTERN is made from letters in TRRENNLCVAAE (L-A-N-T-E-R-N). It is a valid word meaning a portable light.
+561,medium,JOURNEY,a trip from one place to another,JRNEAYOOEIEYU,7,JOURNEY is made from letters in JRNEAYOOEIEYU (J-O-U-R-N-E-Y). It is a valid word meaning a trip from one place to another.
+562,medium,JOURNEY,a trip from one place to another,NRUIEAYTOJ,7,JOURNEY is made from letters in NRUIEAYTOJ (J-O-U-R-N-E-Y). It is a valid word meaning a trip from one place to another.
+563,medium,JOURNEY,a trip from one place to another,UYOUPRNZAEJIO,7,JOURNEY is made from letters in UYOUPRNZAEJIO (J-O-U-R-N-E-Y). It is a valid word meaning a trip from one place to another.
+564,medium,JOURNEY,a trip from one place to another,YEOUNKEORJ,7,JOURNEY is made from letters in YEOUNKEORJ (J-O-U-R-N-E-Y). It is a valid word meaning a trip from one place to another.
+565,medium,REMOTE,far away,CRORPEMZETO,6,REMOTE is made from letters in CRORPEMZETO (R-E-M-O-T-E). It is a valid word meaning far away.
+566,medium,REMOTE,far away,OMCETERTD,6,REMOTE is made from letters in OMCETERTD (R-E-M-O-T-E). It is a valid word meaning far away.
+567,medium,REMOTE,far away,OSEEERMTEV,6,REMOTE is made from letters in OSEEERMTEV (R-E-M-O-T-E). It is a valid word meaning far away.
+568,medium,REMOTE,far away,WOERTMEEL,6,REMOTE is made from letters in WOERTMEEL (R-E-M-O-T-E). It is a valid word meaning far away.
+569,medium,PUZZLE,a problem that needs solving,TEULSZMZP,6,PUZZLE is made from letters in TEULSZMZP (P-U-Z-Z-L-E). It is a valid word meaning a problem that needs solving.
+570,medium,PUZZLE,a problem that needs solving,TPLZZAUAEC,6,PUZZLE is made from letters in TPLZZAUAEC (P-U-Z-Z-L-E). It is a valid word meaning a problem that needs solving.
+571,medium,PUZZLE,a problem that needs solving,ULZGVZTEOEPM,6,PUZZLE is made from letters in ULZGVZTEOEPM (P-U-Z-Z-L-E). It is a valid word meaning a problem that needs solving.
+572,medium,PUZZLE,a problem that needs solving,ZZELEBPUU,6,PUZZLE is made from letters in ZZELEBPUU (P-U-Z-Z-L-E). It is a valid word meaning a problem that needs solving.
+573,medium,SHELTER,protection from weather or danger,ERDGEELSITH,7,SHELTER is made from letters in ERDGEELSITH (S-H-E-L-T-E-R). It is a valid word meaning protection from weather or danger.
+574,medium,SHELTER,protection from weather or danger,HTERNQRLPTSE,7,SHELTER is made from letters in HTERNQRLPTSE (S-H-E-L-T-E-R). It is a valid word meaning protection from weather or danger.
+575,medium,SHELTER,protection from weather or danger,SELEURRXHT,7,SHELTER is made from letters in SELEURRXHT (S-H-E-L-T-E-R). It is a valid word meaning protection from weather or danger.
+576,medium,SHELTER,protection from weather or danger,SRTREEODLDEH,7,SHELTER is made from letters in SRTREEODLDEH (S-H-E-L-T-E-R). It is a valid word meaning protection from weather or danger.
+577,medium,MODEST,not boastful,DETOMDRSE,6,MODEST is made from letters in DETOMDRSE (M-O-D-E-S-T). It is a valid word meaning not boastful.
+578,medium,MODEST,not boastful,FEEDMTSENOP,6,MODEST is made from letters in FEEDMTSENOP (M-O-D-E-S-T). It is a valid word meaning not boastful.
+579,medium,MODEST,not boastful,TNEDMTSOSD,6,MODEST is made from letters in TNEDMTSOSD (M-O-D-E-S-T). It is a valid word meaning not boastful.
+580,medium,MODEST,not boastful,TRESDOMESTN,6,MODEST is made from letters in TRESDOMESTN (M-O-D-E-S-T). It is a valid word meaning not boastful.
+581,medium,FAMINE,an extreme shortage of food,AFEIEENSML,6,FAMINE is made from letters in AFEIEENSML (F-A-M-I-N-E). It is a valid word meaning an extreme shortage of food.
+582,medium,FAMINE,an extreme shortage of food,ANFOQITOMEED,6,FAMINE is made from letters in ANFOQITOMEED (F-A-M-I-N-E). It is a valid word meaning an extreme shortage of food.
+583,medium,FAMINE,an extreme shortage of food,FNEMITEAQ,6,FAMINE is made from letters in FNEMITEAQ (F-A-M-I-N-E). It is a valid word meaning an extreme shortage of food.
+584,medium,FAMINE,an extreme shortage of food,RENFMXICDLAE,6,FAMINE is made from letters in RENFMXICDLAE (F-A-M-I-N-E). It is a valid word meaning an extreme shortage of food.
+585,medium,TUNNEL,an underground passage,ENLUTEDTNIAM,6,TUNNEL is made from letters in ENLUTEDTNIAM (T-U-N-N-E-L). It is a valid word meaning an underground passage.
+586,medium,TUNNEL,an underground passage,LELUNFETNET,6,TUNNEL is made from letters in LELUNFETNET (T-U-N-N-E-L). It is a valid word meaning an underground passage.
+587,medium,TUNNEL,an underground passage,NETGELUIN,6,TUNNEL is made from letters in NETGELUIN (T-U-N-N-E-L). It is a valid word meaning an underground passage.
+588,medium,TUNNEL,an underground passage,NGUEXNLTEIR,6,TUNNEL is made from letters in NGUEXNLTEIR (T-U-N-N-E-L). It is a valid word meaning an underground passage.
+589,medium,BRIDLE,headgear used to control a horse,DLNETAEBREI,6,BRIDLE is made from letters in DLNETAEBREI (B-R-I-D-L-E). It is a valid word meaning headgear used to control a horse.
+590,medium,BRIDLE,headgear used to control a horse,EBRLDIYGAE,6,BRIDLE is made from letters in EBRLDIYGAE (B-R-I-D-L-E). It is a valid word meaning headgear used to control a horse.
+591,medium,BRIDLE,headgear used to control a horse,IDAONRILEB,6,BRIDLE is made from letters in IDAONRILEB (B-R-I-D-L-E). It is a valid word meaning headgear used to control a horse.
+592,medium,BRIDLE,headgear used to control a horse,RLEIVRBTEDEI,6,BRIDLE is made from letters in RLEIVRBTEDEI (B-R-I-D-L-E). It is a valid word meaning headgear used to control a horse.
+593,medium,BALANCE,a state of being even or steady,AEDCBLAINAOB,7,BALANCE is made from letters in AEDCBLAINAOB (B-A-L-A-N-C-E). It is a valid word meaning a state of being even or steady.
+594,medium,BALANCE,a state of being even or steady,EDMBELAAEANCO,7,BALANCE is made from letters in EDMBELAAEANCO (B-A-L-A-N-C-E). It is a valid word meaning a state of being even or steady.
+595,medium,BALANCE,a state of being even or steady,ELAEDANOBCOI,7,BALANCE is made from letters in ELAEDANOBCOI (B-A-L-A-N-C-E). It is a valid word meaning a state of being even or steady.
+596,medium,BALANCE,a state of being even or steady,VGCGANEXBNALD,7,BALANCE is made from letters in VGCGANEXBNALD (B-A-L-A-N-C-E). It is a valid word meaning a state of being even or steady.
+597,medium,SWIFT,moving very fast,NTFSIAWIR,5,SWIFT is made from letters in NTFSIAWIR (S-W-I-F-T). It is a valid word meaning moving very fast.
+598,medium,SWIFT,moving very fast,NTFSOWERIE,5,SWIFT is made from letters in NTFSOWERIE (S-W-I-F-T). It is a valid word meaning moving very fast.
+599,medium,SWIFT,moving very fast,VFSTEWEIET,5,SWIFT is made from letters in VFSTEWEIET (S-W-I-F-T). It is a valid word meaning moving very fast.
+600,medium,SWIFT,moving very fast,ZNWASTEIF,5,SWIFT is made from letters in ZNWASTEIF (S-W-I-F-T). It is a valid word meaning moving very fast.
+601,medium,WRINKLE,a small fold or line,IWTNKJSNRERLE,7,WRINKLE is made from letters in IWTNKJSNRERLE (W-R-I-N-K-L-E). It is a valid word meaning a small fold or line.
+602,medium,WRINKLE,a small fold or line,KLIRYWNWEOEE,7,WRINKLE is made from letters in KLIRYWNWEOEE (W-R-I-N-K-L-E). It is a valid word meaning a small fold or line.
+603,medium,WRINKLE,a small fold or line,RNNWWREOLIKL,7,WRINKLE is made from letters in RNNWWREOLIKL (W-R-I-N-K-L-E). It is a valid word meaning a small fold or line.
+604,medium,WRINKLE,a small fold or line,RZXKWLRIEDVNI,7,WRINKLE is made from letters in RZXKWLRIEDVNI (W-R-I-N-K-L-E). It is a valid word meaning a small fold or line.
+605,medium,MARVEL,something that causes wonder,BLVFRMANE,6,MARVEL is made from letters in BLVFRMANE (M-A-R-V-E-L). It is a valid word meaning something that causes wonder.
+606,medium,MARVEL,something that causes wonder,EVTLGERMAZL,6,MARVEL is made from letters in EVTLGERMAZL (M-A-R-V-E-L). It is a valid word meaning something that causes wonder.
+607,medium,MARVEL,something that causes wonder,LTRNAEIVMEEI,6,MARVEL is made from letters in LTRNAEIVMEEI (M-A-R-V-E-L). It is a valid word meaning something that causes wonder.
+608,medium,MARVEL,something that causes wonder,RMLEATLEAV,6,MARVEL is made from letters in RMLEATLEAV (M-A-R-V-E-L). It is a valid word meaning something that causes wonder.
+609,medium,LINGER,to stay longer than expected,EFIEGLTSNR,6,LINGER is made from letters in EFIEGLTSNR (L-I-N-G-E-R). It is a valid word meaning to stay longer than expected.
+610,medium,LINGER,to stay longer than expected,KGREYILNNE,6,LINGER is made from letters in KGREYILNNE (L-I-N-G-E-R). It is a valid word meaning to stay longer than expected.
+611,medium,LINGER,to stay longer than expected,OGNLEERIG,6,LINGER is made from letters in OGNLEERIG (L-I-N-G-E-R). It is a valid word meaning to stay longer than expected.
+612,medium,LINGER,to stay longer than expected,RISLSETRRGNL,6,LINGER is made from letters in RISLSETRRGNL (L-I-N-G-E-R). It is a valid word meaning to stay longer than expected.
+613,medium,MEADOW,a field of grass,EAOWDEOAM,6,MEADOW is made from letters in EAOWDEOAM (M-E-A-D-O-W). It is a valid word meaning a field of grass.
+614,medium,MEADOW,a field of grass,GAEMOEWOD,6,MEADOW is made from letters in GAEMOEWOD (M-E-A-D-O-W). It is a valid word meaning a field of grass.
+615,medium,MEADOW,a field of grass,OGEDMEDWA,6,MEADOW is made from letters in OGEDMEDWA (M-E-A-D-O-W). It is a valid word meaning a field of grass.
+616,medium,MEADOW,a field of grass,ORMEDEWASSV,6,MEADOW is made from letters in ORMEDEWASSV (M-E-A-D-O-W). It is a valid word meaning a field of grass.
+617,medium,ORBIT,the path of a planet,BRIPTNYRO,5,ORBIT is made from letters in BRIPTNYRO (O-R-B-I-T). It is a valid word meaning the path of a planet.
+618,medium,ORBIT,the path of a planet,EETBORIRM,5,ORBIT is made from letters in EETBORIRM (O-R-B-I-T). It is a valid word meaning the path of a planet.
+619,medium,ORBIT,the path of a planet,OITTBRDI,5,ORBIT is made from letters in OITTBRDI (O-R-B-I-T). It is a valid word meaning the path of a planet.
+620,medium,ORBIT,the path of a planet,TOBMRIDE,5,ORBIT is made from letters in TOBMRIDE (O-R-B-I-T). It is a valid word meaning the path of a planet.
+621,medium,WHISPER,to speak very softly,HHIPWNOSNOERR,7,WHISPER is made from letters in HHIPWNOSNOERR (W-H-I-S-P-E-R). It is a valid word meaning to speak very softly.
+622,medium,WHISPER,to speak very softly,JHPRIEWESX,7,WHISPER is made from letters in JHPRIEWESX (W-H-I-S-P-E-R). It is a valid word meaning to speak very softly.
+623,medium,WHISPER,to speak very softly,PERHWNINRS,7,WHISPER is made from letters in PERHWNINRS (W-H-I-S-P-E-R). It is a valid word meaning to speak very softly.
+624,medium,WHISPER,to speak very softly,WSEREPHITGE,7,WHISPER is made from letters in WSEREPHITGE (W-H-I-S-P-E-R). It is a valid word meaning to speak very softly.
+625,medium,RATION,a fixed amount allowed,EALITERRNOT,6,RATION is made from letters in EALITERRNOT (R-A-T-I-O-N). It is a valid word meaning a fixed amount allowed.
+626,medium,RATION,a fixed amount allowed,ITAAANROR,6,RATION is made from letters in ITAAANROR (R-A-T-I-O-N). It is a valid word meaning a fixed amount allowed.
+627,medium,RATION,a fixed amount allowed,OTENAEITNOKR,6,RATION is made from letters in OTENAEITNOKR (R-A-T-I-O-N). It is a valid word meaning a fixed amount allowed.
+628,medium,RATION,a fixed amount allowed,TAOSARION,6,RATION is made from letters in TAOSARION (R-A-T-I-O-N). It is a valid word meaning a fixed amount allowed.
+629,medium,STUMBLE,to trip while walking,EMURNTRSBNLT,7,STUMBLE is made from letters in EMURNTRSBNLT (S-T-U-M-B-L-E). It is a valid word meaning to trip while walking.
+630,medium,STUMBLE,to trip while walking,GREUBLSTTMIIE,7,STUMBLE is made from letters in GREUBLSTTMIIE (S-T-U-M-B-L-E). It is a valid word meaning to trip while walking.
+631,medium,STUMBLE,to trip while walking,TRNENIFBSLUEM,7,STUMBLE is made from letters in TRNENIFBSLUEM (S-T-U-M-B-L-E). It is a valid word meaning to trip while walking.
+632,medium,STUMBLE,to trip while walking,UONEBSNMTTEL,7,STUMBLE is made from letters in UONEBSNMTTEL (S-T-U-M-B-L-E). It is a valid word meaning to trip while walking.
+633,medium,BEACON,a guiding light or signal,CEILSANOEEB,6,BEACON is made from letters in CEILSANOEEB (B-E-A-C-O-N). It is a valid word meaning a guiding light or signal.
+634,medium,BEACON,a guiding light or signal,ECAENEOSB,6,BEACON is made from letters in ECAENEOSB (B-E-A-C-O-N). It is a valid word meaning a guiding light or signal.
+635,medium,BEACON,a guiding light or signal,ERBBTAGONCEO,6,BEACON is made from letters in ERBBTAGONCEO (B-E-A-C-O-N). It is a valid word meaning a guiding light or signal.
+636,medium,BEACON,a guiding light or signal,NBOIIEAEC,6,BEACON is made from letters in NBOIIEAEC (B-E-A-C-O-N). It is a valid word meaning a guiding light or signal.
+637,medium,TIMBER,wood prepared for building,IEEMWRBRTA,6,TIMBER is made from letters in IEEMWRBRTA (T-I-M-B-E-R). It is a valid word meaning wood prepared for building.
+638,medium,TIMBER,wood prepared for building,OEOBIRTMA,6,TIMBER is made from letters in OEOBIRTMA (T-I-M-B-E-R). It is a valid word meaning wood prepared for building.
+639,medium,TIMBER,wood prepared for building,RBETIDMOEAI,6,TIMBER is made from letters in RBETIDMOEAI (T-I-M-B-E-R). It is a valid word meaning wood prepared for building.
+640,medium,TIMBER,wood prepared for building,TKJSIRBSPENM,6,TIMBER is made from letters in TKJSIRBSPENM (T-I-M-B-E-R). It is a valid word meaning wood prepared for building.
+641,medium,GLIMMER,a faint unsteady light,IMEEKGEGRLLME,7,GLIMMER is made from letters in IMEEKGEGRLLME (G-L-I-M-M-E-R). It is a valid word meaning a faint unsteady light.
+642,medium,GLIMMER,a faint unsteady light,LMRERGIECM,7,GLIMMER is made from letters in LMRERGIECM (G-L-I-M-M-E-R). It is a valid word meaning a faint unsteady light.
+643,medium,GLIMMER,a faint unsteady light,MILNMGEROD,7,GLIMMER is made from letters in MILNMGEROD (G-L-I-M-M-E-R). It is a valid word meaning a faint unsteady light.
+644,medium,GLIMMER,a faint unsteady light,SMMEMLGIRRMTO,7,GLIMMER is made from letters in SMMEMLGIRRMTO (G-L-I-M-M-E-R). It is a valid word meaning a faint unsteady light.
+645,medium,ORCHARD,land planted with fruit trees,AHDOEERROCRG,7,ORCHARD is made from letters in AHDOEERROCRG (O-R-C-H-A-R-D). It is a valid word meaning land planted with fruit trees.
+646,medium,ORCHARD,land planted with fruit trees,DGTCHORARL,7,ORCHARD is made from letters in DGTCHORARL (O-R-C-H-A-R-D). It is a valid word meaning land planted with fruit trees.
+647,medium,ORCHARD,land planted with fruit trees,HOATRACDZR,7,ORCHARD is made from letters in HOATRACDZR (O-R-C-H-A-R-D). It is a valid word meaning land planted with fruit trees.
+648,medium,ORCHARD,land planted with fruit trees,NCRDHEOEEALR,7,ORCHARD is made from letters in NCRDHEOEEALR (O-R-C-H-A-R-D). It is a valid word meaning land planted with fruit trees.
+649,medium,MANTLE,a loose cloak or covering,NNEEIEMAICLT,6,MANTLE is made from letters in NNEEIEMAICLT (M-A-N-T-L-E). It is a valid word meaning a loose cloak or covering.
+650,medium,MANTLE,a loose cloak or covering,NONRAMDJTLDE,6,MANTLE is made from letters in NONRAMDJTLDE (M-A-N-T-L-E). It is a valid word meaning a loose cloak or covering.
+651,medium,MANTLE,a loose cloak or covering,OCNLMLTEA,6,MANTLE is made from letters in OCNLMLTEA (M-A-N-T-L-E). It is a valid word meaning a loose cloak or covering.
+652,medium,MANTLE,a loose cloak or covering,WALENHEMT,6,MANTLE is made from letters in WALENHEMT (M-A-N-T-L-E). It is a valid word meaning a loose cloak or covering.
+653,medium,VESSEL,a ship or large container,GEYVRSLES,6,VESSEL is made from letters in GEYVRSLES (V-E-S-S-E-L). It is a valid word meaning a ship or large container.
+654,medium,VESSEL,a ship or large container,JSLOETEISVED,6,VESSEL is made from letters in JSLOETEISVED (V-E-S-S-E-L). It is a valid word meaning a ship or large container.
+655,medium,VESSEL,a ship or large container,SETIEVSLNE,6,VESSEL is made from letters in SETIEVSLNE (V-E-S-S-E-L). It is a valid word meaning a ship or large container.
+656,medium,VESSEL,a ship or large container,SSOCEAEELV,6,VESSEL is made from letters in SSOCEAEELV (V-E-S-S-E-L). It is a valid word meaning a ship or large container.
+657,medium,NIMBLE,quick and light in movement,DSQENELNIBME,6,NIMBLE is made from letters in DSQENELNIBME (N-I-M-B-L-E). It is a valid word meaning quick and light in movement.
+658,medium,NIMBLE,quick and light in movement,HLINMIEIB,6,NIMBLE is made from letters in HLINMIEIB (N-I-M-B-L-E). It is a valid word meaning quick and light in movement.
+659,medium,NIMBLE,quick and light in movement,IEBNENMSL,6,NIMBLE is made from letters in IEBNENMSL (N-I-M-B-L-E). It is a valid word meaning quick and light in movement.
+660,medium,NIMBLE,quick and light in movement,NIMVGEBLANT,6,NIMBLE is made from letters in NIMVGEBLANT (N-I-M-B-L-E). It is a valid word meaning quick and light in movement.
+661,hard,AUSTERE,plain and strict in manner,RIHEUOASEEUTE,7,AUSTERE is made from letters in RIHEUOASEEUTE (A-U-S-T-E-R-E). It is a valid word meaning plain and strict in manner.
+662,hard,AUSTERE,plain and strict in manner,RUSBEGAQTE,7,AUSTERE is made from letters in RUSBEGAQTE (A-U-S-T-E-R-E). It is a valid word meaning plain and strict in manner.
+663,hard,AUSTERE,plain and strict in manner,TEEERAUURS,7,AUSTERE is made from letters in TEEERAUURS (A-U-S-T-E-R-E). It is a valid word meaning plain and strict in manner.
+664,hard,AUSTERE,plain and strict in manner,ZAXURATSIESE,7,AUSTERE is made from letters in ZAXURATSIESE (A-U-S-T-E-R-E). It is a valid word meaning plain and strict in manner.
+665,hard,DILIGENT,careful and hard-working,EGNTSIESIDEELI,8,DILIGENT is made from letters in EGNTSIESIDEELI (D-I-L-I-G-E-N-T). It is a valid word meaning careful and hard-working.
+666,hard,DILIGENT,careful and hard-working,IFDTGEGENIIL,8,DILIGENT is made from letters in IFDTGEGENIIL (D-I-L-I-G-E-N-T). It is a valid word meaning careful and hard-working.
+667,hard,DILIGENT,careful and hard-working,NIDIINNLTGEGEE,8,DILIGENT is made from letters in NIDIINNLTGEGEE (D-I-L-I-G-E-N-T). It is a valid word meaning careful and hard-working.
+668,hard,DILIGENT,careful and hard-working,SDENIITXLGS,8,DILIGENT is made from letters in SDENIITXLGS (D-I-L-I-G-E-N-T). It is a valid word meaning careful and hard-working.
+669,hard,OBSCURE,not well known or difficult to understand,EURSBCNBARO,7,OBSCURE is made from letters in EURSBCNBARO (O-B-S-C-U-R-E). It is a valid word meaning not well known or difficult to understand.
+670,hard,OBSCURE,not well known or difficult to understand,OEIUBSIREEC,7,OBSCURE is made from letters in OEIUBSIREEC (O-B-S-C-U-R-E). It is a valid word meaning not well known or difficult to understand.
+671,hard,OBSCURE,not well known or difficult to understand,OEUSQBCMORARE,7,OBSCURE is made from letters in OEUSQBCMORARE (O-B-S-C-U-R-E). It is a valid word meaning not well known or difficult to understand.
+672,hard,OBSCURE,not well known or difficult to understand,SEUZREOBCN,7,OBSCURE is made from letters in SEUZREOBCN (O-B-S-C-U-R-E). It is a valid word meaning not well known or difficult to understand.
+673,hard,PRUDENT,wise and careful,DNTESESPNUR,7,PRUDENT is made from letters in DNTESESPNUR (P-R-U-D-E-N-T). It is a valid word meaning wise and careful.
+674,hard,PRUDENT,wise and careful,EEADNRDPUPETU,7,PRUDENT is made from letters in EEADNRDPUPETU (P-R-U-D-E-N-T). It is a valid word meaning wise and careful.
+675,hard,PRUDENT,wise and careful,ERDIETENTUP,7,PRUDENT is made from letters in ERDIETENTUP (P-R-U-D-E-N-T). It is a valid word meaning wise and careful.
+676,hard,PRUDENT,wise and careful,ZPYUENRGDECRT,7,PRUDENT is made from letters in ZPYUENRGDECRT (P-R-U-D-E-N-T). It is a valid word meaning wise and careful.
+677,hard,TANGIBLE,able to be touched or clearly felt,ANEGIETIENKBL,8,TANGIBLE is made from letters in ANEGIETIENKBL (T-A-N-G-I-B-L-E). It is a valid word meaning able to be touched or clearly felt.
+678,hard,TANGIBLE,able to be touched or clearly felt,DTINAIESLBXG,8,TANGIBLE is made from letters in DTINAIESLBXG (T-A-N-G-I-B-L-E). It is a valid word meaning able to be touched or clearly felt.
+679,hard,TANGIBLE,able to be touched or clearly felt,GAIETGOLNEZB,8,TANGIBLE is made from letters in GAIETGOLNEZB (T-A-N-G-I-B-L-E). It is a valid word meaning able to be touched or clearly felt.
+680,hard,TANGIBLE,able to be touched or clearly felt,NGQQLBAIETI,8,TANGIBLE is made from letters in NGQQLBAIETI (T-A-N-G-I-B-L-E). It is a valid word meaning able to be touched or clearly felt.
+681,hard,DORMANT,temporarily inactive,AODZNNARTM,7,DORMANT is made from letters in AODZNNARTM (D-O-R-M-A-N-T). It is a valid word meaning temporarily inactive.
+682,hard,DORMANT,temporarily inactive,MRADMENRMTOTI,7,DORMANT is made from letters in MRADMENRMTOTI (D-O-R-M-A-N-T). It is a valid word meaning temporarily inactive.
+683,hard,DORMANT,temporarily inactive,NTAEMDRRATO,7,DORMANT is made from letters in NTAEMDRRATO (D-O-R-M-A-N-T). It is a valid word meaning temporarily inactive.
+684,hard,DORMANT,temporarily inactive,RNROEDATMR,7,DORMANT is made from letters in RNROEDATMR (D-O-R-M-A-N-T). It is a valid word meaning temporarily inactive.
+685,hard,FERVENT,showing intense feeling,DNEVCRFSBNTEA,7,FERVENT is made from letters in DNEVCRFSBNTEA (F-E-R-V-E-N-T). It is a valid word meaning showing intense feeling.
+686,hard,FERVENT,showing intense feeling,NECZRTEVFT,7,FERVENT is made from letters in NECZRTEVFT (F-E-R-V-E-N-T). It is a valid word meaning showing intense feeling.
+687,hard,FERVENT,showing intense feeling,ORTFVIENDEEX,7,FERVENT is made from letters in ORTFVIENDEEX (F-E-R-V-E-N-T). It is a valid word meaning showing intense feeling.
+688,hard,FERVENT,showing intense feeling,VEVSNRIEFTETN,7,FERVENT is made from letters in VEVSNRIEFTETN (F-E-R-V-E-N-T). It is a valid word meaning showing intense feeling.
+689,hard,ELUSIVE,hard to catch or understand,CUREEVIELSN,7,ELUSIVE is made from letters in CUREEVIELSN (E-L-U-S-I-V-E). It is a valid word meaning hard to catch or understand.
+690,hard,ELUSIVE,hard to catch or understand,DIDESVEEVULOA,7,ELUSIVE is made from letters in DIDESVEEVULOA (E-L-U-S-I-V-E). It is a valid word meaning hard to catch or understand.
+691,hard,ELUSIVE,hard to catch or understand,EIBETIVLUS,7,ELUSIVE is made from letters in EIBETIVLUS (E-L-U-S-I-V-E). It is a valid word meaning hard to catch or understand.
+692,hard,ELUSIVE,hard to catch or understand,XITBTSEBLSEVU,7,ELUSIVE is made from letters in XITBTSEBLSEVU (E-L-U-S-I-V-E). It is a valid word meaning hard to catch or understand.
+693,hard,CANDID,truthful and direct,CNZAINERQDD,6,CANDID is made from letters in CNZAINERQDD (C-A-N-D-I-D). It is a valid word meaning truthful and direct.
+694,hard,CANDID,truthful and direct,DDDACNTIA,6,CANDID is made from letters in DDDACNTIA (C-A-N-D-I-D). It is a valid word meaning truthful and direct.
+695,hard,CANDID,truthful and direct,HTCINADIDE,6,CANDID is made from letters in HTCINADIDE (C-A-N-D-I-D). It is a valid word meaning truthful and direct.
+696,hard,CANDID,truthful and direct,NCIIDDTATXE,6,CANDID is made from letters in NCIIDDTATXE (C-A-N-D-I-D). It is a valid word meaning truthful and direct.
+697,hard,SOLACE,comfort in sadness,AECERSLGOAO,6,SOLACE is made from letters in AECERSLGOAO (S-O-L-A-C-E). It is a valid word meaning comfort in sadness.
+698,hard,SOLACE,comfort in sadness,ALROAESNC,6,SOLACE is made from letters in ALROAESNC (S-O-L-A-C-E). It is a valid word meaning comfort in sadness.
+699,hard,SOLACE,comfort in sadness,LAPEOSECRSAS,6,SOLACE is made from letters in LAPEOSECRSAS (S-O-L-A-C-E). It is a valid word meaning comfort in sadness.
+700,hard,SOLACE,comfort in sadness,LLAEAVGSEAOC,6,SOLACE is made from letters in LLAEAVGSEAOC (S-O-L-A-C-E). It is a valid word meaning comfort in sadness.
+701,hard,RESILIENT,able to recover quickly,ESTIELROGENEEI,9,RESILIENT is made from letters in ESTIELROGENEEI (R-E-S-I-L-I-E-N-T). It is a valid word meaning able to recover quickly.
+702,hard,RESILIENT,able to recover quickly,SEANIEAEERGLITS,9,RESILIENT is made from letters in SEANIEAEERGLITS (R-E-S-I-L-I-E-N-T). It is a valid word meaning able to recover quickly.
+703,hard,RESILIENT,able to recover quickly,TNIOIASIEDELEOR,9,RESILIENT is made from letters in TNIOIASIEDELEOR (R-E-S-I-L-I-E-N-T). It is a valid word meaning able to recover quickly.
+704,hard,RESILIENT,able to recover quickly,TSLEEROININRN,9,RESILIENT is made from letters in TSLEEROININRN (R-E-S-I-L-I-E-N-T). It is a valid word meaning able to recover quickly.
+705,hard,MEANDER,to wander without a clear direction,ASEMDRNZNE,7,MEANDER is made from letters in ASEMDRNZNE (M-E-A-N-D-E-R). It is a valid word meaning to wander without a clear direction.
+706,hard,MEANDER,to wander without a clear direction,EDNDUMAEHREE,7,MEANDER is made from letters in EDNDUMAEHREE (M-E-A-N-D-E-R). It is a valid word meaning to wander without a clear direction.
+707,hard,MEANDER,to wander without a clear direction,ERAEMNWWDDQ,7,MEANDER is made from letters in ERAEMNWWDDQ (M-E-A-N-D-E-R). It is a valid word meaning to wander without a clear direction.
+708,hard,MEANDER,to wander without a clear direction,SRDEEEAMNNM,7,MEANDER is made from letters in SRDEEEAMNNM (M-E-A-N-D-E-R). It is a valid word meaning to wander without a clear direction.
+709,hard,PINNACLE,the highest point,CLEEINNAUEAP,8,PINNACLE is made from letters in CLEEINNAUEAP (P-I-N-N-A-C-L-E). It is a valid word meaning the highest point.
+710,hard,PINNACLE,the highest point,EILCENEPANZ,8,PINNACLE is made from letters in EILCENEPANZ (P-I-N-N-A-C-L-E). It is a valid word meaning the highest point.
+711,hard,PINNACLE,the highest point,IENNLINYPCEA,8,PINNACLE is made from letters in IENNLINYPCEA (P-I-N-N-A-C-L-E). It is a valid word meaning the highest point.
+712,hard,PINNACLE,the highest point,IILAONNPCHEN,8,PINNACLE is made from letters in IILAONNPCHEN (P-I-N-N-A-C-L-E). It is a valid word meaning the highest point.
+713,hard,EMULATE,to copy in order to match,EEUMTNLAMN,7,EMULATE is made from letters in EEUMTNLAMN (E-M-U-L-A-T-E). It is a valid word meaning to copy in order to match.
+714,hard,EMULATE,to copy in order to match,IEUAZLMETA,7,EMULATE is made from letters in IEUAZLMETA (E-M-U-L-A-T-E). It is a valid word meaning to copy in order to match.
+715,hard,EMULATE,to copy in order to match,RUDTEMLAOE,7,EMULATE is made from letters in RUDTEMLAOE (E-M-U-L-A-T-E). It is a valid word meaning to copy in order to match.
+716,hard,EMULATE,to copy in order to match,STHMUENOLRAE,7,EMULATE is made from letters in STHMUENOLRAE (E-M-U-L-A-T-E). It is a valid word meaning to copy in order to match.
+717,hard,FRACTURE,a crack or break,AORGCTFEUGTR,8,FRACTURE is made from letters in AORGCTFEUGTR (F-R-A-C-T-U-R-E). It is a valid word meaning a crack or break.
+718,hard,FRACTURE,a crack or break,EIQEEARCEUFERT,8,FRACTURE is made from letters in EIQEEARCEUFERT (F-R-A-C-T-U-R-E). It is a valid word meaning a crack or break.
+719,hard,FRACTURE,a crack or break,ERERETRAUWFC,8,FRACTURE is made from letters in ERERETRAUWFC (F-R-A-C-T-U-R-E). It is a valid word meaning a crack or break.
+720,hard,FRACTURE,a crack or break,RUATEFCEERESFR,8,FRACTURE is made from letters in RUATEFCEERESFR (F-R-A-C-T-U-R-E). It is a valid word meaning a crack or break.
+721,hard,CRYPTIC,mysterious and hard to understand,CIRCPESETAEY,7,CRYPTIC is made from letters in CIRCPESETAEY (C-R-Y-P-T-I-C). It is a valid word meaning mysterious and hard to understand.
+722,hard,CRYPTIC,mysterious and hard to understand,CZRYCCITPD,7,CRYPTIC is made from letters in CZRYCCITPD (C-R-Y-P-T-I-C). It is a valid word meaning mysterious and hard to understand.
+723,hard,CRYPTIC,mysterious and hard to understand,PMRCIYCRRIT,7,CRYPTIC is made from letters in PMRCIYCRRIT (C-R-Y-P-T-I-C). It is a valid word meaning mysterious and hard to understand.
+724,hard,CRYPTIC,mysterious and hard to understand,YRTCEPEEICS,7,CRYPTIC is made from letters in YRTCEPEEICS (C-R-Y-P-T-I-C). It is a valid word meaning mysterious and hard to understand.
+725,hard,VIGILANT,watchful and alert,GEIREAINTVWTL,8,VIGILANT is made from letters in GEIREAINTVWTL (V-I-G-I-L-A-N-T). It is a valid word meaning watchful and alert.
+726,hard,VIGILANT,watchful and alert,ILGVPETITANEE,8,VIGILANT is made from letters in ILGVPETITANEE (V-I-G-I-L-A-N-T). It is a valid word meaning watchful and alert.
+727,hard,VIGILANT,watchful and alert,KIIVALTGAENI,8,VIGILANT is made from letters in KIIVALTGAENI (V-I-G-I-L-A-N-T). It is a valid word meaning watchful and alert.
+728,hard,VIGILANT,watchful and alert,NLEGAINTNSISVA,8,VIGILANT is made from letters in NLEGAINTNSISVA (V-I-G-I-L-A-N-T). It is a valid word meaning watchful and alert.
+729,hard,COHERENT,clear and logically connected,EARCVONCHET,8,COHERENT is made from letters in EARCVONCHET (C-O-H-E-R-E-N-T). It is a valid word meaning clear and logically connected.
+730,hard,COHERENT,clear and logically connected,ENRECOHCTOSR,8,COHERENT is made from letters in ENRECOHCTOSR (C-O-H-E-R-E-N-T). It is a valid word meaning clear and logically connected.
+731,hard,COHERENT,clear and logically connected,GNOHECTRNYE,8,COHERENT is made from letters in GNOHECTRNYE (C-O-H-E-R-E-N-T). It is a valid word meaning clear and logically connected.
+732,hard,COHERENT,clear and logically connected,RFEEYONRJQTHC,8,COHERENT is made from letters in RFEEYONRJQTHC (C-O-H-E-R-E-N-T). It is a valid word meaning clear and logically connected.
+733,hard,INTRICATE,very detailed and complicated,EIISECANRTTORRE,9,INTRICATE is made from letters in EIISECANRTTORRE (I-N-T-R-I-C-A-T-E). It is a valid word meaning very detailed and complicated.
+734,hard,INTRICATE,very detailed and complicated,QRCISEITTAEN,9,INTRICATE is made from letters in QRCISEITTAEN (I-N-T-R-I-C-A-T-E). It is a valid word meaning very detailed and complicated.
+735,hard,INTRICATE,very detailed and complicated,TNIARETNICEHQ,9,INTRICATE is made from letters in TNIARETNICEHQ (I-N-T-R-I-C-A-T-E). It is a valid word meaning very detailed and complicated.
+736,hard,INTRICATE,very detailed and complicated,TTAAQONIIENRTIC,9,INTRICATE is made from letters in TTAAQONIIENRTIC (I-N-T-R-I-C-A-T-E). It is a valid word meaning very detailed and complicated.
+737,hard,BENEVOLENT,kind and generous,ELBVTEKNKONETJO,10,BENEVOLENT is made from letters in ELBVTEKNKONETJO (B-E-N-E-V-O-L-E-N-T). It is a valid word meaning kind and generous.
+738,hard,BENEVOLENT,kind and generous,LVTEBOEOANANAE,10,BENEVOLENT is made from letters in LVTEBOEOANANAE (B-E-N-E-V-O-L-E-N-T). It is a valid word meaning kind and generous.
+739,hard,BENEVOLENT,kind and generous,NVEBELATEGRONNNB,10,BENEVOLENT is made from letters in NVEBELATEGRONNNB (B-E-N-E-V-O-L-E-N-T). It is a valid word meaning kind and generous.
+740,hard,BENEVOLENT,kind and generous,TBNEONEETKREIVNL,10,BENEVOLENT is made from letters in TBNEONEETKREIVNL (B-E-N-E-V-O-L-E-N-T). It is a valid word meaning kind and generous.
+741,hard,AUDACITY,boldness and nerve,ADTRUACUUAYIA,8,AUDACITY is made from letters in ADTRUACUUAYIA (A-U-D-A-C-I-T-Y). It is a valid word meaning boldness and nerve.
+742,hard,AUDACITY,boldness and nerve,ANAYIECTAOUDM,8,AUDACITY is made from letters in ANAYIECTAOUDM (A-U-D-A-C-I-T-Y). It is a valid word meaning boldness and nerve.
+743,hard,AUDACITY,boldness and nerve,DATIGTAICUY,8,AUDACITY is made from letters in DATIGTAICUY (A-U-D-A-C-I-T-Y). It is a valid word meaning boldness and nerve.
+744,hard,AUDACITY,boldness and nerve,YSOIEATTDUCA,8,AUDACITY is made from letters in YSOIEATTDUCA (A-U-D-A-C-I-T-Y). It is a valid word meaning boldness and nerve.
+745,hard,IMPLICIT,suggested without being directly stated,CITISMEOLPI,8,IMPLICIT is made from letters in CITISMEOLPI (I-M-P-L-I-C-I-T). It is a valid word meaning suggested without being directly stated.
+746,hard,IMPLICIT,suggested without being directly stated,CMINPUILXNREIT,8,IMPLICIT is made from letters in CMINPUILXNREIT (I-M-P-L-I-C-I-T). It is a valid word meaning suggested without being directly stated.
+747,hard,IMPLICIT,suggested without being directly stated,IICPIUMTUEL,8,IMPLICIT is made from letters in IICPIUMTUEL (I-M-P-L-I-C-I-T). It is a valid word meaning suggested without being directly stated.
+748,hard,IMPLICIT,suggested without being directly stated,MTEIIPJLICE,8,IMPLICIT is made from letters in MTEIIPJLICE (I-M-P-L-I-C-I-T). It is a valid word meaning suggested without being directly stated.
+749,hard,FORMIDABLE,causing fear or respect,EAEODRFOMLIBEM,10,FORMIDABLE is made from letters in EAEODRFOMLIBEM (F-O-R-M-I-D-A-B-L-E). It is a valid word meaning causing fear or respect.
+750,hard,FORMIDABLE,causing fear or respect,EDOMFIRTLVNBAO,10,FORMIDABLE is made from letters in EDOMFIRTLVNBAO (F-O-R-M-I-D-A-B-L-E). It is a valid word meaning causing fear or respect.
+751,hard,FORMIDABLE,causing fear or respect,MEBRARDOTFOOLDI,10,FORMIDABLE is made from letters in MEBRARDOTFOOLDI (F-O-R-M-I-D-A-B-L-E). It is a valid word meaning causing fear or respect.
+752,hard,FORMIDABLE,causing fear or respect,MEDIEIOFLAEEBR,10,FORMIDABLE is made from letters in MEDIEIOFLAEEBR (F-O-R-M-I-D-A-B-L-E). It is a valid word meaning causing fear or respect.
+753,hard,OBSOLETE,no longer used,ETEOLBUEEAOS,8,OBSOLETE is made from letters in ETEOLBUEEAOS (O-B-S-O-L-E-T-E). It is a valid word meaning no longer used.
+754,hard,OBSOLETE,no longer used,ETRNLSBOIEO,8,OBSOLETE is made from letters in ETRNLSBOIEO (O-B-S-O-L-E-T-E). It is a valid word meaning no longer used.
+755,hard,OBSOLETE,no longer used,LBEIOSOREETHE,8,OBSOLETE is made from letters in LBEIOSOREETHE (O-B-S-O-L-E-T-E). It is a valid word meaning no longer used.
+756,hard,OBSOLETE,no longer used,TBCEAETSIOLEOE,8,OBSOLETE is made from letters in TBCEAETSIOLEOE (O-B-S-O-L-E-T-E). It is a valid word meaning no longer used.
+757,hard,TRANQUIL,calm and peaceful,NIUTNMRALQR,8,TRANQUIL is made from letters in NIUTNMRALQR (T-R-A-N-Q-U-I-L). It is a valid word meaning calm and peaceful.
+758,hard,TRANQUIL,calm and peaceful,SNQTSBLAIAURR,8,TRANQUIL is made from letters in SNQTSBLAIAURR (T-R-A-N-Q-U-I-L). It is a valid word meaning calm and peaceful.
+759,hard,TRANQUIL,calm and peaceful,UQTIOINFARLIA,8,TRANQUIL is made from letters in UQTIOINFARLIA (T-R-A-N-Q-U-I-L). It is a valid word meaning calm and peaceful.
+760,hard,TRANQUIL,calm and peaceful,UTRAQINEDPL,8,TRANQUIL is made from letters in UTRAQINEDPL (T-R-A-N-Q-U-I-L). It is a valid word meaning calm and peaceful.

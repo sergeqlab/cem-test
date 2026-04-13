@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Selected Letters Test</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --border: #dbe2ea;
+      --primary: #0f172a;
+      --primary-2: #334155;
+      --easy-bg: #dcfce7;
+      --easy-text: #166534;
+      --medium-bg: #fef3c7;
+      --medium-text: #92400e;
+      --hard-bg: #ffe4e6;
+      --hard-text: #be123c;
+      --danger-bg: #fef2f2;
+      --danger-text: #b91c1c;
+      --ok-bg: #ecfdf5;
+      --ok-text: #065f46;
+      --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+      --radius: 18px;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .container {
+      max-width: 1150px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-start;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 32px;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      max-width: 800px;
+      line-height: 1.5;
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 20px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 20px;
+    }
+
+    .grid-2 {
+      grid-template-columns: 1.2fr 0.8fr;
+    }
+
+    .grid-3 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid-4 {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    @media (max-width: 900px) {
+      .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+    }
+
+    .hidden { display: none !important; }
+
+    label {
+      display: block;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    textarea,
+    input[type="file"] {
+      width: 100%;
+      padding: 12px 14px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: white;
+      color: var(--text);
+      font-size: 15px;
+    }
+
+    textarea {
+      min-height: 180px;
+      resize: vertical;
+      line-height: 1.45;
+    }
+
+    .btn {
+      border: 0;
+      border-radius: 12px;
+      padding: 12px 16px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      background: var(--primary);
+      color: white;
+    }
+
+    .btn.secondary {
+      background: white;
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    .btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border-radius: 999px;
+      padding: 7px 12px;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+    }
+
+    .easy { background: var(--easy-bg); color: var(--easy-text); }
+    .medium { background: var(--medium-bg); color: var(--medium-text); }
+    .hard { background: var(--hard-bg); color: var(--hard-text); }
+    .ok { background: var(--ok-bg); color: var(--ok-text); }
+    .danger { background: var(--danger-bg); color: var(--danger-text); }
+
+    .section-title {
+      font-size: 20px;
+      font-weight: 800;
+      margin: 0 0 16px;
+    }
+
+    .muted { color: var(--muted); }
+    .small { font-size: 13px; }
+
+    .stat-box {
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 16px;
+      text-align: center;
+    }
+
+    .stat-box .big {
+      font-size: 30px;
+      font-weight: 800;
+    }
+
+    .alert {
+      margin-bottom: 18px;
+      border-radius: 14px;
+      padding: 14px 16px;
+      border: 1px solid #fecaca;
+      background: #fff1f2;
+      color: #9f1239;
+      font-weight: 600;
+    }
+
+    .info-box {
+      border-radius: 14px;
+      background: #f1f5f9;
+      padding: 14px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .issues {
+      max-height: 260px;
+      overflow: auto;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 12px;
+      background: white;
+    }
+
+    .issues div {
+      padding: 6px 0;
+      color: #be123c;
+      border-bottom: 1px dashed #f1f5f9;
+    }
+
+    .issues div:last-child { border-bottom: 0; }
+
+    .test-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 18px;
+    }
+
+    .progress {
+      width: 100%;
+      height: 12px;
+      background: #e2e8f0;
+      border-radius: 999px;
+      overflow: hidden;
+      margin: 16px 0 8px;
+    }
+
+    .progress > div {
+      height: 100%;
+      background: var(--primary);
+      width: 0%;
+      transition: width 0.2s ease;
+    }
+
+    .question-block {
+      border-radius: 16px;
+      background: #f8fafc;
+      padding: 18px;
+      margin-bottom: 18px;
+    }
+
+    .clue {
+      font-size: 28px;
+      font-weight: 800;
+      margin-top: 8px;
+    }
+
+    .letters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .letter-box {
+      width: 50px;
+      height: 50px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: white;
+      font-size: 22px;
+      font-weight: 800;
+      box-shadow: 0 3px 10px rgba(15, 23, 42, 0.05);
+    }
+
+    .review-item {
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 16px;
+      margin-bottom: 14px;
+      background: white;
+    }
+
+    .review-top {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+      align-items: center;
+    }
+
+    .kvs {
+      display: grid;
+      gap: 7px;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+    }
+
+    .tab {
+      padding: 10px 16px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: white;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .tab.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div>
+        <h1>Selected Letters</h1>
+        <div class="subtitle">
+          Run a timed test in the browser, review answers, and export results.
+        </div>
+      </div>
+      <div class="actions">
+        <button class="btn secondary" id="resetAppBtn">Reset</button>
+        <button class="btn secondary" id="exportCsvBtn" disabled>Export Clean CSV</button>
+      </div>
+    </div>
+
+    <div id="errorBox" class="alert hidden"></div>
+
+    <div class="tabs">
+      <button class="tab active" data-view="setup">Setup</button>
+      <button class="tab" data-view="test">Test</button>
+      <button class="tab" data-view="review">Review</button>
+    </div>
+
+    <section id="setupView">
+      <div class="grid grid-2">
+        <div class="card">
+          <h2 class="section-title">Upload CSV</h2>
+          <div style="margin-bottom: 16px;">
+            <label for="fileInput">Question file</label>
+            <input id="fileInput" type="file" accept=".csv,text/csv" />
+            <div id="loadedFileName" class="small muted" style="margin-top: 8px;"></div>
+          </div>
+
+          <div class="grid grid-2" style="margin-bottom: 16px;">
+            <div>
+              <label for="totalQuestions">Total questions</label>
+              <input id="totalQuestions" type="number" min="1" value="21" />
+            </div>
+            <div>
+              <label for="timeLimit">Time limit (minutes)</label>
+              <input id="timeLimit" type="number" min="1" value="8" />
+            </div>
+          </div>
+
+          <div class="grid grid-3" style="margin-bottom: 16px;">
+            <div>
+              <label for="easyCount">Easy</label>
+              <input id="easyCount" type="number" min="0" value="7" />
+            </div>
+            <div>
+              <label for="mediumCount">Medium</label>
+              <input id="mediumCount" type="number" min="0" value="7" />
+            </div>
+            <div>
+              <label for="hardCount">Hard</label>
+              <input id="hardCount" type="number" min="0" value="7" />
+            </div>
+          </div>
+
+          <div class="info-box" style="margin-bottom: 16px;">
+            Required columns: <strong>source_word, clue, answer, difficulty</strong>.<br>
+            Optional columns: <strong>id, answer_length, explanation</strong>.<br>
+            Missing explanations are generated automatically.
+          </div>
+
+          <div class="actions">
+            <button class="btn" id="startTestBtn">Start test</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2 class="section-title">Bank summary</h2>
+          <div class="grid grid-3" style="margin-bottom: 16px;">
+            <div class="stat-box" style="background:#ecfdf5;">
+              <div id="easyTotal" class="big" style="color:#166534;">0</div>
+              <div class="small" style="color:#166534;">Easy</div>
+            </div>
+            <div class="stat-box" style="background:#fffbeb;">
+              <div id="mediumTotal" class="big" style="color:#92400e;">0</div>
+              <div class="small" style="color:#92400e;">Medium</div>
+            </div>
+            <div class="stat-box" style="background:#fff1f2;">
+              <div id="hardTotal" class="big" style="color:#be123c;">0</div>
+              <div class="small" style="color:#be123c;">Hard</div>
+            </div>
+          </div>
+
+          <div class="stat-box" style="margin-bottom:16px; text-align:left;">
+            <div class="small muted">Total valid questions</div>
+            <div id="validTotal" class="big">0</div>
+          </div>
+
+          <div>
+            <div style="font-weight:800; margin-bottom:10px;">Validation issues</div>
+            <div id="issuesBox" class="issues">
+              <div style="color:#64748b;">No issues found.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:20px;">
+        <h2 class="section-title">Optional: paste CSV text</h2>
+        <textarea id="csvTextArea" placeholder="Paste CSV content here if you do not want to upload a file."></textarea>
+      </div>
+    </section>
+
+    <section id="testView" class="hidden">
+      <div class="card">
+        <div class="test-header">
+          <div>
+            <h2 class="section-title" style="margin-bottom:6px;">Live test</h2>
+            <div id="testMeta" class="small muted"></div>
+          </div>
+          <div id="timerPill" class="pill" style="background:#e2e8f0;color:#0f172a;">00:00</div>
+        </div>
+
+        <div class="progress"><div id="progressBar"></div></div>
+
+        <div id="questionArea"></div>
+
+        <div style="margin-bottom: 14px;">
+          <label for="answerInput">Your answer</label>
+          <input id="answerInput" type="text" placeholder="Type answer" autocomplete="off" />
+          <div id="answerSlots" class="letters"></div>
+        </div>
+
+        <div class="actions">
+          <button class="btn" id="submitAnswerBtn">Submit</button>
+          <button class="btn secondary" id="skipBtn">Skip</button>
+          <button class="btn secondary" id="finishEarlyBtn">Finish early</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviewView" class="hidden">
+      <div class="grid grid-2">
+        <div class="card">
+          <h2 class="section-title">Results summary</h2>
+          <div class="stat-box" style="background:#f1f5f9; text-align:left; margin-bottom:16px;">
+            <div class="small muted">Final score</div>
+            <div id="finalScore" class="big">0/0</div>
+          </div>
+
+          <div class="grid grid-2" style="margin-bottom: 16px;">
+            <div class="stat-box">
+              <div id="wrongTotal" class="big">0</div>
+              <div class="small muted">Wrong</div>
+            </div>
+            <div class="stat-box">
+              <div id="skippedTotal" class="big">0</div>
+              <div class="small muted">Skipped</div>
+            </div>
+          </div>
+
+          <div class="stat-box" style="margin-bottom: 10px; text-align:left;">
+            <div><strong>Easy:</strong> <span id="easyReview">0/0</span></div>
+          </div>
+          <div class="stat-box" style="margin-bottom: 10px; text-align:left;">
+            <div><strong>Medium:</strong> <span id="mediumReview">0/0</span></div>
+          </div>
+          <div class="stat-box" style="margin-bottom: 16px; text-align:left;">
+            <div><strong>Hard:</strong> <span id="hardReview">0/0</span></div>
+          </div>
+
+          <div class="actions">
+            <button class="btn" id="exportResultsBtn">Export results</button>
+            <button class="btn secondary" id="newTestBtn">New test</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2 class="section-title">Detailed review</h2>
+          <div id="reviewList"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const state = {
+      rawCsvText: "",
+      fileName: "",
+      questionBank: [],
+      issues: [],
+      testQuestions: [],
+      responses: [],
+      currentIndex: 0,
+      startedAt: null,
+      timeLeft: 0,
+      timerId: null,
+      phase: "setup"
+    };
+
+    const REQUIRED_COLUMNS = ["source_word", "clue", "answer", "difficulty"];
+
+    const els = {
+      errorBox: document.getElementById("errorBox"),
+      fileInput: document.getElementById("fileInput"),
+      loadedFileName: document.getElementById("loadedFileName"),
+      csvTextArea: document.getElementById("csvTextArea"),
+      totalQuestions: document.getElementById("totalQuestions"),
+      timeLimit: document.getElementById("timeLimit"),
+      easyCount: document.getElementById("easyCount"),
+      mediumCount: document.getElementById("mediumCount"),
+      hardCount: document.getElementById("hardCount"),
+      startTestBtn: document.getElementById("startTestBtn"),
+      resetAppBtn: document.getElementById("resetAppBtn"),
+      exportCsvBtn: document.getElementById("exportCsvBtn"),
+      easyTotal: document.getElementById("easyTotal"),
+      mediumTotal: document.getElementById("mediumTotal"),
+      hardTotal: document.getElementById("hardTotal"),
+      validTotal: document.getElementById("validTotal"),
+      issuesBox: document.getElementById("issuesBox"),
+      setupView: document.getElementById("setupView"),
+      testView: document.getElementById("testView"),
+      reviewView: document.getElementById("reviewView"),
+      questionArea: document.getElementById("questionArea"),
+      answerInput: document.getElementById("answerInput"),
+      answerSlots: document.getElementById("answerSlots"),
+      testMeta: document.getElementById("testMeta"),
+      timerPill: document.getElementById("timerPill"),
+      progressBar: document.getElementById("progressBar"),
+      submitAnswerBtn: document.getElementById("submitAnswerBtn"),
+      skipBtn: document.getElementById("skipBtn"),
+      finishEarlyBtn: document.getElementById("finishEarlyBtn"),
+      exportResultsBtn: document.getElementById("exportResultsBtn"),
+      newTestBtn: document.getElementById("newTestBtn"),
+      finalScore: document.getElementById("finalScore"),
+      wrongTotal: document.getElementById("wrongTotal"),
+      skippedTotal: document.getElementById("skippedTotal"),
+      easyReview: document.getElementById("easyReview"),
+      mediumReview: document.getElementById("mediumReview"),
+      hardReview: document.getElementById("hardReview"),
+      reviewList: document.getElementById("reviewList"),
+      tabs: document.querySelectorAll(".tab")
+    };
+
+    function setError(message) {
+      if (!message) {
+        els.errorBox.classList.add("hidden");
+        els.errorBox.textContent = "";
+        return;
+      }
+      els.errorBox.textContent = message;
+      els.errorBox.classList.remove("hidden");
+    }
+
+    function switchView(view) {
+      state.phase = view;
+      els.setupView.classList.toggle("hidden", view !== "setup");
+      els.testView.classList.toggle("hidden", view !== "test");
+      els.reviewView.classList.toggle("hidden", view !== "review");
+      els.tabs.forEach(tab => tab.classList.toggle("active", tab.dataset.view === view));
+    }
+
+    function normalizeDifficulty(value) {
+      const d = String(value || "").trim().toLowerCase();
+      return ["easy", "medium", "hard"].includes(d) ? d : "";
+    }
+
+    function formatTime(seconds) {
+      const s = Math.max(0, Math.floor(seconds));
+      const mins = Math.floor(s / 60);
+      const secs = s % 60;
+      return String(mins).padStart(2, "0") + ":" + String(secs).padStart(2, "0");
+    }
+
+    function parseCsv(text) {
+      const rows = [];
+      let current = "";
+      let row = [];
+      let inQuotes = false;
+
+      for (let i = 0; i < text.length; i++) {
+        const char = text[i];
+        const next = text[i + 1];
+
+        if (char === '"') {
+          if (inQuotes && next === '"') {
+            current += '"';
+            i++;
+          } else {
+            inQuotes = !inQuotes;
+          }
+        } else if (char === "," && !inQuotes) {
+          row.push(current);
+          current = "";
+        } else if ((char === "\n" || char === "\r") && !inQuotes) {
+          if (char === "\r" && next === "\n") i++;
+          row.push(current);
+          if (row.some(cell => String(cell).trim() !== "")) rows.push(row);
+          row = [];
+          current = "";
+        } else {
+          current += char;
+        }
+      }
+
+      row.push(current);
+      if (row.some(cell => String(cell).trim() !== "")) rows.push(row);
+      if (!rows.length) return { headers: [], data: [] };
+
+      const headers = rows[0].map(h => String(h || "").trim());
+      const data = rows.slice(1).map((r, index) => {
+        const obj = {};
+        headers.forEach((header, i) => obj[header] = String(r[i] ?? "").trim());
+        obj.__rowNum = index + 2;
+        return obj;
+      });
+
+      return { headers, data };
+    }
+
+    function canFormWord(source, answer) {
+      const sourceCounts = {};
+      const answerCounts = {};
+      for (const ch of source) sourceCounts[ch] = (sourceCounts[ch] || 0) + 1;
+      for (const ch of answer) answerCounts[ch] = (answerCounts[ch] || 0) + 1;
+      return Object.keys(answerCounts).every(ch => (sourceCounts[ch] || 0) >= answerCounts[ch]);
+    }
+
+    function buildExplanation(question) {
+      if (question.explanation && question.explanation.trim()) return question.explanation.trim();
+      const letters = question.answer.split("").join("-");
+      const clue = String(question.clue || "").trim().replace(/[.]+$/, "");
+      return `${question.answer} is made from letters in ${question.source_word} (${letters}). It is a valid word that matches the clue: ${clue}.`;
+    }
+
+    function validateQuestions(rawRows) {
+      const issues = [];
+      const valid = [];
+
+      rawRows.forEach((row, idx) => {
+        const question = {
+          id: row.id || String(idx + 1),
+          source_word: String(row.source_word || "").trim().toUpperCase(),
+          clue: String(row.clue || "").trim(),
+          answer: String(row.answer || "").trim().toUpperCase(),
+          answer_length: Number.parseInt(row.answer_length || "", 10),
+          difficulty: normalizeDifficulty(row.difficulty),
+          explanation: String(row.explanation || "").trim(),
+          __rowNum: row.__rowNum
+        };
+
+        const missing = REQUIRED_COLUMNS.filter(col => !String(row[col] || "").trim());
+        if (missing.length) {
+          issues.push(`Row ${question.__rowNum}: missing ${missing.join(", ")}`);
+          return;
+        }
+
+        if (!question.difficulty) {
+          issues.push(`Row ${question.__rowNum}: difficulty must be easy, medium, or hard`);
+          return;
+        }
+
+        if (!question.answer_length || Number.isNaN(question.answer_length)) {
+          question.answer_length = question.answer.length;
+        }
+        if (question.answer_length !== question.answer.length) {
+          question.answer_length = question.answer.length;
+        }
+
+        if (!canFormWord(question.source_word, question.answer)) {
+          issues.push(`Row ${question.__rowNum}: answer ${question.answer} cannot be formed from ${question.source_word}`);
+          return;
+        }
+
+        question.explanation = buildExplanation(question);
+        valid.push(question);
+      });
+
+      return { valid, issues };
+    }
+
+    function shuffle(arr) {
+      const copy = [...arr];
+      for (let i = copy.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [copy[i], copy[j]] = [copy[j], copy[i]];
+      }
+      return copy;
+    }
+
+    function buildTestBank(bank, mix) {
+      const byDifficulty = { easy: [], medium: [], hard: [] };
+      bank.forEach(q => byDifficulty[q.difficulty].push(q));
+
+      for (const level of ["easy", "medium", "hard"]) {
+        if (byDifficulty[level].length < mix[level]) {
+          throw new Error(`Not enough ${level} questions. Need ${mix[level]}, found ${byDifficulty[level].length}.`);
+        }
+      }
+
+      return shuffle([
+        ...shuffle(byDifficulty.easy).slice(0, mix.easy),
+        ...shuffle(byDifficulty.medium).slice(0, mix.medium),
+        ...shuffle(byDifficulty.hard).slice(0, mix.hard)
+      ]);
+    }
+
+    function renderSummary() {
+      const counts = { easy: 0, medium: 0, hard: 0 };
+      state.questionBank.forEach(q => counts[q.difficulty]++);
+      els.easyTotal.textContent = counts.easy;
+      els.mediumTotal.textContent = counts.medium;
+      els.hardTotal.textContent = counts.hard;
+      els.validTotal.textContent = state.questionBank.length;
+      els.exportCsvBtn.disabled = !state.questionBank.length;
+
+      if (!state.issues.length) {
+        els.issuesBox.innerHTML = '<div style="color:#64748b;">No issues found.</div>';
+      } else {
+        els.issuesBox.innerHTML = state.issues.map(issue => `<div>${escapeHtml(issue)}</div>`).join("");
+      }
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function updateFromCsvText(text) {
+      state.rawCsvText = text;
+      const parsed = parseCsv(text);
+      const validated = validateQuestions(parsed.data);
+      state.questionBank = validated.valid;
+      state.issues = validated.issues;
+      // ---- OPTIONAL: AUTO-LOAD DEFAULT CSV FROM URL ----
+    async function loadDefaultCsv(url) {
+      try {
+        const res = await fetch(url);
+        if (!res.ok) throw new Error("Failed to fetch default CSV");
+        const text = await res.text();
+        state.fileName = url.split("/").pop();
+        els.loadedFileName.textContent = `Loaded (default): ${state.fileName}`;
+        els.csvTextArea.value = text;
+        updateFromCsvText(text);
+      } catch (err) {
+        console.warn("Default CSV load failed:", err);
+      }
+    }
+
+    // 👉 SET YOUR GITHUB RAW CSV LINK HERE
+    const DEFAULT_CSV_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/selected_letters_questions.csv";
+
+    // Auto-load on page start
+    if (DEFAULT_CSV_URL.includes("githubusercontent")) {
+      loadDefaultCsv(DEFAULT_CSV_URL);
+    }
+
+    renderSummary();
+      setError("");
+    }
+
+    function renderQuestion() {
+      const q = state.testQuestions[state.currentIndex];
+      if (!q) return;
+
+      const answeredCount = state.responses.length;
+      const correctCount = state.responses.filter(r => r.correct).length;
+      const progress = ((state.currentIndex) / state.testQuestions.length) * 100;
+
+      els.testMeta.textContent = `Question ${state.currentIndex + 1}/${state.testQuestions.length} • Answered ${answeredCount} • Score ${correctCount}`;
+      els.progressBar.style.width = progress + "%";
+      els.timerPill.textContent = formatTime(state.timeLeft);
+      els.timerPill.style.background = state.timeLeft <= 60 ? '#fee2e2' : state.timeLeft <= 120 ? '#fef3c7' : '#e2e8f0';
+      els.timerPill.style.color = state.timeLeft <= 60 ? '#b91c1c' : state.timeLeft <= 120 ? '#92400e' : '#0f172a';
+
+      els.questionArea.innerHTML = `
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:14px; flex-wrap:wrap;">
+          <span class="pill ${q.difficulty}">${q.difficulty.toUpperCase()}</span>
+          <span class="small muted">${q.answer_length} letters</span>
+        </div>
+        <div class="question-block">
+          <div class="small muted" style="font-weight:700;">Clue</div>
+          <div class="clue">${escapeHtml(q.clue)}</div>
+        </div>
+        <div class="card" style="box-shadow:none; padding:18px; margin-bottom:18px;">
+          <div class="small muted" style="font-weight:700;">Source word</div>
+          <div class="letters">
+            ${q.source_word.split("").map(ch => `<div class="letter-box">${escapeHtml(ch)}</div>`).join("")}
+          </div>
+        </div>
+      `;
+
+      els.answerInput.value = "";
+      els.answerInput.maxLength = q.answer_length;
+      els.answerInput.focus();
+      renderAnswerSlots("");
+    }
+
+    function renderAnswerSlots(answer) {
+      const q = state.testQuestions[state.currentIndex];
+      if (!q) return;
+      const cleaned = String(answer || "").toUpperCase().replace(/[^A-Z]/g, "").slice(0, q.answer_length);
+      els.answerInput.value = cleaned;
+      els.answerSlots.innerHTML = Array.from({ length: q.answer_length }).map((_, i) => {
+        return `<div class="letter-box" style="background:#f8fafc;">${escapeHtml(cleaned[i] || "?")}</div>`;
+      }).join("");
+    }
+
+    function startTest() {
+      setError("");
+      const totalQuestions = Number(els.totalQuestions.value || 0);
+      const mix = {
+        easy: Number(els.easyCount.value || 0),
+        medium: Number(els.mediumCount.value || 0),
+        hard: Number(els.hardCount.value || 0)
+      };
+      const mixTotal = mix.easy + mix.medium + mix.hard;
+      const timeLimitSeconds = Number(els.timeLimit.value || 0) * 60;
+
+      if (!state.questionBank.length) {
+        setError("Please upload or paste a CSV file first.");
+        return;
+      }
+      if (mixTotal !== totalQuestions) {
+        setError("The difficulty mix must add up exactly to the total number of questions.");
+        return;
+      }
+      if (timeLimitSeconds <= 0) {
+        setError("Time limit must be greater than zero.");
+        return;
+      }
+
+      try {
+        state.testQuestions = buildTestBank(state.questionBank, mix).slice(0, totalQuestions);
+        state.responses = [];
+        state.currentIndex = 0;
+        state.startedAt = Date.now();
+        state.timeLeft = timeLimitSeconds;
+
+        if (state.timerId) clearInterval(state.timerId);
+        state.timerId = setInterval(() => {
+          const elapsed = Math.floor((Date.now() - state.startedAt) / 1000);
+          state.timeLeft = Math.max(0, timeLimitSeconds - elapsed);
+          if (state.timeLeft <= 0) {
+            finishTest();
+            return;
+          }
+          if (state.phase === "test") renderQuestion();
+        }, 250);
+
+        switchView("test");
+        renderQuestion();
+      } catch (err) {
+        setError(err.message || "Could not start test.");
+      }
+    }
+
+    function recordAnswer(answer, skipped) {
+      const q = state.testQuestions[state.currentIndex];
+      if (!q) return;
+      const cleaned = String(answer || "").trim().toUpperCase();
+      const isSkipped = skipped || cleaned === "";
+      const correct = !isSkipped && cleaned === q.answer.toUpperCase();
+
+      state.responses.push({
+        question: q,
+        userAnswer: cleaned,
+        skipped: isSkipped,
+        correct
+      });
+
+      if (state.currentIndex + 1 >= state.testQuestions.length) {
+        finishTest();
+      } else {
+        state.currentIndex += 1;
+        renderQuestion();
+      }
+    }
+
+    function finishTest() {
+      if (state.timerId) {
+        clearInterval(state.timerId);
+        state.timerId = null;
+      }
+
+      while (state.responses.length < state.testQuestions.length) {
+        const q = state.testQuestions[state.responses.length];
+        state.responses.push({
+          question: q,
+          userAnswer: "",
+          skipped: true,
+          correct: false
+        });
+      }
+
+      renderReview();
+      switchView("review");
+    }
+
+    function renderReview() {
+      const total = state.responses.length;
+      const score = state.responses.filter(r => r.correct).length;
+      const wrong = state.responses.filter(r => !r.correct && !r.skipped).length;
+      const skipped = state.responses.filter(r => r.skipped).length;
+      const byDifficulty = {
+        easy: { correct: 0, total: 0 },
+        medium: { correct: 0, total: 0 },
+        hard: { correct: 0, total: 0 }
+      };
+
+      state.responses.forEach(r => {
+        byDifficulty[r.question.difficulty].total += 1;
+        if (r.correct) byDifficulty[r.question.difficulty].correct += 1;
+      });
+
+      els.finalScore.textContent = `${score}/${total}`;
+      els.wrongTotal.textContent = wrong;
+      els.skippedTotal.textContent = skipped;
+      els.easyReview.textContent = `${byDifficulty.easy.correct}/${byDifficulty.easy.total}`;
+      els.mediumReview.textContent = `${byDifficulty.medium.correct}/${byDifficulty.medium.total}`;
+      els.hardReview.textContent = `${byDifficulty.hard.correct}/${byDifficulty.hard.total}`;
+
+      els.reviewList.innerHTML = state.responses.map((r, i) => {
+        const statusClass = r.correct ? 'ok' : r.skipped ? 'secondary' : 'danger';
+        const statusText = r.correct ? 'Correct' : r.skipped ? 'Skipped' : 'Wrong';
+        const badgeClass = r.question.difficulty;
+        return `
+          <div class="review-item">
+            <div class="review-top">
+              <span class="pill" style="background:#f1f5f9; color:#0f172a;">Q${i + 1}</span>
+              <span class="pill ${badgeClass}">${r.question.difficulty.toUpperCase()}</span>
+              <span class="pill ${statusClass === 'secondary' ? '' : statusClass}" style="${statusClass === 'secondary' ? 'background:#475569;color:white;' : ''}">${statusText}</span>
+            </div>
+            <div class="kvs">
+              <div><strong>Clue:</strong> ${escapeHtml(r.question.clue)}</div>
+              <div><strong>Source word:</strong> ${escapeHtml(r.question.source_word)}</div>
+              <div><strong>Your answer:</strong> ${escapeHtml(r.userAnswer || '(blank)')}</div>
+              <div><strong>Correct answer:</strong> ${escapeHtml(r.question.answer)}</div>
+              <div><strong>Explanation:</strong> ${escapeHtml(r.question.explanation)}</div>
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function downloadTextFile(filename, content, mimeType) {
+      const blob = new Blob([content], { type: mimeType || "text/plain;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = filename;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function exportResults() {
+      const score = state.responses.filter(r => r.correct).length;
+      const total = state.responses.length;
+      const lines = [
+        "Selected Letters Test Results",
+        `File: ${state.fileName || 'uploaded CSV'}`,
+        `Score: ${score}/${total}`,
+        "",
+        "Detailed review",
+        "--------------",
+        ...state.responses.map((r, i) => [
+          `Q${i + 1}`,
+          `Difficulty: ${r.question.difficulty}`,
+          `Clue: ${r.question.clue}`,
+          `Source word: ${r.question.source_word}`,
+          `Your answer: ${r.userAnswer || '(blank)'}`,
+          `Correct answer: ${r.question.answer}`,
+          `Status: ${r.correct ? 'CORRECT' : r.skipped ? 'SKIPPED' : 'WRONG'}`,
+          `Explanation: ${r.question.explanation}`,
+          ""
+        ].join("\n"))
+      ].join("\n");
+      downloadTextFile("selected_letters_results.txt", lines, "text/plain;charset=utf-8");
+    }
+
+    function exportCleanCsv() {
+      const headers = ["id", "source_word", "clue", "answer", "answer_length", "difficulty", "explanation"];
+      const escapeCell = value => {
+        const s = String(value ?? "");
+        return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+      };
+      const content = [
+        headers.join(","),
+        ...state.questionBank.map(q => headers.map(h => escapeCell(q[h] ?? "")).join(","))
+      ].join("\n");
+      downloadTextFile("selected_letters_questions_completed.csv", content, "text/csv;charset=utf-8");
+    }
+
+    function resetApp() {
+      if (state.timerId) {
+        clearInterval(state.timerId);
+        state.timerId = null;
+      }
+      state.rawCsvText = "";
+      state.fileName = "";
+      state.questionBank = [];
+      state.issues = [];
+      state.testQuestions = [];
+      state.responses = [];
+      state.currentIndex = 0;
+      state.startedAt = null;
+      state.timeLeft = 0;
+      els.fileInput.value = "";
+      els.loadedFileName.textContent = "";
+      els.csvTextArea.value = "";
+      els.answerInput.value = "";
+      els.answerSlots.innerHTML = "";
+      renderSummary();
+      setError("");
+      switchView("setup");
+    }
+
+    els.fileInput.addEventListener("change", (event) => {
+      const file = event.target.files && event.target.files[0];
+      if (!file) return;
+      state.fileName = file.name;
+      els.loadedFileName.textContent = `Loaded: ${file.name}`;
+      const reader = new FileReader();
+      reader.onload = e => {
+        const text = String(e.target.result || "");
+        els.csvTextArea.value = text;
+        updateFromCsvText(text);
+      };
+      reader.readAsText(file);
+    });
+
+    els.csvTextArea.addEventListener("input", (e) => {
+      state.fileName = "";
+      els.loadedFileName.textContent = "";
+      updateFromCsvText(e.target.value);
+    });
+
+    els.startTestBtn.addEventListener("click", startTest);
+    els.submitAnswerBtn.addEventListener("click", () => recordAnswer(els.answerInput.value, false));
+    els.skipBtn.addEventListener("click", () => recordAnswer("", true));
+    els.finishEarlyBtn.addEventListener("click", finishTest);
+    els.exportResultsBtn.addEventListener("click", exportResults);
+    els.exportCsvBtn.addEventListener("click", exportCleanCsv);
+    els.newTestBtn.addEventListener("click", () => switchView("setup"));
+    els.resetAppBtn.addEventListener("click", resetApp);
+
+    els.answerInput.addEventListener("input", (e) => renderAnswerSlots(e.target.value));
+    els.answerInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") recordAnswer(els.answerInput.value, false);
+    });
+
+    els.tabs.forEach(tab => {
+      tab.addEventListener("click", () => {
+        const view = tab.dataset.view;
+        if (view === "test" && !state.testQuestions.length) return;
+        if (view === "review" && !state.responses.length) return;
+        switchView(view);
+      });
+    });
+
+    renderSummary();
+  </script>
+</body>
+</html>
