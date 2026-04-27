@@ -158,9 +158,9 @@
       letter-spacing: 0.02em;
     }
 
-    .easy { background: var(--easy-bg); color: var(--easy-text); }
+    .easy, .low { background: var(--easy-bg); color: var(--easy-text); }
     .medium { background: var(--medium-bg); color: var(--medium-text); }
-    .hard { background: var(--hard-bg); color: var(--hard-text); }
+    .hard, .high { background: var(--hard-bg); color: var(--hard-text); }
     .ok { background: var(--ok-bg); color: var(--ok-text); }
     .danger { background: var(--danger-bg); color: var(--danger-text); }
 
@@ -357,6 +357,7 @@
             <select id="testType">
               <option value="selected_letters">Selected letters</option>
               <option value="related_word">Related word</option>
+              <option value="cem_maths">CEM maths</option>
             </select>
           </div>
 
@@ -381,14 +382,17 @@
             <div>
               <label for="easyCount">Easy</label>
               <input id="easyCount" type="number" min="0" value="7" />
+              <div id="easyHelp" class="small muted" style="margin-top: 6px;">Questions in the first difficulty band.</div>
             </div>
             <div>
               <label for="mediumCount">Medium</label>
               <input id="mediumCount" type="number" min="0" value="7" />
+              <div id="mediumHelp" class="small muted" style="margin-top: 6px;">Questions in the second difficulty band.</div>
             </div>
             <div>
               <label for="hardCount">Hard</label>
               <input id="hardCount" type="number" min="0" value="7" />
+              <div id="hardHelp" class="small muted" style="margin-top: 6px;">Questions in the third difficulty band.</div>
             </div>
           </div>
 
@@ -408,15 +412,15 @@
           <div class="grid grid-3" style="margin-bottom: 16px;">
             <div class="stat-box" style="background:#ecfdf5;">
               <div id="easyTotal" class="big" style="color:#166534;">0</div>
-              <div class="small" style="color:#166534;">Easy</div>
+              <div id="easyTotalLabel" class="small" style="color:#166534;">Easy</div>
             </div>
             <div class="stat-box" style="background:#fffbeb;">
               <div id="mediumTotal" class="big" style="color:#92400e;">0</div>
-              <div class="small" style="color:#92400e;">Medium</div>
+              <div id="mediumTotalLabel" class="small" style="color:#92400e;">Medium</div>
             </div>
             <div class="stat-box" style="background:#fff1f2;">
               <div id="hardTotal" class="big" style="color:#be123c;">0</div>
-              <div class="small" style="color:#be123c;">Hard</div>
+              <div id="hardTotalLabel" class="small" style="color:#be123c;">Hard</div>
             </div>
           </div>
 
@@ -489,13 +493,13 @@
           </div>
 
           <div class="stat-box" style="margin-bottom: 10px; text-align:left;">
-            <div><strong>Easy:</strong> <span id="easyReview">0/0</span></div>
+            <div><strong id="easyReviewLabel">Easy</strong>: <span id="easyReview">0/0</span></div>
           </div>
           <div class="stat-box" style="margin-bottom: 10px; text-align:left;">
-            <div><strong>Medium:</strong> <span id="mediumReview">0/0</span></div>
+            <div><strong id="mediumReviewLabel">Medium</strong>: <span id="mediumReview">0/0</span></div>
           </div>
           <div class="stat-box" style="margin-bottom: 16px; text-align:left;">
-            <div><strong>Hard:</strong> <span id="hardReview">0/0</span></div>
+            <div><strong id="hardReviewLabel">Hard</strong>: <span id="hardReview">0/0</span></div>
           </div>
 
           <div class="actions">
@@ -534,22 +538,63 @@
         label: "Selected Letters",
         requiredColumns: ["source_word", "clue", "answer", "difficulty"],
         sourceLabel: "Source word",
-        sourceKey: "source_word",
         letterConstraint: true,
+        answerMode: "letters",
         defaultCsvUrl: "https://raw.githubusercontent.com/sergeqlab/cem-test/main/selected_letters_questions.csv",
         exportPrefix: "selected_letters",
-        defaultMix: { total: 21, easy: 7, medium: 7, hard: 7 }
+        difficultyLevels: [
+          { key: "easy", label: "Easy" },
+          { key: "medium", label: "Medium" },
+          { key: "hard", label: "Hard" }
+        ],
+        defaultMix: { total: 21, easy: 7, medium: 7, hard: 7 },
+        defaultTimeLimit: 8,
+        inputPlaceholder: "Type answer",
+        getSummaryContext(question) {
+          return { label: "Source word", value: question.source_word };
+        }
       },
       related_word: {
         id: "related_word",
         label: "Related Word",
         requiredColumns: ["prompt", "clue", "answer", "difficulty"],
         sourceLabel: "Prompt word",
-        sourceKey: "prompt",
         letterConstraint: false,
+        answerMode: "letters",
         defaultCsvUrl: "related_word_questions.csv",
         exportPrefix: "related_word",
-        defaultMix: { total: 20, easy: 20, medium: 0, hard: 0 }
+        difficultyLevels: [
+          { key: "easy", label: "Easy" },
+          { key: "medium", label: "Medium" },
+          { key: "hard", label: "Hard" }
+        ],
+        defaultMix: { total: 20, easy: 20, medium: 0, hard: 0 },
+        defaultTimeLimit: 8,
+        inputPlaceholder: "Type answer",
+        getSummaryContext(question) {
+          return { label: "Prompt word", value: question.prompt || question.source_word };
+        }
+      },
+      cem_maths: {
+        id: "cem_maths",
+        label: "CEM Maths",
+        requiredColumns: ["type", "difficulty", "prompt", "answer"],
+        sourceLabel: "Question type",
+        letterConstraint: false,
+        answerMode: "math",
+        defaultCsvUrl: "cem_maths_bank_400.csv",
+        exportPrefix: "cem_maths",
+        difficultyLevels: [
+          { key: "low", label: "Low" },
+          { key: "medium", label: "Medium" },
+          { key: "high", label: "High" }
+        ],
+        defaultMix: { total: 30, low: 10, medium: 10, high: 10 },
+        defaultTimeLimit: 13,
+        inputPlaceholder: "Type digits, decimal point, minus sign or % if needed",
+        getSummaryContext(question) {
+          return { label: "Question type", value: question.math_type || "maths" };
+        }
       }
     };
 
@@ -566,12 +611,18 @@
       easyCount: document.getElementById("easyCount"),
       mediumCount: document.getElementById("mediumCount"),
       hardCount: document.getElementById("hardCount"),
+      easyHelp: document.getElementById("easyHelp"),
+      mediumHelp: document.getElementById("mediumHelp"),
+      hardHelp: document.getElementById("hardHelp"),
       startTestBtn: document.getElementById("startTestBtn"),
       resetAppBtn: document.getElementById("resetAppBtn"),
       exportCsvBtn: document.getElementById("exportCsvBtn"),
       easyTotal: document.getElementById("easyTotal"),
       mediumTotal: document.getElementById("mediumTotal"),
       hardTotal: document.getElementById("hardTotal"),
+      easyTotalLabel: document.getElementById("easyTotalLabel"),
+      mediumTotalLabel: document.getElementById("mediumTotalLabel"),
+      hardTotalLabel: document.getElementById("hardTotalLabel"),
       validTotal: document.getElementById("validTotal"),
       issuesBox: document.getElementById("issuesBox"),
       setupView: document.getElementById("setupView"),
@@ -594,6 +645,9 @@
       easyReview: document.getElementById("easyReview"),
       mediumReview: document.getElementById("mediumReview"),
       hardReview: document.getElementById("hardReview"),
+      easyReviewLabel: document.getElementById("easyReviewLabel"),
+      mediumReviewLabel: document.getElementById("mediumReviewLabel"),
+      hardReviewLabel: document.getElementById("hardReviewLabel"),
       reviewList: document.getElementById("reviewList"),
       tabs: document.querySelectorAll(".tab")
     };
@@ -616,13 +670,58 @@
       els.tabs.forEach(tab => tab.classList.toggle("active", tab.dataset.view === view));
     }
 
-    function normalizeDifficulty(value) {
+    function normalizeDifficulty(value, config = getCurrentTestConfig()) {
       const d = String(value || "").trim().toLowerCase();
-      return ["easy", "medium", "hard"].includes(d) ? d : "";
+      return config.difficultyLevels.some(level => level.key === d) ? d : "";
     }
 
     function getCurrentTestConfig() {
       return TEST_TYPES[state.testType] || TEST_TYPES.selected_letters;
+    }
+
+    function getDifficultySlots() {
+      return [
+        {
+          input: els.easyCount,
+          help: els.easyHelp,
+          total: els.easyTotal,
+          totalLabel: els.easyTotalLabel,
+          review: els.easyReview,
+          reviewLabel: els.easyReviewLabel
+        },
+        {
+          input: els.mediumCount,
+          help: els.mediumHelp,
+          total: els.mediumTotal,
+          totalLabel: els.mediumTotalLabel,
+          review: els.mediumReview,
+          reviewLabel: els.mediumReviewLabel
+        },
+        {
+          input: els.hardCount,
+          help: els.hardHelp,
+          total: els.hardTotal,
+          totalLabel: els.hardTotalLabel,
+          review: els.hardReview,
+          reviewLabel: els.hardReviewLabel
+        }
+      ];
+    }
+
+    function getDifficultyLabel(key, config = getCurrentTestConfig()) {
+      const match = config.difficultyLevels.find(level => level.key === key);
+      return match ? match.label : key;
+    }
+
+    function getAnswerDisplay(question) {
+      return `${question.answer}${question.unit ? ` ${question.unit}` : ""}`;
+    }
+
+    function getQuestionContext(question, config = getCurrentTestConfig()) {
+      if (typeof config.getSummaryContext === "function") {
+        return config.getSummaryContext(question);
+      }
+      return { label: config.sourceLabel, value: question.source_word || question.prompt || "" };
     }
 
     function formatTime(seconds) {
@@ -688,6 +787,9 @@
 
     function buildExplanation(question, config) {
       if (question.explanation && question.explanation.trim()) return question.explanation.trim();
+      if (config.id === "cem_maths") {
+        return `The correct answer is ${getAnswerDisplay(question)}.`;
+      }
       const clue = String(question.clue || "").trim().replace(/[.]+$/, "");
       if (!config.letterConstraint) {
         const promptWord = question.prompt || question.source_word || "the prompt word";
@@ -703,15 +805,19 @@
       const valid = [];
 
       rawRows.forEach((row, idx) => {
+        const rawPrompt = String(row.prompt || "").trim();
+        const rawAnswer = String(row.answer || "").trim();
         const question = {
           id: row.id || String(idx + 1),
-          prompt: String(row.prompt || "").trim().toUpperCase(),
+          prompt: config.answerMode === "math" ? rawPrompt : rawPrompt.toUpperCase(),
           source_word: String(row.source_word || "").trim().toUpperCase(),
+          math_type: String(row.type || "").trim().toLowerCase(),
           clue: String(row.clue || "").trim(),
-          answer: String(row.answer || "").trim().toUpperCase(),
+          answer: config.answerMode === "math" ? rawAnswer : rawAnswer.toUpperCase(),
+          unit: String(row.unit || "").trim(),
           start_letters: String(row.start_letters || "").trim(),
           answer_length: Number.parseInt(row.answer_length || row.start_letters || "", 10),
-          difficulty: normalizeDifficulty(row.difficulty),
+          difficulty: normalizeDifficulty(row.difficulty, config),
           explanation: String(row.explanation || "").trim(),
           __rowNum: row.__rowNum
         };
@@ -727,14 +833,14 @@
         }
 
         if (!question.difficulty) {
-          issues.push(`Row ${question.__rowNum}: difficulty must be easy, medium, or hard`);
+          issues.push(`Row ${question.__rowNum}: difficulty must be one of ${config.difficultyLevels.map(level => level.key).join(", ")}`);
           return;
         }
 
         if (!question.answer_length || Number.isNaN(question.answer_length)) {
           question.answer_length = question.answer.length;
         }
-        if (question.answer_length !== question.answer.length) {
+        if (config.answerMode === "letters" && question.answer_length !== question.answer.length) {
           question.answer_length = question.answer.length;
         }
 
@@ -760,28 +866,37 @@
     }
 
     function buildTestBank(bank, mix) {
-      const byDifficulty = { easy: [], medium: [], hard: [] };
-      bank.forEach(q => byDifficulty[q.difficulty].push(q));
+      const config = getCurrentTestConfig();
+      const byDifficulty = Object.fromEntries(config.difficultyLevels.map(level => [level.key, []]));
+      bank.forEach(q => {
+        if (byDifficulty[q.difficulty]) byDifficulty[q.difficulty].push(q);
+      });
 
-      for (const level of ["easy", "medium", "hard"]) {
-        if (byDifficulty[level].length < mix[level]) {
-          throw new Error(`Not enough ${level} questions. Need ${mix[level]}, found ${byDifficulty[level].length}.`);
+      for (const level of config.difficultyLevels) {
+        const needed = Number(mix[level.key] || 0);
+        if (byDifficulty[level.key].length < needed) {
+          throw new Error(`Not enough ${level.label.toLowerCase()} questions. Need ${needed}, found ${byDifficulty[level.key].length}.`);
         }
       }
 
-      return shuffle([
-        ...shuffle(byDifficulty.easy).slice(0, mix.easy),
-        ...shuffle(byDifficulty.medium).slice(0, mix.medium),
-        ...shuffle(byDifficulty.hard).slice(0, mix.hard)
-      ]);
+      return shuffle(config.difficultyLevels.flatMap(level => {
+        return shuffle(byDifficulty[level.key]).slice(0, Number(mix[level.key] || 0));
+      }));
     }
 
     function renderSummary() {
-      const counts = { easy: 0, medium: 0, hard: 0 };
-      state.questionBank.forEach(q => counts[q.difficulty]++);
-      els.easyTotal.textContent = counts.easy;
-      els.mediumTotal.textContent = counts.medium;
-      els.hardTotal.textContent = counts.hard;
+      const config = getCurrentTestConfig();
+      const counts = Object.fromEntries(config.difficultyLevels.map(level => [level.key, 0]));
+      state.questionBank.forEach(q => {
+        if (counts[q.difficulty] !== undefined) counts[q.difficulty] += 1;
+      });
+      getDifficultySlots().forEach((slot, index) => {
+        const level = config.difficultyLevels[index];
+        if (!level) return;
+        slot.total.textContent = counts[level.key] || 0;
+        slot.totalLabel.textContent = level.label;
+        slot.reviewLabel.textContent = level.label;
+      });
       els.validTotal.textContent = state.questionBank.length;
       els.exportCsvBtn.disabled = !state.questionBank.length;
 
@@ -836,12 +951,20 @@
       els.appTitle.textContent = config.label;
       els.schemaInfo.innerHTML = config.id === "selected_letters"
         ? 'Required columns: <strong>source_word, clue, answer, difficulty</strong>.<br>Optional columns: <strong>id, answer_length, explanation</strong>.<br>Missing explanations are generated automatically.'
-        : 'Required columns: <strong>prompt, clue, answer, difficulty</strong>.<br>Optional columns: <strong>id, start_letters (or answer_length), explanation</strong>.<br>Missing explanations are generated automatically.';
+        : config.id === "related_word"
+          ? 'Required columns: <strong>prompt, clue, answer, difficulty</strong>.<br>Optional columns: <strong>id, start_letters (or answer_length), explanation</strong>.<br>Missing explanations are generated automatically.'
+          : 'Required columns: <strong>id, type, difficulty, prompt, answer</strong>.<br>Optional columns: <strong>unit, explanation</strong>.<br>Maths answers accept numbers, decimals, minus signs and percentages.';
 
       els.totalQuestions.value = config.defaultMix.total;
-      els.easyCount.value = config.defaultMix.easy;
-      els.mediumCount.value = config.defaultMix.medium;
-      els.hardCount.value = config.defaultMix.hard;
+      els.timeLimit.value = config.defaultTimeLimit;
+      getDifficultySlots().forEach((slot, index) => {
+        const level = config.difficultyLevels[index];
+        if (!level) return;
+        slot.input.previousElementSibling.textContent = level.label;
+        slot.input.value = config.defaultMix[level.key] || 0;
+        slot.help.textContent = `Questions in the ${level.label.toLowerCase()} difficulty band.`;
+      });
+      els.answerInput.placeholder = config.inputPlaceholder;
 
       state.fileName = "";
       state.rawCsvText = "";
@@ -860,6 +983,7 @@
     function renderQuestion() {
       const q = state.testQuestions[state.currentIndex];
       if (!q) return;
+      const config = getCurrentTestConfig();
 
       const answeredCount = state.responses.length;
       const correctCount = state.responses.filter(r => r.correct).length;
@@ -873,16 +997,15 @@
 
       els.questionArea.innerHTML = `
         <div style="display:flex; align-items:center; gap:10px; margin-bottom:14px; flex-wrap:wrap;">
-          <span class="pill ${q.difficulty}">${q.difficulty.toUpperCase()}</span>
-          <span class="small muted">${q.answer_length} letters</span>
+          <span class="pill ${q.difficulty}">${escapeHtml(getDifficultyLabel(q.difficulty, config).toUpperCase())}</span>
+          <span class="small muted">${config.answerMode === "math" ? `Type: ${escapeHtml(q.math_type || "maths")}` : `${q.answer_length} letters`}</span>
         </div>
         <div class="question-block">
-          <div class="small muted" style="font-weight:700;">Clue</div>
-          <div class="clue">${escapeHtml(q.clue)}</div>
+          <div class="small muted" style="font-weight:700;">${config.id === "cem_maths" ? "Question" : "Clue"}</div>
+          <div class="clue">${escapeHtml(config.id === "cem_maths" ? q.prompt : q.clue)}</div>
         </div>
       `;
 
-      const config = getCurrentTestConfig();
       if (config.id === "selected_letters") {
         els.questionArea.innerHTML += `
           <div class="card" style="box-shadow:none; padding:18px; margin-bottom:18px;">
@@ -892,7 +1015,7 @@
             </div>
           </div>
         `;
-      } else {
+      } else if (config.id === "related_word") {
         els.questionArea.innerHTML += `
           <div class="card" style="box-shadow:none; padding:18px; margin-bottom:18px;">
             <div class="small muted" style="font-weight:700;">Prompt word</div>
@@ -900,9 +1023,18 @@
             ${q.start_letters ? `<div class="small muted" style="margin-top:8px;">Hint: ${escapeHtml(q.start_letters)}</div>` : ""}
           </div>
         `;
+      } else if (config.id === "cem_maths") {
+        els.questionArea.innerHTML += `
+          <div class="card" style="box-shadow:none; padding:18px; margin-bottom:18px;">
+            <div class="small muted" style="font-weight:700;">Answer format</div>
+            <div style="font-size:18px; font-weight:700; margin-top:6px;">${escapeHtml(q.unit ? `Enter a number in ${q.unit}` : "Enter the answer as a number")}</div>
+            <div class="small muted" style="margin-top:8px;">Topic: ${escapeHtml(q.math_type || "maths")}</div>
+          </div>
+        `;
       }
 
-      els.answerInput.maxLength = q.answer_length;
+      els.answerInput.maxLength = config.answerMode === "math" ? 32 : q.answer_length;
+      els.answerInput.placeholder = config.inputPlaceholder;
       if (!els.answerInput.value) {
         els.answerInput.focus();
       }
@@ -912,21 +1044,54 @@
     function renderAnswerSlots(answer) {
       const q = state.testQuestions[state.currentIndex];
       if (!q) return;
+      const config = getCurrentTestConfig();
+      if (config.answerMode === "math") {
+        const cleaned = String(answer || "").trim();
+        els.answerSlots.innerHTML = cleaned
+          ? `<div class="small muted">Current answer: ${escapeHtml(cleaned)}</div>`
+          : "";
+        return;
+      }
       const cleaned = String(answer || "").toUpperCase().replace(/[^A-Z]/g, "").slice(0, q.answer_length);
       els.answerSlots.innerHTML = Array.from({ length: q.answer_length }).map((_, i) => {
         return `<div class="letter-box" style="background:#f8fafc;">${escapeHtml(cleaned[i] || "?")}</div>`;
       }).join("");
     }
 
+    function normalizeMathAnswer(value, unit = "") {
+      let normalized = String(value || "")
+        .trim()
+        .replace(/degrees/gi, "")
+        .replace(/°/g, "")
+        .replace(/\s+/g, "")
+        .toLowerCase();
+      const normalizedUnit = String(unit || "").trim().replace(/\s+/g, "").toLowerCase();
+      if (normalizedUnit && normalized.endsWith(normalizedUnit)) {
+        normalized = normalized.slice(0, -normalizedUnit.length);
+      }
+      return normalized;
+    }
+
+    function isMathAnswerCorrect(userAnswer, question) {
+      const normalizedUser = normalizeMathAnswer(userAnswer, question.unit).replace(/%/g, "");
+      const normalizedCorrect = normalizeMathAnswer(question.answer, question.unit).replace(/%/g, "");
+      const userNumber = Number(normalizedUser);
+      const correctNumber = Number(normalizedCorrect);
+      if (!Number.isNaN(userNumber) && !Number.isNaN(correctNumber)) {
+        return userNumber === correctNumber;
+      }
+      return normalizedUser === normalizedCorrect;
+    }
+
     function startTest() {
       setError("");
+      const config = getCurrentTestConfig();
       const totalQuestions = Number(els.totalQuestions.value || 0);
-      const mix = {
-        easy: Number(els.easyCount.value || 0),
-        medium: Number(els.mediumCount.value || 0),
-        hard: Number(els.hardCount.value || 0)
-      };
-      const mixTotal = mix.easy + mix.medium + mix.hard;
+      const mix = Object.fromEntries(config.difficultyLevels.map((level, index) => {
+        const slot = getDifficultySlots()[index];
+        return [level.key, Number(slot.input.value || 0)];
+      }));
+      const mixTotal = Object.values(mix).reduce((sum, count) => sum + count, 0);
       const timeLimitSeconds = Number(els.timeLimit.value || 0) * 60;
 
       if (!state.questionBank.length) {
@@ -970,9 +1135,14 @@
     function recordAnswer(answer, skipped) {
       const q = state.testQuestions[state.currentIndex];
       if (!q) return;
-      const cleaned = String(answer || "").trim().toUpperCase();
+      const config = getCurrentTestConfig();
+      const cleaned = config.answerMode === "math"
+        ? String(answer || "").trim()
+        : String(answer || "").trim().toUpperCase();
       const isSkipped = skipped || cleaned === "";
-      const correct = !isSkipped && cleaned === q.answer.toUpperCase();
+      const correct = !isSkipped && (config.answerMode === "math"
+        ? isMathAnswerCorrect(cleaned, q)
+        : cleaned === q.answer.toUpperCase());
 
       state.responses.push({
         question: q,
@@ -1010,17 +1180,15 @@
     }
 
     function renderReview() {
+      const config = getCurrentTestConfig();
       const total = state.responses.length;
       const score = state.responses.filter(r => r.correct).length;
       const wrong = state.responses.filter(r => !r.correct && !r.skipped).length;
       const skipped = state.responses.filter(r => r.skipped).length;
-      const byDifficulty = {
-        easy: { correct: 0, total: 0 },
-        medium: { correct: 0, total: 0 },
-        hard: { correct: 0, total: 0 }
-      };
+      const byDifficulty = Object.fromEntries(config.difficultyLevels.map(level => [level.key, { correct: 0, total: 0 }]));
 
       state.responses.forEach(r => {
+        if (!byDifficulty[r.question.difficulty]) return;
         byDifficulty[r.question.difficulty].total += 1;
         if (r.correct) byDifficulty[r.question.difficulty].correct += 1;
       });
@@ -1028,28 +1196,29 @@
       els.finalScore.textContent = `${score}/${total}`;
       els.wrongTotal.textContent = wrong;
       els.skippedTotal.textContent = skipped;
-      els.easyReview.textContent = `${byDifficulty.easy.correct}/${byDifficulty.easy.total}`;
-      els.mediumReview.textContent = `${byDifficulty.medium.correct}/${byDifficulty.medium.total}`;
-      els.hardReview.textContent = `${byDifficulty.hard.correct}/${byDifficulty.hard.total}`;
+      getDifficultySlots().forEach((slot, index) => {
+        const level = config.difficultyLevels[index];
+        if (!level) return;
+        slot.review.textContent = `${byDifficulty[level.key].correct}/${byDifficulty[level.key].total}`;
+      });
 
       els.reviewList.innerHTML = state.responses.map((r, i) => {
         const statusClass = r.correct ? 'ok' : r.skipped ? 'secondary' : 'danger';
         const statusText = r.correct ? 'Correct' : r.skipped ? 'Skipped' : 'Wrong';
         const badgeClass = r.question.difficulty;
-        const config = getCurrentTestConfig();
-        const sourceValue = config.id === "selected_letters" ? r.question.source_word : (r.question.prompt || r.question.source_word);
+        const context = getQuestionContext(r.question, config);
         return `
           <div class="review-item">
             <div class="review-top">
               <span class="pill" style="background:#f1f5f9; color:#0f172a;">Q${i + 1}</span>
-              <span class="pill ${badgeClass}">${r.question.difficulty.toUpperCase()}</span>
+              <span class="pill ${badgeClass}">${escapeHtml(getDifficultyLabel(r.question.difficulty, config).toUpperCase())}</span>
               <span class="pill ${statusClass === 'secondary' ? '' : statusClass}" style="${statusClass === 'secondary' ? 'background:#475569;color:white;' : ''}">${statusText}</span>
             </div>
             <div class="kvs">
-              <div><strong>Clue:</strong> ${escapeHtml(r.question.clue)}</div>
-              <div><strong>${escapeHtml(config.sourceLabel)}:</strong> ${escapeHtml(sourceValue)}</div>
+              <div><strong>${escapeHtml(config.id === "cem_maths" ? "Question" : "Clue")}:</strong> ${escapeHtml(config.id === "cem_maths" ? r.question.prompt : r.question.clue)}</div>
+              <div><strong>${escapeHtml(context.label)}:</strong> ${escapeHtml(context.value)}</div>
               <div><strong>Your answer:</strong> ${escapeHtml(r.userAnswer || '(blank)')}</div>
-              <div><strong>Correct answer:</strong> ${escapeHtml(r.question.answer)}</div>
+              <div><strong>Correct answer:</strong> ${escapeHtml(getAnswerDisplay(r.question))}</div>
               <div><strong>Explanation:</strong> ${escapeHtml(r.question.explanation)}</div>
             </div>
           </div>
@@ -1078,17 +1247,20 @@
         "",
         "Detailed review",
         "--------------",
-        ...state.responses.map((r, i) => [
-          `Q${i + 1}`,
-          `Difficulty: ${r.question.difficulty}`,
-          `Clue: ${r.question.clue}`,
-          `${config.sourceLabel}: ${config.id === "selected_letters" ? r.question.source_word : (r.question.prompt || r.question.source_word)}`,
-          `Your answer: ${r.userAnswer || '(blank)'}`,
-          `Correct answer: ${r.question.answer}`,
-          `Status: ${r.correct ? 'CORRECT' : r.skipped ? 'SKIPPED' : 'WRONG'}`,
-          `Explanation: ${r.question.explanation}`,
-          ""
-        ].join("\n"))
+        ...state.responses.map((r, i) => {
+          const context = getQuestionContext(r.question, config);
+          return [
+            `Q${i + 1}`,
+            `Difficulty: ${getDifficultyLabel(r.question.difficulty, config)}`,
+            `${config.id === "cem_maths" ? "Question" : "Clue"}: ${config.id === "cem_maths" ? r.question.prompt : r.question.clue}`,
+            `${context.label}: ${context.value}`,
+            `Your answer: ${r.userAnswer || '(blank)'}`,
+            `Correct answer: ${getAnswerDisplay(r.question)}`,
+            `Status: ${r.correct ? 'CORRECT' : r.skipped ? 'SKIPPED' : 'WRONG'}`,
+            `Explanation: ${r.question.explanation}`,
+            ""
+          ].join("\n");
+        })
       ].join("\n");
       downloadTextFile(`${config.exportPrefix}_results.txt`, lines, "text/plain;charset=utf-8");
     }
@@ -1097,7 +1269,9 @@
       const config = getCurrentTestConfig();
       const headers = config.id === "selected_letters"
         ? ["id", "source_word", "clue", "answer", "answer_length", "difficulty", "explanation"]
-        : ["id", "prompt", "clue", "answer", "start_letters", "difficulty", "explanation"];
+        : config.id === "related_word"
+          ? ["id", "prompt", "clue", "answer", "start_letters", "difficulty", "explanation"]
+          : ["id", "type", "difficulty", "prompt", "answer", "unit", "explanation"];
       const escapeCell = value => {
         const s = String(value ?? "");
         return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
@@ -1107,6 +1281,7 @@
         ...state.questionBank.map(q => headers.map(h => {
           if (h === "prompt") return escapeCell(q.prompt || q.source_word || "");
           if (h === "start_letters") return escapeCell(q.start_letters || q.answer_length || "");
+          if (h === "type") return escapeCell(q.math_type || "");
           return escapeCell(q[h] ?? "");
         }).join(","))
       ].join("\n");
@@ -1114,6 +1289,7 @@
     }
 
     function resetApp() {
+      const config = getCurrentTestConfig();
       if (state.timerId) {
         clearInterval(state.timerId);
         state.timerId = null;
@@ -1131,6 +1307,7 @@
       els.loadedFileName.textContent = "";
       els.csvTextArea.value = "";
       els.answerInput.value = "";
+      els.answerInput.placeholder = config.inputPlaceholder;
       els.answerSlots.innerHTML = "";
       renderSummary();
       setError("");

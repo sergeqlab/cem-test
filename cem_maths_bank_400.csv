@@ -1,0 +1,401 @@
+id,type,difficulty,prompt,answer,unit,explanation
+1,arithmetic,low,51 + 6 =,57,,Add 51 and 6.
+2,arithmetic,low,60 + 3 =,63,,Add 60 and 3.
+3,arithmetic,low,19 + 19 =,38,,Add 19 and 19.
+4,arithmetic,low,22 + 13 =,35,,Add 22 and 13.
+5,arithmetic,low,84 + 3 =,87,,Add 84 and 3.
+6,arithmetic,low,74 + 8 =,82,,Add 74 and 8.
+7,arithmetic,low,14 + 4 =,18,,Add 14 and 4.
+8,arithmetic,low,65 + 15 =,80,,Add 65 and 15.
+9,arithmetic,low,18 + 9 =,27,,Add 18 and 9.
+10,arithmetic,low,21 + 19 =,40,,Add 21 and 19.
+11,arithmetic,low,64 + 3 =,67,,Add 64 and 3.
+12,arithmetic,low,82 + 5 =,87,,Add 82 and 5.
+13,arithmetic,low,38 + 20 =,58,,Add 38 and 20.
+14,arithmetic,low,17 + 20 =,37,,Add 17 and 20.
+15,arithmetic,low,84 + 14 =,98,,Add 84 and 14.
+16,arithmetic,low,16 + 9 =,25,,Add 16 and 9.
+17,arithmetic,low,15 + 19 =,34,,Add 15 and 19.
+18,arithmetic,low,27 + 11 =,38,,Add 27 and 11.
+19,arithmetic,low,63 + 6 =,69,,Add 63 and 6.
+20,arithmetic,low,79 + 5 =,84,,Add 79 and 5.
+21,arithmetic,low,83 + 11 =,94,,Add 83 and 11.
+22,arithmetic,low,81 + 7 =,88,,Add 81 and 7.
+23,arithmetic,low,23 + 20 =,43,,Add 23 and 20.
+24,arithmetic,low,83 + 8 =,91,,Add 83 and 8.
+25,arithmetic,low,57 + 5 =,62,,Add 57 and 5.
+26,arithmetic,low,80 + 4 =,84,,Add 80 and 4.
+27,arithmetic,low,82 + 3 =,85,,Add 82 and 3.
+28,arithmetic,low,89 + 8 =,97,,Add 89 and 8.
+29,arithmetic,low,73 + 19 =,92,,Add 73 and 19.
+30,arithmetic,low,64 + 12 =,76,,Add 64 and 12.
+31,arithmetic,low,69 + 20 =,89,,Add 69 and 20.
+32,arithmetic,low,68 + 13 =,81,,Add 68 and 13.
+33,arithmetic,low,48 + 9 =,57,,Add 48 and 9.
+34,arithmetic,low,33 + 9 =,42,,Add 33 and 9.
+35,arithmetic,low,20 + 20 =,40,,Add 20 and 20.
+36,arithmetic,low,48 + 18 =,66,,Add 48 and 18.
+37,arithmetic,low,73 + 12 =,85,,Add 73 and 12.
+38,arithmetic,low,67 + 11 =,78,,Add 67 and 11.
+39,arithmetic,low,87 + 4 =,91,,Add 87 and 4.
+40,arithmetic,low,25 + 18 =,43,,Add 25 and 18.
+41,arithmetic,low,63 + 7 =,70,,Add 63 and 7.
+42,arithmetic,low,53 + 6 =,59,,Add 53 and 6.
+43,arithmetic,low,72 + 15 =,87,,Add 72 and 15.
+44,arithmetic,low,15 + 4 =,19,,Add 15 and 4.
+45,arithmetic,low,81 + 20 =,101,,Add 81 and 20.
+46,arithmetic,low,50 + 12 =,62,,Add 50 and 12.
+47,arithmetic,low,98 + 13 =,111,,Add 98 and 13.
+48,arithmetic,low,86 + 17 =,103,,Add 86 and 17.
+49,arithmetic,low,84 + 16 =,100,,Add 84 and 16.
+50,arithmetic,low,18 + 4 =,22,,Add 18 and 4.
+51,arithmetic,low,64 - 17 =,47,,Subtract 17 from 64.
+52,arithmetic,low,119 - 23 =,96,,Subtract 23 from 119.
+53,arithmetic,low,38 - 3 =,35,,Subtract 3 from 38.
+54,arithmetic,low,119 - 11 =,108,,Subtract 11 from 119.
+55,arithmetic,low,112 - 20 =,92,,Subtract 20 from 112.
+56,arithmetic,low,117 - 16 =,101,,Subtract 16 from 117.
+57,arithmetic,low,66 - 24 =,42,,Subtract 24 from 66.
+58,arithmetic,low,79 - 23 =,56,,Subtract 23 from 79.
+59,arithmetic,low,74 - 2 =,72,,Subtract 2 from 74.
+60,arithmetic,low,89 - 13 =,76,,Subtract 13 from 89.
+61,arithmetic,low,51 - 21 =,30,,Subtract 21 from 51.
+62,arithmetic,low,44 - 17 =,27,,Subtract 17 from 44.
+63,arithmetic,low,37 - 8 =,29,,Subtract 8 from 37.
+64,arithmetic,low,66 - 6 =,60,,Subtract 6 from 66.
+65,arithmetic,low,61 - 14 =,47,,Subtract 14 from 61.
+66,arithmetic,low,80 - 17 =,63,,Subtract 17 from 80.
+67,arithmetic,low,40 - 7 =,33,,Subtract 7 from 40.
+68,arithmetic,low,87 - 14 =,73,,Subtract 14 from 87.
+69,arithmetic,low,100 - 10 =,90,,Subtract 10 from 100.
+70,arithmetic,low,47 - 15 =,32,,Subtract 15 from 47.
+71,arithmetic,low,100 - 10 =,90,,Subtract 10 from 100.
+72,arithmetic,low,120 - 15 =,105,,Subtract 15 from 120.
+73,arithmetic,low,75 - 23 =,52,,Subtract 23 from 75.
+74,arithmetic,low,78 - 9 =,69,,Subtract 9 from 78.
+75,arithmetic,low,49 - 4 =,45,,Subtract 4 from 49.
+76,arithmetic,low,52 - 6 =,46,,Subtract 6 from 52.
+77,arithmetic,low,59 - 23 =,36,,Subtract 23 from 59.
+78,arithmetic,low,59 - 2 =,57,,Subtract 2 from 59.
+79,arithmetic,low,92 - 20 =,72,,Subtract 20 from 92.
+80,arithmetic,low,53 - 10 =,43,,Subtract 10 from 53.
+81,arithmetic,low,66 - 2 =,64,,Subtract 2 from 66.
+82,arithmetic,low,48 - 15 =,33,,Subtract 15 from 48.
+83,arithmetic,low,98 - 13 =,85,,Subtract 13 from 98.
+84,arithmetic,low,108 - 20 =,88,,Subtract 20 from 108.
+85,arithmetic,low,70 - 6 =,64,,Subtract 6 from 70.
+86,arithmetic,low,118 - 18 =,100,,Subtract 18 from 118.
+87,arithmetic,low,109 - 22 =,87,,Subtract 22 from 109.
+88,arithmetic,low,116 - 25 =,91,,Subtract 25 from 116.
+89,arithmetic,low,36 - 16 =,20,,Subtract 16 from 36.
+90,arithmetic,low,117 - 19 =,98,,Subtract 19 from 117.
+91,multiplication,low,8 × 8 =,64,,8 times 8.
+92,multiplication,low,8 × 8 =,64,,8 times 8.
+93,multiplication,low,3 × 9 =,27,,3 times 9.
+94,multiplication,low,12 × 8 =,96,,12 times 8.
+95,multiplication,low,2 × 5 =,10,,2 times 5.
+96,multiplication,low,3 × 5 =,15,,3 times 5.
+97,multiplication,low,9 × 4 =,36,,9 times 4.
+98,multiplication,low,3 × 7 =,21,,3 times 7.
+99,multiplication,low,11 × 2 =,22,,11 times 2.
+100,multiplication,low,3 × 2 =,6,,3 times 2.
+101,multiplication,low,11 × 4 =,44,,11 times 4.
+102,multiplication,low,10 × 3 =,30,,10 times 3.
+103,multiplication,low,7 × 11 =,77,,7 times 11.
+104,multiplication,low,2 × 3 =,6,,2 times 3.
+105,multiplication,low,5 × 11 =,55,,5 times 11.
+106,multiplication,low,8 × 4 =,32,,8 times 4.
+107,multiplication,low,12 × 6 =,72,,12 times 6.
+108,multiplication,low,7 × 11 =,77,,7 times 11.
+109,multiplication,low,7 × 9 =,63,,7 times 9.
+110,multiplication,low,3 × 3 =,9,,3 times 3.
+111,multiplication,low,9 × 9 =,81,,9 times 9.
+112,multiplication,low,9 × 9 =,81,,9 times 9.
+113,multiplication,low,6 × 3 =,18,,6 times 3.
+114,multiplication,low,4 × 3 =,12,,4 times 3.
+115,multiplication,low,7 × 6 =,42,,7 times 6.
+116,multiplication,low,9 × 4 =,36,,9 times 4.
+117,multiplication,low,10 × 2 =,20,,10 times 2.
+118,multiplication,low,5 × 10 =,50,,5 times 10.
+119,multiplication,low,7 × 4 =,28,,7 times 4.
+120,multiplication,low,10 × 2 =,20,,10 times 2.
+121,percentage,low,What is 25% of 240?,60,,Find 25% of 240.
+122,percentage,low,What is 10% of 200?,20,,Find 10% of 200.
+123,percentage,low,What is 25% of 200?,50,,Find 25% of 200.
+124,percentage,low,What is 25% of 160?,40,,Find 25% of 160.
+125,percentage,low,What is 25% of 60?,15,,Find 25% of 60.
+126,percentage,low,What is 20% of 240?,48,,Find 20% of 240.
+127,percentage,low,What is 25% of 160?,40,,Find 25% of 160.
+128,percentage,low,What is 20% of 200?,40,,Find 20% of 200.
+129,percentage,low,What is 20% of 160?,32,,Find 20% of 160.
+130,percentage,low,What is 20% of 240?,48,,Find 20% of 240.
+131,percentage,low,What is 50% of 240?,120,,Find 50% of 240.
+132,percentage,low,What is 20% of 200?,40,,Find 20% of 200.
+133,percentage,low,What is 50% of 60?,30,,Find 50% of 60.
+134,percentage,low,What is 10% of 80?,8,,Find 10% of 80.
+135,percentage,low,What is 25% of 40?,10,,Find 25% of 40.
+136,percentage,low,What is 25% of 120?,30,,Find 25% of 120.
+137,percentage,low,What is 25% of 60?,15,,Find 25% of 60.
+138,percentage,low,What is 25% of 120?,30,,Find 25% of 120.
+139,percentage,low,What is 10% of 80?,8,,Find 10% of 80.
+140,percentage,low,What is 10% of 60?,6,,Find 10% of 60.
+141,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 36 cherry trees, how many apple trees are there?",63,trees,"1 part = cherries ÷ 4, then multiply by 7."
+142,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 52 cherry trees, how many apple trees are there?",91,trees,"1 part = cherries ÷ 4, then multiply by 7."
+143,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 36 cherry trees, how many apple trees are there?",63,trees,"1 part = cherries ÷ 4, then multiply by 7."
+144,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 44 cherry trees, how many apple trees are there?",77,trees,"1 part = cherries ÷ 4, then multiply by 7."
+145,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 36 cherry trees, how many apple trees are there?",63,trees,"1 part = cherries ÷ 4, then multiply by 7."
+146,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 52 cherry trees, how many apple trees are there?",91,trees,"1 part = cherries ÷ 4, then multiply by 7."
+147,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 60 cherry trees, how many apple trees are there?",105,trees,"1 part = cherries ÷ 4, then multiply by 7."
+148,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 60 cherry trees, how many apple trees are there?",105,trees,"1 part = cherries ÷ 4, then multiply by 7."
+149,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 24 cherry trees, how many apple trees are there?",42,trees,"1 part = cherries ÷ 4, then multiply by 7."
+150,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 52 cherry trees, how many apple trees are there?",91,trees,"1 part = cherries ÷ 4, then multiply by 7."
+151,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 44 cherry trees, how many apple trees are there?",77,trees,"1 part = cherries ÷ 4, then multiply by 7."
+152,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 28 cherry trees, how many apple trees are there?",49,trees,"1 part = cherries ÷ 4, then multiply by 7."
+153,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 28 cherry trees, how many apple trees are there?",49,trees,"1 part = cherries ÷ 4, then multiply by 7."
+154,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 48 cherry trees, how many apple trees are there?",84,trees,"1 part = cherries ÷ 4, then multiply by 7."
+155,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 36 cherry trees, how many apple trees are there?",63,trees,"1 part = cherries ÷ 4, then multiply by 7."
+156,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 52 cherry trees, how many apple trees are there?",91,trees,"1 part = cherries ÷ 4, then multiply by 7."
+157,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 32 cherry trees, how many apple trees are there?",56,trees,"1 part = cherries ÷ 4, then multiply by 7."
+158,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 48 cherry trees, how many apple trees are there?",84,trees,"1 part = cherries ÷ 4, then multiply by 7."
+159,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 44 cherry trees, how many apple trees are there?",77,trees,"1 part = cherries ÷ 4, then multiply by 7."
+160,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 28 cherry trees, how many apple trees are there?",49,trees,"1 part = cherries ÷ 4, then multiply by 7."
+161,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 48 cherry trees, how many apple trees are there?",84,trees,"1 part = cherries ÷ 4, then multiply by 7."
+162,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 52 cherry trees, how many apple trees are there?",91,trees,"1 part = cherries ÷ 4, then multiply by 7."
+163,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 48 cherry trees, how many apple trees are there?",84,trees,"1 part = cherries ÷ 4, then multiply by 7."
+164,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 28 cherry trees, how many apple trees are there?",49,trees,"1 part = cherries ÷ 4, then multiply by 7."
+165,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 32 cherry trees, how many apple trees are there?",56,trees,"1 part = cherries ÷ 4, then multiply by 7."
+166,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 32 cherry trees, how many apple trees are there?",56,trees,"1 part = cherries ÷ 4, then multiply by 7."
+167,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 32 cherry trees, how many apple trees are there?",56,trees,"1 part = cherries ÷ 4, then multiply by 7."
+168,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 24 cherry trees, how many apple trees are there?",42,trees,"1 part = cherries ÷ 4, then multiply by 7."
+169,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 32 cherry trees, how many apple trees are there?",56,trees,"1 part = cherries ÷ 4, then multiply by 7."
+170,ratio,medium,"Cherry trees to apple trees is 4:7. If there are 60 cherry trees, how many apple trees are there?",105,trees,"1 part = cherries ÷ 4, then multiply by 7."
+171,money,medium,13 lemons cost 299 pence. What is the cost of 16 lemons?,368,pence,"Find the cost of 1 lemon, then multiply."
+172,money,medium,15 lemons cost 300 pence. What is the cost of 20 lemons?,400,pence,"Find the cost of 1 lemon, then multiply."
+173,money,medium,11 lemons cost 143 pence. What is the cost of 17 lemons?,221,pence,"Find the cost of 1 lemon, then multiply."
+174,money,medium,14 lemons cost 182 pence. What is the cost of 16 lemons?,208,pence,"Find the cost of 1 lemon, then multiply."
+175,money,medium,6 lemons cost 138 pence. What is the cost of 8 lemons?,184,pence,"Find the cost of 1 lemon, then multiply."
+176,money,medium,14 lemons cost 308 pence. What is the cost of 17 lemons?,374,pence,"Find the cost of 1 lemon, then multiply."
+177,money,medium,12 lemons cost 168 pence. What is the cost of 15 lemons?,210,pence,"Find the cost of 1 lemon, then multiply."
+178,money,medium,6 lemons cost 90 pence. What is the cost of 9 lemons?,135,pence,"Find the cost of 1 lemon, then multiply."
+179,money,medium,10 lemons cost 190 pence. What is the cost of 13 lemons?,247,pence,"Find the cost of 1 lemon, then multiply."
+180,money,medium,15 lemons cost 240 pence. What is the cost of 19 lemons?,304,pence,"Find the cost of 1 lemon, then multiply."
+181,money,medium,14 lemons cost 238 pence. What is the cost of 17 lemons?,289,pence,"Find the cost of 1 lemon, then multiply."
+182,money,medium,6 lemons cost 132 pence. What is the cost of 10 lemons?,220,pence,"Find the cost of 1 lemon, then multiply."
+183,money,medium,13 lemons cost 273 pence. What is the cost of 19 lemons?,399,pence,"Find the cost of 1 lemon, then multiply."
+184,money,medium,14 lemons cost 238 pence. What is the cost of 20 lemons?,340,pence,"Find the cost of 1 lemon, then multiply."
+185,money,medium,8 lemons cost 152 pence. What is the cost of 11 lemons?,209,pence,"Find the cost of 1 lemon, then multiply."
+186,money,medium,14 lemons cost 266 pence. What is the cost of 16 lemons?,304,pence,"Find the cost of 1 lemon, then multiply."
+187,money,medium,13 lemons cost 299 pence. What is the cost of 16 lemons?,368,pence,"Find the cost of 1 lemon, then multiply."
+188,money,medium,15 lemons cost 165 pence. What is the cost of 18 lemons?,198,pence,"Find the cost of 1 lemon, then multiply."
+189,money,medium,8 lemons cost 104 pence. What is the cost of 13 lemons?,169,pence,"Find the cost of 1 lemon, then multiply."
+190,money,medium,15 lemons cost 330 pence. What is the cost of 17 lemons?,374,pence,"Find the cost of 1 lemon, then multiply."
+191,money,medium,14 lemons cost 154 pence. What is the cost of 18 lemons?,198,pence,"Find the cost of 1 lemon, then multiply."
+192,money,medium,14 lemons cost 266 pence. What is the cost of 20 lemons?,380,pence,"Find the cost of 1 lemon, then multiply."
+193,money,medium,13 lemons cost 299 pence. What is the cost of 15 lemons?,345,pence,"Find the cost of 1 lemon, then multiply."
+194,money,medium,14 lemons cost 154 pence. What is the cost of 17 lemons?,187,pence,"Find the cost of 1 lemon, then multiply."
+195,money,medium,9 lemons cost 135 pence. What is the cost of 11 lemons?,165,pence,"Find the cost of 1 lemon, then multiply."
+196,time,medium,A train leaves at 12:35 and arrives at 12:52. How many minutes is the journey?,17,minutes,Count the total minutes.
+197,time,medium,A train leaves at 10:19 and arrives at 11:42. How many minutes is the journey?,83,minutes,Count the total minutes.
+198,time,medium,A train leaves at 10:47 and arrives at 10:58. How many minutes is the journey?,11,minutes,Count the total minutes.
+199,time,medium,A train leaves at 12:29 and arrives at 12:46. How many minutes is the journey?,17,minutes,Count the total minutes.
+200,time,medium,A train leaves at 09:46 and arrives at 10:43. How many minutes is the journey?,57,minutes,Count the total minutes.
+201,time,medium,A train leaves at 11:13 and arrives at 11:48. How many minutes is the journey?,35,minutes,Count the total minutes.
+202,time,medium,A train leaves at 11:54 and arrives at 12:42. How many minutes is the journey?,48,minutes,Count the total minutes.
+203,time,medium,A train leaves at 09:51 and arrives at 11:14. How many minutes is the journey?,83,minutes,Count the total minutes.
+204,time,medium,A train leaves at 10:19 and arrives at 10:54. How many minutes is the journey?,35,minutes,Count the total minutes.
+205,time,medium,A train leaves at 11:57 and arrives at 12:45. How many minutes is the journey?,48,minutes,Count the total minutes.
+206,time,medium,A train leaves at 13:52 and arrives at 14:27. How many minutes is the journey?,35,minutes,Count the total minutes.
+207,time,medium,A train leaves at 13:10 and arrives at 14:33. How many minutes is the journey?,83,minutes,Count the total minutes.
+208,time,medium,A train leaves at 07:10 and arrives at 08:21. How many minutes is the journey?,71,minutes,Count the total minutes.
+209,time,medium,A train leaves at 07:02 and arrives at 08:13. How many minutes is the journey?,71,minutes,Count the total minutes.
+210,time,medium,A train leaves at 09:46 and arrives at 10:43. How many minutes is the journey?,57,minutes,Count the total minutes.
+211,time,medium,A train leaves at 06:37 and arrives at 07:12. How many minutes is the journey?,35,minutes,Count the total minutes.
+212,time,medium,A train leaves at 09:39 and arrives at 09:56. How many minutes is the journey?,17,minutes,Count the total minutes.
+213,time,medium,A train leaves at 07:48 and arrives at 08:36. How many minutes is the journey?,48,minutes,Count the total minutes.
+214,time,medium,A train leaves at 12:41 and arrives at 12:58. How many minutes is the journey?,17,minutes,Count the total minutes.
+215,time,medium,A train leaves at 13:39 and arrives at 14:03. How many minutes is the journey?,24,minutes,Count the total minutes.
+216,algebra,medium,3x + 2x + 22 = 162. What is x?,28,,Solve 5x + 22 = total.
+217,algebra,medium,3x + 2x + 22 = 152. What is x?,26,,Solve 5x + 22 = total.
+218,algebra,medium,3x + 2x + 22 = 157. What is x?,27,,Solve 5x + 22 = total.
+219,algebra,medium,3x + 2x + 22 = 107. What is x?,17,,Solve 5x + 22 = total.
+220,algebra,medium,3x + 2x + 22 = 72. What is x?,10,,Solve 5x + 22 = total.
+221,algebra,medium,3x + 2x + 22 = 92. What is x?,14,,Solve 5x + 22 = total.
+222,algebra,medium,3x + 2x + 22 = 72. What is x?,10,,Solve 5x + 22 = total.
+223,algebra,medium,3x + 2x + 22 = 122. What is x?,20,,Solve 5x + 22 = total.
+224,algebra,medium,3x + 2x + 22 = 87. What is x?,13,,Solve 5x + 22 = total.
+225,algebra,medium,3x + 2x + 22 = 167. What is x?,29,,Solve 5x + 22 = total.
+226,algebra,medium,3x + 2x + 22 = 67. What is x?,9,,Solve 5x + 22 = total.
+227,algebra,medium,3x + 2x + 22 = 112. What is x?,18,,Solve 5x + 22 = total.
+228,algebra,medium,3x + 2x + 22 = 127. What is x?,21,,Solve 5x + 22 = total.
+229,algebra,medium,3x + 2x + 22 = 77. What is x?,11,,Solve 5x + 22 = total.
+230,algebra,medium,3x + 2x + 22 = 157. What is x?,27,,Solve 5x + 22 = total.
+231,algebra,medium,3x + 2x + 22 = 87. What is x?,13,,Solve 5x + 22 = total.
+232,algebra,medium,3x + 2x + 22 = 77. What is x?,11,,Solve 5x + 22 = total.
+233,algebra,medium,3x + 2x + 22 = 162. What is x?,28,,Solve 5x + 22 = total.
+234,algebra,medium,3x + 2x + 22 = 117. What is x?,19,,Solve 5x + 22 = total.
+235,algebra,medium,3x + 2x + 22 = 132. What is x?,22,,Solve 5x + 22 = total.
+236,pie_chart,medium,A pie chart shows caramel as 45% of 180 students. How many students chose caramel?,81,students,Find the percentage of the total.
+237,pie_chart,medium,A pie chart shows caramel as 45% of 160 students. How many students chose caramel?,72,students,Find the percentage of the total.
+238,pie_chart,medium,A pie chart shows caramel as 40% of 180 students. How many students chose caramel?,72,students,Find the percentage of the total.
+239,pie_chart,medium,A pie chart shows caramel as 15% of 300 students. How many students chose caramel?,45,students,Find the percentage of the total.
+240,pie_chart,medium,A pie chart shows caramel as 40% of 120 students. How many students chose caramel?,48,students,Find the percentage of the total.
+241,pie_chart,medium,A pie chart shows caramel as 40% of 240 students. How many students chose caramel?,96,students,Find the percentage of the total.
+242,pie_chart,medium,A pie chart shows caramel as 50% of 200 students. How many students chose caramel?,100,students,Find the percentage of the total.
+243,pie_chart,medium,A pie chart shows caramel as 10% of 200 students. How many students chose caramel?,20,students,Find the percentage of the total.
+244,pie_chart,medium,A pie chart shows caramel as 40% of 240 students. How many students chose caramel?,96,students,Find the percentage of the total.
+245,pie_chart,medium,A pie chart shows caramel as 30% of 240 students. How many students chose caramel?,72,students,Find the percentage of the total.
+246,pie_chart,medium,A pie chart shows caramel as 15% of 120 students. How many students chose caramel?,18,students,Find the percentage of the total.
+247,pie_chart,medium,A pie chart shows caramel as 25% of 120 students. How many students chose caramel?,30,students,Find the percentage of the total.
+248,pie_chart,medium,A pie chart shows caramel as 15% of 180 students. How many students chose caramel?,27,students,Find the percentage of the total.
+249,pie_chart,medium,A pie chart shows caramel as 30% of 120 students. How many students chose caramel?,36,students,Find the percentage of the total.
+250,pie_chart,medium,A pie chart shows caramel as 20% of 180 students. How many students chose caramel?,36,students,Find the percentage of the total.
+251,midpoint,medium,What number is halfway between 18 and 33?,25.5,,Add the numbers and divide by 2.
+252,midpoint,medium,What number is halfway between -3 and 79?,38,,Add the numbers and divide by 2.
+253,midpoint,medium,What number is halfway between 13 and 77?,45,,Add the numbers and divide by 2.
+254,midpoint,medium,What number is halfway between -14 and 50?,18,,Add the numbers and divide by 2.
+255,midpoint,medium,What number is halfway between -21 and 59?,19,,Add the numbers and divide by 2.
+256,midpoint,medium,What number is halfway between 2 and 61?,31.5,,Add the numbers and divide by 2.
+257,midpoint,medium,What number is halfway between 1 and 69?,35,,Add the numbers and divide by 2.
+258,midpoint,medium,What number is halfway between -10 and 30?,10,,Add the numbers and divide by 2.
+259,midpoint,medium,What number is halfway between -13 and 28?,7.5,,Add the numbers and divide by 2.
+260,midpoint,medium,What number is halfway between 14 and 36?,25,,Add the numbers and divide by 2.
+261,midpoint,medium,What number is halfway between -3 and 29?,13,,Add the numbers and divide by 2.
+262,midpoint,medium,What number is halfway between -13 and 26?,6.5,,Add the numbers and divide by 2.
+263,midpoint,medium,What number is halfway between 10 and 30?,20,,Add the numbers and divide by 2.
+264,midpoint,medium,What number is halfway between -14 and 30?,8,,Add the numbers and divide by 2.
+265,midpoint,medium,What number is halfway between 8 and 79?,43.5,,Add the numbers and divide by 2.
+266,digit_rearrangement,medium,Rearrange the digits 42319 to make the smallest odd number possible.,23491,,Put the smallest digits first and an odd digit at the end.
+267,digit_rearrangement,medium,Rearrange the digits 16543 to make the smallest odd number possible.,34561,,Put the smallest digits first and an odd digit at the end.
+268,digit_rearrangement,medium,Rearrange the digits 31562 to make the smallest odd number possible.,23561,,Put the smallest digits first and an odd digit at the end.
+269,digit_rearrangement,medium,Rearrange the digits 23819 to make the smallest odd number possible.,23891,,Put the smallest digits first and an odd digit at the end.
+270,digit_rearrangement,medium,Rearrange the digits 45638 to make the smallest odd number possible.,45683,,Put the smallest digits first and an odd digit at the end.
+271,digit_rearrangement,medium,Rearrange the digits 45982 to make the smallest odd number possible.,24895,,Put the smallest digits first and an odd digit at the end.
+272,digit_rearrangement,medium,Rearrange the digits 56713 to make the smallest odd number possible.,35671,,Put the smallest digits first and an odd digit at the end.
+273,digit_rearrangement,medium,Rearrange the digits 19865 to make the smallest odd number possible.,56891,,Put the smallest digits first and an odd digit at the end.
+274,digit_rearrangement,medium,Rearrange the digits 94582 to make the smallest odd number possible.,24895,,Put the smallest digits first and an odd digit at the end.
+275,digit_rearrangement,medium,Rearrange the digits 82674 to make the smallest odd number possible.,24687,,Put the smallest digits first and an odd digit at the end.
+276,digit_rearrangement,medium,Rearrange the digits 87532 to make the smallest odd number possible.,25783,,Put the smallest digits first and an odd digit at the end.
+277,digit_rearrangement,medium,Rearrange the digits 46287 to make the smallest odd number possible.,24687,,Put the smallest digits first and an odd digit at the end.
+278,digit_rearrangement,medium,Rearrange the digits 76129 to make the smallest odd number possible.,26791,,Put the smallest digits first and an odd digit at the end.
+279,digit_rearrangement,medium,Rearrange the digits 25491 to make the smallest odd number possible.,24591,,Put the smallest digits first and an odd digit at the end.
+280,digit_rearrangement,medium,Rearrange the digits 27853 to make the smallest odd number possible.,25783,,Put the smallest digits first and an odd digit at the end.
+281,powers,high,16.5 × 10^2 − 10^2 = ?,1550,,16.5 × 100 − 100.
+282,powers,high,13.5 × 10^2 − 10^2 = ?,1250,,13.5 × 100 − 100.
+283,powers,high,18.5 × 10^2 − 10^2 = ?,1750,,18.5 × 100 − 100.
+284,powers,high,14.5 × 10^2 − 10^2 = ?,1350,,14.5 × 100 − 100.
+285,powers,high,12.5 × 10^2 − 10^2 = ?,1150,,12.5 × 100 − 100.
+286,powers,high,15.5 × 10^2 − 10^2 = ?,1450,,15.5 × 100 − 100.
+287,powers,high,13.5 × 10^2 − 10^2 = ?,1250,,13.5 × 100 − 100.
+288,powers,high,13.5 × 10^2 − 10^2 = ?,1250,,13.5 × 100 − 100.
+289,powers,high,14.5 × 10^2 − 10^2 = ?,1350,,14.5 × 100 − 100.
+290,powers,high,15.5 × 10^2 − 10^2 = ?,1450,,15.5 × 100 − 100.
+291,powers,high,12.5 × 10^2 − 10^2 = ?,1150,,12.5 × 100 − 100.
+292,powers,high,14.5 × 10^2 − 10^2 = ?,1350,,14.5 × 100 − 100.
+293,powers,high,14.5 × 10^2 − 10^2 = ?,1350,,14.5 × 100 − 100.
+294,powers,high,14.5 × 10^2 − 10^2 = ?,1350,,14.5 × 100 − 100.
+295,powers,high,16.5 × 10^2 − 10^2 = ?,1550,,16.5 × 100 − 100.
+296,powers,high,14.5 × 10^2 − 10^2 = ?,1350,,14.5 × 100 − 100.
+297,powers,high,13.5 × 10^2 − 10^2 = ?,1250,,13.5 × 100 − 100.
+298,powers,high,12.5 × 10^2 − 10^2 = ?,1150,,12.5 × 100 − 100.
+299,powers,high,14.5 × 10^2 − 10^2 = ?,1350,,14.5 × 100 − 100.
+300,powers,high,13.5 × 10^2 − 10^2 = ?,1250,,13.5 × 100 − 100.
+301,powers,high,14.5 × 10^2 − 10^2 = ?,1350,,14.5 × 100 − 100.
+302,powers,high,13.5 × 10^2 − 10^2 = ?,1250,,13.5 × 100 − 100.
+303,powers,high,12.5 × 10^2 − 10^2 = ?,1150,,12.5 × 100 − 100.
+304,powers,high,14.5 × 10^2 − 10^2 = ?,1350,,14.5 × 100 − 100.
+305,powers,high,15.5 × 10^2 − 10^2 = ?,1450,,15.5 × 100 − 100.
+306,percentage,high,Four individual cans cost 168 pence in total. A 4-pack costs 151 pence. What percentage of the individual total is the pack price?,90,%,Percentage = pack ÷ individual total × 100.
+307,percentage,high,Four individual cans cost 184 pence in total. A 4-pack costs 147 pence. What percentage of the individual total is the pack price?,80,%,Percentage = pack ÷ individual total × 100.
+308,percentage,high,Four individual cans cost 176 pence in total. A 4-pack costs 132 pence. What percentage of the individual total is the pack price?,75,%,Percentage = pack ÷ individual total × 100.
+309,percentage,high,Four individual cans cost 168 pence in total. A 4-pack costs 142 pence. What percentage of the individual total is the pack price?,85,%,Percentage = pack ÷ individual total × 100.
+310,percentage,high,Four individual cans cost 168 pence in total. A 4-pack costs 134 pence. What percentage of the individual total is the pack price?,80,%,Percentage = pack ÷ individual total × 100.
+311,percentage,high,Four individual cans cost 192 pence in total. A 4-pack costs 144 pence. What percentage of the individual total is the pack price?,75,%,Percentage = pack ÷ individual total × 100.
+312,percentage,high,Four individual cans cost 192 pence in total. A 4-pack costs 144 pence. What percentage of the individual total is the pack price?,75,%,Percentage = pack ÷ individual total × 100.
+313,percentage,high,Four individual cans cost 184 pence in total. A 4-pack costs 156 pence. What percentage of the individual total is the pack price?,85,%,Percentage = pack ÷ individual total × 100.
+314,percentage,high,Four individual cans cost 224 pence in total. A 4-pack costs 179 pence. What percentage of the individual total is the pack price?,80,%,Percentage = pack ÷ individual total × 100.
+315,percentage,high,Four individual cans cost 168 pence in total. A 4-pack costs 134 pence. What percentage of the individual total is the pack price?,80,%,Percentage = pack ÷ individual total × 100.
+316,percentage,high,Four individual cans cost 224 pence in total. A 4-pack costs 201 pence. What percentage of the individual total is the pack price?,90,%,Percentage = pack ÷ individual total × 100.
+317,percentage,high,Four individual cans cost 184 pence in total. A 4-pack costs 165 pence. What percentage of the individual total is the pack price?,90,%,Percentage = pack ÷ individual total × 100.
+318,percentage,high,Four individual cans cost 176 pence in total. A 4-pack costs 149 pence. What percentage of the individual total is the pack price?,85,%,Percentage = pack ÷ individual total × 100.
+319,percentage,high,Four individual cans cost 224 pence in total. A 4-pack costs 179 pence. What percentage of the individual total is the pack price?,80,%,Percentage = pack ÷ individual total × 100.
+320,percentage,high,Four individual cans cost 168 pence in total. A 4-pack costs 151 pence. What percentage of the individual total is the pack price?,90,%,Percentage = pack ÷ individual total × 100.
+321,percentage,high,Four individual cans cost 224 pence in total. A 4-pack costs 179 pence. What percentage of the individual total is the pack price?,80,%,Percentage = pack ÷ individual total × 100.
+322,percentage,high,Four individual cans cost 208 pence in total. A 4-pack costs 156 pence. What percentage of the individual total is the pack price?,75,%,Percentage = pack ÷ individual total × 100.
+323,percentage,high,Four individual cans cost 224 pence in total. A 4-pack costs 179 pence. What percentage of the individual total is the pack price?,80,%,Percentage = pack ÷ individual total × 100.
+324,percentage,high,Four individual cans cost 168 pence in total. A 4-pack costs 126 pence. What percentage of the individual total is the pack price?,75,%,Percentage = pack ÷ individual total × 100.
+325,percentage,high,Four individual cans cost 168 pence in total. A 4-pack costs 134 pence. What percentage of the individual total is the pack price?,80,%,Percentage = pack ÷ individual total × 100.
+326,angle_turn,high,A person turns through 45 degrees. How many degrees is that?,45,degrees,Read off the turn.
+327,angle_turn,high,A person turns through 90 degrees. How many degrees is that?,90,degrees,Read off the turn.
+328,angle_turn,high,A person turns through 135 degrees. How many degrees is that?,135,degrees,Read off the turn.
+329,angle_turn,high,A person turns through 180 degrees. How many degrees is that?,180,degrees,Read off the turn.
+330,angle_turn,high,A person turns through 225 degrees. How many degrees is that?,225,degrees,Read off the turn.
+331,angle_turn,high,A person turns through 270 degrees. How many degrees is that?,270,degrees,Read off the turn.
+332,angle_turn,high,A person turns through 315 degrees. How many degrees is that?,315,degrees,Read off the turn.
+333,angle_turn,high,A person turns through 45 degrees. How many degrees is that?,45,degrees,Read off the turn.
+334,angle_turn,high,A person turns through 90 degrees. How many degrees is that?,90,degrees,Read off the turn.
+335,angle_turn,high,A person turns through 135 degrees. How many degrees is that?,135,degrees,Read off the turn.
+336,angle_turn,high,A person turns through 180 degrees. How many degrees is that?,180,degrees,Read off the turn.
+337,angle_turn,high,A person turns through 225 degrees. How many degrees is that?,225,degrees,Read off the turn.
+338,angle_turn,high,A person turns through 270 degrees. How many degrees is that?,270,degrees,Read off the turn.
+339,angle_turn,high,A person turns through 315 degrees. How many degrees is that?,315,degrees,Read off the turn.
+340,angle_turn,high,A person turns through 135 degrees. How many degrees is that?,135,degrees,Read off the turn.
+341,sequence,high,"1, 8, 27, 64, 125, ... What is the next number?",216,,These are cube numbers.
+342,sequence,high,"1, 8, 27, 64, 125, ... What is the next number?",216,,These are cube numbers.
+343,sequence,high,"1, 8, 27, 64, 125, ... What is the next number?",216,,These are cube numbers.
+344,sequence,high,"1, 8, 27, 64, 125, ... What is the next number?",216,,These are cube numbers.
+345,sequence,high,"1, 8, 27, 64, 125, ... What is the next number?",216,,These are cube numbers.
+346,sequence,high,"1, 8, 27, 64, 125, ... What is the next number?",216,,These are cube numbers.
+347,sequence,high,"1, 8, 27, 64, 125, ... What is the next number?",216,,These are cube numbers.
+348,sequence,high,"1, 8, 27, 64, 125, ... What is the next number?",216,,These are cube numbers.
+349,sequence,high,"1, 8, 27, 64, 125, ... What is the next number?",216,,These are cube numbers.
+350,sequence,high,"1, 8, 27, 64, 125, ... What is the next number?",216,,These are cube numbers.
+351,sequence,high,"1, 8, 27, 64, 125, ... What is the next number?",216,,These are cube numbers.
+352,sequence,high,"1, 8, 27, 64, 125, ... What is the next number?",216,,These are cube numbers.
+353,sequence,high,"1, 8, 27, 64, 125, ... What is the next number?",216,,These are cube numbers.
+354,sequence,high,"1, 8, 27, 64, 125, ... What is the next number?",216,,These are cube numbers.
+355,sequence,high,"1, 8, 27, 64, 125, ... What is the next number?",216,,These are cube numbers.
+356,equation_balance,high,79 − 21 = 7 × ? + 2,8,,"Subtract 2, then divide by 7."
+357,equation_balance,high,86 − 21 = 7 × ? + 2,9,,"Subtract 2, then divide by 7."
+358,equation_balance,high,93 − 21 = 7 × ? + 2,10,,"Subtract 2, then divide by 7."
+359,equation_balance,high,100 − 21 = 7 × ? + 2,11,,"Subtract 2, then divide by 7."
+360,equation_balance,high,107 − 21 = 7 × ? + 2,12,,"Subtract 2, then divide by 7."
+361,equation_balance,high,114 − 21 = 7 × ? + 2,13,,"Subtract 2, then divide by 7."
+362,equation_balance,high,79 − 21 = 7 × ? + 2,8,,"Subtract 2, then divide by 7."
+363,equation_balance,high,86 − 21 = 7 × ? + 2,9,,"Subtract 2, then divide by 7."
+364,equation_balance,high,93 − 21 = 7 × ? + 2,10,,"Subtract 2, then divide by 7."
+365,equation_balance,high,100 − 21 = 7 × ? + 2,11,,"Subtract 2, then divide by 7."
+366,equation_balance,high,107 − 21 = 7 × ? + 2,12,,"Subtract 2, then divide by 7."
+367,equation_balance,high,114 − 21 = 7 × ? + 2,13,,"Subtract 2, then divide by 7."
+368,equation_balance,high,79 − 21 = 7 × ? + 2,8,,"Subtract 2, then divide by 7."
+369,equation_balance,high,86 − 21 = 7 × ? + 2,9,,"Subtract 2, then divide by 7."
+370,equation_balance,high,93 − 21 = 7 × ? + 2,10,,"Subtract 2, then divide by 7."
+371,geometry,high,3x + 2x + 90 = 240. What is x?,30,,Solve 5x + 90 = total.
+372,geometry,high,3x + 2x + 90 = 195. What is x?,21,,Solve 5x + 90 = total.
+373,geometry,high,3x + 2x + 90 = 290. What is x?,40,,Solve 5x + 90 = total.
+374,geometry,high,3x + 2x + 90 = 155. What is x?,13,,Solve 5x + 90 = total.
+375,geometry,high,3x + 2x + 90 = 200. What is x?,22,,Solve 5x + 90 = total.
+376,geometry,high,3x + 2x + 90 = 270. What is x?,36,,Solve 5x + 90 = total.
+377,geometry,high,3x + 2x + 90 = 210. What is x?,24,,Solve 5x + 90 = total.
+378,geometry,high,3x + 2x + 90 = 225. What is x?,27,,Solve 5x + 90 = total.
+379,geometry,high,3x + 2x + 90 = 145. What is x?,11,,Solve 5x + 90 = total.
+380,geometry,high,3x + 2x + 90 = 240. What is x?,30,,Solve 5x + 90 = total.
+381,geometry,high,3x + 2x + 90 = 140. What is x?,10,,Solve 5x + 90 = total.
+382,geometry,high,3x + 2x + 90 = 240. What is x?,30,,Solve 5x + 90 = total.
+383,geometry,high,3x + 2x + 90 = 225. What is x?,27,,Solve 5x + 90 = total.
+384,geometry,high,3x + 2x + 90 = 245. What is x?,31,,Solve 5x + 90 = total.
+385,geometry,high,3x + 2x + 90 = 175. What is x?,17,,Solve 5x + 90 = total.
+386,logic,high,X is an odd multiple of 9 and 70 < X < 99. What is X?,81,,Only 81 fits.
+387,logic,high,X is an odd multiple of 9 and 70 < X < 99. What is X?,81,,Only 81 fits.
+388,logic,high,X is an odd multiple of 9 and 70 < X < 99. What is X?,81,,Only 81 fits.
+389,logic,high,X is an odd multiple of 9 and 70 < X < 99. What is X?,81,,Only 81 fits.
+390,logic,high,X is an odd multiple of 9 and 70 < X < 99. What is X?,81,,Only 81 fits.
+391,logic,high,X is an odd multiple of 9 and 70 < X < 99. What is X?,81,,Only 81 fits.
+392,logic,high,X is an odd multiple of 9 and 70 < X < 99. What is X?,81,,Only 81 fits.
+393,logic,high,X is an odd multiple of 9 and 70 < X < 99. What is X?,81,,Only 81 fits.
+394,logic,high,X is an odd multiple of 9 and 70 < X < 99. What is X?,81,,Only 81 fits.
+395,logic,high,X is an odd multiple of 9 and 70 < X < 99. What is X?,81,,Only 81 fits.
+396,logic,high,X is an odd multiple of 9 and 70 < X < 99. What is X?,81,,Only 81 fits.
+397,logic,high,X is an odd multiple of 9 and 70 < X < 99. What is X?,81,,Only 81 fits.
+398,logic,high,X is an odd multiple of 9 and 70 < X < 99. What is X?,81,,Only 81 fits.
+399,logic,high,X is an odd multiple of 9 and 70 < X < 99. What is X?,81,,Only 81 fits.
+400,logic,high,X is an odd multiple of 9 and 70 < X < 99. What is X?,81,,Only 81 fits.
