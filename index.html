@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Selected Letters Test</title>
+  <title>Word Tests</title>
   <style>
     :root {
       --bg: #f8fafc;
@@ -108,7 +108,8 @@
     input[type="text"],
     input[type="number"],
     textarea,
-    input[type="file"] {
+    input[type="file"],
+    select {
       width: 100%;
       padding: 12px 14px;
       border: 1px solid var(--border);
@@ -328,9 +329,9 @@
   <div class="container">
     <div class="header">
       <div>
-        <h1>Selected Letters</h1>
+        <h1 id="appTitle">Selected Letters</h1>
         <div class="subtitle">
-          Run a timed test in the browser, review answers, and export results.
+          Run timed word tests in the browser, review answers, and export results.
         </div>
       </div>
       <div class="actions">
@@ -351,6 +352,14 @@
       <div class="grid grid-2">
         <div class="card">
           <h2 class="section-title">Upload CSV</h2>
+          <div style="margin-bottom: 16px;">
+            <label for="testType">Test type</label>
+            <select id="testType">
+              <option value="selected_letters">Selected letters</option>
+              <option value="related_word">Related word</option>
+            </select>
+          </div>
+
           <div style="margin-bottom: 16px;">
             <label for="fileInput">Question file</label>
             <input id="fileInput" type="file" accept=".csv,text/csv" />
@@ -383,7 +392,7 @@
             </div>
           </div>
 
-          <div class="info-box" style="margin-bottom: 16px;">
+          <div class="info-box" id="schemaInfo" style="margin-bottom: 16px;">
             Required columns: <strong>source_word, clue, answer, difficulty</strong>.<br>
             Optional columns: <strong>id, answer_length, explanation</strong>.<br>
             Missing explanations are generated automatically.
@@ -507,6 +516,7 @@
     const state = {
       rawCsvText: "",
       fileName: "",
+      testType: "selected_letters",
       questionBank: [],
       issues: [],
       testQuestions: [],
@@ -518,12 +528,38 @@
       phase: "setup"
     };
 
-    const REQUIRED_COLUMNS = ["source_word", "clue", "answer", "difficulty"];
+    const TEST_TYPES = {
+      selected_letters: {
+        id: "selected_letters",
+        label: "Selected Letters",
+        requiredColumns: ["source_word", "clue", "answer", "difficulty"],
+        sourceLabel: "Source word",
+        sourceKey: "source_word",
+        letterConstraint: true,
+        defaultCsvUrl: "https://raw.githubusercontent.com/sergeqlab/cem-test/main/selected_letters_questions.csv",
+        exportPrefix: "selected_letters",
+        defaultMix: { total: 21, easy: 7, medium: 7, hard: 7 }
+      },
+      related_word: {
+        id: "related_word",
+        label: "Related Word",
+        requiredColumns: ["prompt", "clue", "answer", "difficulty"],
+        sourceLabel: "Prompt word",
+        sourceKey: "prompt",
+        letterConstraint: false,
+        defaultCsvUrl: "related_word_questions.csv",
+        exportPrefix: "related_word",
+        defaultMix: { total: 20, easy: 20, medium: 0, hard: 0 }
+      }
+    };
 
     const els = {
       errorBox: document.getElementById("errorBox"),
+      appTitle: document.getElementById("appTitle"),
+      testType: document.getElementById("testType"),
       fileInput: document.getElementById("fileInput"),
       loadedFileName: document.getElementById("loadedFileName"),
+      schemaInfo: document.getElementById("schemaInfo"),
       csvTextArea: document.getElementById("csvTextArea"),
       totalQuestions: document.getElementById("totalQuestions"),
       timeLimit: document.getElementById("timeLimit"),
@@ -583,6 +619,10 @@
     function normalizeDifficulty(value) {
       const d = String(value || "").trim().toLowerCase();
       return ["easy", "medium", "hard"].includes(d) ? d : "";
+    }
+
+    function getCurrentTestConfig() {
+      return TEST_TYPES[state.testType] || TEST_TYPES.selected_letters;
     }
 
     function formatTime(seconds) {
@@ -646,33 +686,44 @@
       return Object.keys(answerCounts).every(ch => (sourceCounts[ch] || 0) >= answerCounts[ch]);
     }
 
-    function buildExplanation(question) {
+    function buildExplanation(question, config) {
       if (question.explanation && question.explanation.trim()) return question.explanation.trim();
-      const letters = question.answer.split("").join("-");
       const clue = String(question.clue || "").trim().replace(/[.]+$/, "");
+      if (!config.letterConstraint) {
+        const promptWord = question.prompt || question.source_word || "the prompt word";
+        return `${question.answer} is related to ${promptWord}. It matches the clue: ${clue}.`;
+      }
+      const letters = question.answer.split("").join("-");
       return `${question.answer} is made from letters in ${question.source_word} (${letters}). It is a valid word that matches the clue: ${clue}.`;
     }
 
     function validateQuestions(rawRows) {
+      const config = getCurrentTestConfig();
       const issues = [];
       const valid = [];
 
       rawRows.forEach((row, idx) => {
         const question = {
           id: row.id || String(idx + 1),
+          prompt: String(row.prompt || "").trim().toUpperCase(),
           source_word: String(row.source_word || "").trim().toUpperCase(),
           clue: String(row.clue || "").trim(),
           answer: String(row.answer || "").trim().toUpperCase(),
-          answer_length: Number.parseInt(row.answer_length || "", 10),
+          start_letters: String(row.start_letters || "").trim(),
+          answer_length: Number.parseInt(row.answer_length || row.start_letters || "", 10),
           difficulty: normalizeDifficulty(row.difficulty),
           explanation: String(row.explanation || "").trim(),
           __rowNum: row.__rowNum
         };
 
-        const missing = REQUIRED_COLUMNS.filter(col => !String(row[col] || "").trim());
+        const missing = config.requiredColumns.filter(col => !String(row[col] || "").trim());
         if (missing.length) {
           issues.push(`Row ${question.__rowNum}: missing ${missing.join(", ")}`);
           return;
+        }
+
+        if (!question.source_word && question.prompt) {
+          question.source_word = question.prompt;
         }
 
         if (!question.difficulty) {
@@ -687,12 +738,12 @@
           question.answer_length = question.answer.length;
         }
 
-        if (!canFormWord(question.source_word, question.answer)) {
+        if (config.letterConstraint && !canFormWord(question.source_word, question.answer)) {
           issues.push(`Row ${question.__rowNum}: answer ${question.answer} cannot be formed from ${question.source_word}`);
           return;
         }
 
-        question.explanation = buildExplanation(question);
+        question.explanation = buildExplanation(question, config);
         valid.push(question);
       });
 
@@ -756,13 +807,17 @@
       const validated = validateQuestions(parsed.data);
       state.questionBank = validated.valid;
       state.issues = validated.issues;
-      // ---- OPTIONAL: AUTO-LOAD DEFAULT CSV FROM URL ----
+
+      renderSummary();
+      setError("");
+    }
+
     async function loadDefaultCsv(url) {
       try {
         const res = await fetch(url);
         if (!res.ok) throw new Error("Failed to fetch default CSV");
         const text = await res.text();
-        state.fileName = url.split("/").pop();
+        state.fileName = url.split("/").pop().split("?")[0] || "default.csv";
         els.loadedFileName.textContent = `Loaded (default): ${state.fileName}`;
         els.csvTextArea.value = text;
         updateFromCsvText(text);
@@ -771,16 +826,35 @@
       }
     }
 
-    // 👉 SET YOUR GITHUB RAW CSV LINK HERE
-    const DEFAULT_CSV_URL = "https://github.com/sergeqlab/cem-test/blob/main/selected_letters_questions.csv?raw=true";
+    function applyTestType(testType, options = {}) {
+      const { autoLoad = true } = options;
+      const nextType = TEST_TYPES[testType] ? testType : "selected_letters";
+      state.testType = nextType;
+      const config = getCurrentTestConfig();
 
-    // Auto-load on page start
-    if (DEFAULT_CSV_URL.includes("sergeqlab")) {
-      loadDefaultCsv(DEFAULT_CSV_URL);
-    }
+      els.testType.value = nextType;
+      els.appTitle.textContent = config.label;
+      els.schemaInfo.innerHTML = config.id === "selected_letters"
+        ? 'Required columns: <strong>source_word, clue, answer, difficulty</strong>.<br>Optional columns: <strong>id, answer_length, explanation</strong>.<br>Missing explanations are generated automatically.'
+        : 'Required columns: <strong>prompt, clue, answer, difficulty</strong>.<br>Optional columns: <strong>id, start_letters (or answer_length), explanation</strong>.<br>Missing explanations are generated automatically.';
 
-    renderSummary();
-      setError("");
+      els.totalQuestions.value = config.defaultMix.total;
+      els.easyCount.value = config.defaultMix.easy;
+      els.mediumCount.value = config.defaultMix.medium;
+      els.hardCount.value = config.defaultMix.hard;
+
+      state.fileName = "";
+      state.rawCsvText = "";
+      state.questionBank = [];
+      state.issues = [];
+      els.fileInput.value = "";
+      els.loadedFileName.textContent = "";
+      els.csvTextArea.value = "";
+      renderSummary();
+
+      if (autoLoad && config.defaultCsvUrl) {
+        loadDefaultCsv(config.defaultCsvUrl);
+      }
     }
 
     function renderQuestion() {
@@ -806,13 +880,27 @@
           <div class="small muted" style="font-weight:700;">Clue</div>
           <div class="clue">${escapeHtml(q.clue)}</div>
         </div>
-        <div class="card" style="box-shadow:none; padding:18px; margin-bottom:18px;">
-          <div class="small muted" style="font-weight:700;">Source word</div>
-          <div class="letters">
-            ${q.source_word.split("").map(ch => `<div class="letter-box">${escapeHtml(ch)}</div>`).join("")}
-          </div>
-        </div>
       `;
+
+      const config = getCurrentTestConfig();
+      if (config.id === "selected_letters") {
+        els.questionArea.innerHTML += `
+          <div class="card" style="box-shadow:none; padding:18px; margin-bottom:18px;">
+            <div class="small muted" style="font-weight:700;">Source word</div>
+            <div class="letters">
+              ${q.source_word.split("").map(ch => `<div class="letter-box">${escapeHtml(ch)}</div>`).join("")}
+            </div>
+          </div>
+        `;
+      } else {
+        els.questionArea.innerHTML += `
+          <div class="card" style="box-shadow:none; padding:18px; margin-bottom:18px;">
+            <div class="small muted" style="font-weight:700;">Prompt word</div>
+            <div style="font-size:24px; font-weight:800; margin-top:6px;">${escapeHtml(q.prompt || q.source_word)}</div>
+            ${q.start_letters ? `<div class="small muted" style="margin-top:8px;">Hint: ${escapeHtml(q.start_letters)}</div>` : ""}
+          </div>
+        `;
+      }
 
       els.answerInput.maxLength = q.answer_length;
       if (!els.answerInput.value) {
@@ -948,6 +1036,8 @@
         const statusClass = r.correct ? 'ok' : r.skipped ? 'secondary' : 'danger';
         const statusText = r.correct ? 'Correct' : r.skipped ? 'Skipped' : 'Wrong';
         const badgeClass = r.question.difficulty;
+        const config = getCurrentTestConfig();
+        const sourceValue = config.id === "selected_letters" ? r.question.source_word : (r.question.prompt || r.question.source_word);
         return `
           <div class="review-item">
             <div class="review-top">
@@ -957,7 +1047,7 @@
             </div>
             <div class="kvs">
               <div><strong>Clue:</strong> ${escapeHtml(r.question.clue)}</div>
-              <div><strong>Source word:</strong> ${escapeHtml(r.question.source_word)}</div>
+              <div><strong>${escapeHtml(config.sourceLabel)}:</strong> ${escapeHtml(sourceValue)}</div>
               <div><strong>Your answer:</strong> ${escapeHtml(r.userAnswer || '(blank)')}</div>
               <div><strong>Correct answer:</strong> ${escapeHtml(r.question.answer)}</div>
               <div><strong>Explanation:</strong> ${escapeHtml(r.question.explanation)}</div>
@@ -978,10 +1068,11 @@
     }
 
     function exportResults() {
+      const config = getCurrentTestConfig();
       const score = state.responses.filter(r => r.correct).length;
       const total = state.responses.length;
       const lines = [
-        "Selected Letters Test Results",
+        `${config.label} Test Results`,
         `File: ${state.fileName || 'uploaded CSV'}`,
         `Score: ${score}/${total}`,
         "",
@@ -991,7 +1082,7 @@
           `Q${i + 1}`,
           `Difficulty: ${r.question.difficulty}`,
           `Clue: ${r.question.clue}`,
-          `Source word: ${r.question.source_word}`,
+          `${config.sourceLabel}: ${config.id === "selected_letters" ? r.question.source_word : (r.question.prompt || r.question.source_word)}`,
           `Your answer: ${r.userAnswer || '(blank)'}`,
           `Correct answer: ${r.question.answer}`,
           `Status: ${r.correct ? 'CORRECT' : r.skipped ? 'SKIPPED' : 'WRONG'}`,
@@ -999,20 +1090,27 @@
           ""
         ].join("\n"))
       ].join("\n");
-      downloadTextFile("selected_letters_results.txt", lines, "text/plain;charset=utf-8");
+      downloadTextFile(`${config.exportPrefix}_results.txt`, lines, "text/plain;charset=utf-8");
     }
 
     function exportCleanCsv() {
-      const headers = ["id", "source_word", "clue", "answer", "answer_length", "difficulty", "explanation"];
+      const config = getCurrentTestConfig();
+      const headers = config.id === "selected_letters"
+        ? ["id", "source_word", "clue", "answer", "answer_length", "difficulty", "explanation"]
+        : ["id", "prompt", "clue", "answer", "start_letters", "difficulty", "explanation"];
       const escapeCell = value => {
         const s = String(value ?? "");
         return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
       };
       const content = [
         headers.join(","),
-        ...state.questionBank.map(q => headers.map(h => escapeCell(q[h] ?? "")).join(","))
+        ...state.questionBank.map(q => headers.map(h => {
+          if (h === "prompt") return escapeCell(q.prompt || q.source_word || "");
+          if (h === "start_letters") return escapeCell(q.start_letters || q.answer_length || "");
+          return escapeCell(q[h] ?? "");
+        }).join(","))
       ].join("\n");
-      downloadTextFile("selected_letters_questions_completed.csv", content, "text/csv;charset=utf-8");
+      downloadTextFile(`${config.exportPrefix}_questions_completed.csv`, content, "text/csv;charset=utf-8");
     }
 
     function resetApp() {
@@ -1059,6 +1157,10 @@
       updateFromCsvText(e.target.value);
     });
 
+    els.testType.addEventListener("change", (e) => {
+      applyTestType(e.target.value, { autoLoad: true });
+    });
+
     els.startTestBtn.addEventListener("click", startTest);
     els.submitAnswerBtn.addEventListener("click", () => recordAnswer(els.answerInput.value, false));
     els.skipBtn.addEventListener("click", () => recordAnswer("", true));
@@ -1083,6 +1185,7 @@
     });
 
     renderSummary();
+    applyTestType(state.testType, { autoLoad: true });
   </script>
 </body>
 </html>
