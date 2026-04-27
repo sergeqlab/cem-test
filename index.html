@@ -772,7 +772,7 @@
     }
 
     // 👉 SET YOUR GITHUB RAW CSV LINK HERE
-    const DEFAULT_CSV_URL = "https://github.com/sergeqlab/cem-test/blob/main/selected_letters_questions.csv";
+    const DEFAULT_CSV_URL = "https://github.com/sergeqlab/cem-test/blob/main/selected_letters_questions.csv?raw=true";
 
     // Auto-load on page start
     if (DEFAULT_CSV_URL.includes("sergeqlab")) {
@@ -814,17 +814,17 @@
         </div>
       `;
 
-      els.answerInput.value = "";
       els.answerInput.maxLength = q.answer_length;
-      els.answerInput.focus();
-      renderAnswerSlots("");
+      if (!els.answerInput.value) {
+        els.answerInput.focus();
+      }
+      renderAnswerSlots(els.answerInput.value);
     }
 
     function renderAnswerSlots(answer) {
       const q = state.testQuestions[state.currentIndex];
       if (!q) return;
       const cleaned = String(answer || "").toUpperCase().replace(/[^A-Z]/g, "").slice(0, q.answer_length);
-      els.answerInput.value = cleaned;
       els.answerSlots.innerHTML = Array.from({ length: q.answer_length }).map((_, i) => {
         return `<div class="letter-box" style="background:#f8fafc;">${escapeHtml(cleaned[i] || "?")}</div>`;
       }).join("");
