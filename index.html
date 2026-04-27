@@ -526,6 +526,7 @@
       testQuestions: [],
       responses: [],
       currentIndex: 0,
+      lastRenderedQuestionIndex: -1,
       startedAt: null,
       timeLeft: 0,
       timerId: null,
@@ -984,6 +985,13 @@
       const q = state.testQuestions[state.currentIndex];
       if (!q) return;
       const config = getCurrentTestConfig();
+      const isNewQuestion = state.lastRenderedQuestionIndex !== state.currentIndex;
+
+      if (isNewQuestion) {
+        els.answerInput.value = "";
+        els.answerSlots.innerHTML = "";
+        state.lastRenderedQuestionIndex = state.currentIndex;
+      }
 
       const answeredCount = state.responses.length;
       const correctCount = state.responses.filter(r => r.correct).length;
@@ -1111,6 +1119,7 @@
         state.testQuestions = buildTestBank(state.questionBank, mix).slice(0, totalQuestions);
         state.responses = [];
         state.currentIndex = 0;
+        state.lastRenderedQuestionIndex = -1;
         state.startedAt = Date.now();
         state.timeLeft = timeLimitSeconds;
 
@@ -1150,6 +1159,9 @@
         skipped: isSkipped,
         correct
       });
+
+      els.answerInput.value = "";
+      els.answerSlots.innerHTML = "";
 
       if (state.currentIndex + 1 >= state.testQuestions.length) {
         finishTest();
@@ -1301,6 +1313,7 @@
       state.testQuestions = [];
       state.responses = [];
       state.currentIndex = 0;
+      state.lastRenderedQuestionIndex = -1;
       state.startedAt = null;
       state.timeLeft = 0;
       els.fileInput.value = "";
